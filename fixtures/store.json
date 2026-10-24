@@ -1,0 +1,5509 @@
+[
+{
+  "model": "accounts.permission",
+  "pk": 1,
+  "fields": {
+    "code": "dashboard.view",
+    "module": "dashboard",
+    "action": "view",
+    "description": "View dashboard analytics"
+  }
+},
+{
+  "model": "accounts.permission",
+  "pk": 2,
+  "fields": {
+    "code": "orders.view",
+    "module": "orders",
+    "action": "view",
+    "description": "View orders"
+  }
+},
+{
+  "model": "accounts.permission",
+  "pk": 3,
+  "fields": {
+    "code": "orders.edit",
+    "module": "orders",
+    "action": "edit",
+    "description": "Update orders"
+  }
+},
+{
+  "model": "accounts.permission",
+  "pk": 4,
+  "fields": {
+    "code": "orders.export",
+    "module": "orders",
+    "action": "export",
+    "description": "Export orders"
+  }
+},
+{
+  "model": "accounts.permission",
+  "pk": 5,
+  "fields": {
+    "code": "products.view",
+    "module": "products",
+    "action": "view",
+    "description": "View products"
+  }
+},
+{
+  "model": "accounts.permission",
+  "pk": 6,
+  "fields": {
+    "code": "products.create",
+    "module": "products",
+    "action": "create",
+    "description": "Create products"
+  }
+},
+{
+  "model": "accounts.permission",
+  "pk": 7,
+  "fields": {
+    "code": "products.edit",
+    "module": "products",
+    "action": "edit",
+    "description": "Edit products"
+  }
+},
+{
+  "model": "accounts.permission",
+  "pk": 8,
+  "fields": {
+    "code": "products.delete",
+    "module": "products",
+    "action": "delete",
+    "description": "Delete products"
+  }
+},
+{
+  "model": "accounts.permission",
+  "pk": 9,
+  "fields": {
+    "code": "products.publish",
+    "module": "products",
+    "action": "publish",
+    "description": "Publish products"
+  }
+},
+{
+  "model": "accounts.permission",
+  "pk": 10,
+  "fields": {
+    "code": "categories.view",
+    "module": "categories",
+    "action": "view",
+    "description": "View categories"
+  }
+},
+{
+  "model": "accounts.permission",
+  "pk": 11,
+  "fields": {
+    "code": "categories.create",
+    "module": "categories",
+    "action": "create",
+    "description": "Create categories"
+  }
+},
+{
+  "model": "accounts.permission",
+  "pk": 12,
+  "fields": {
+    "code": "categories.edit",
+    "module": "categories",
+    "action": "edit",
+    "description": "Edit categories"
+  }
+},
+{
+  "model": "accounts.permission",
+  "pk": 13,
+  "fields": {
+    "code": "categories.delete",
+    "module": "categories",
+    "action": "delete",
+    "description": "Delete categories"
+  }
+},
+{
+  "model": "accounts.permission",
+  "pk": 14,
+  "fields": {
+    "code": "banners.view",
+    "module": "banners",
+    "action": "view",
+    "description": "View banners"
+  }
+},
+{
+  "model": "accounts.permission",
+  "pk": 15,
+  "fields": {
+    "code": "banners.create",
+    "module": "banners",
+    "action": "create",
+    "description": "Create banners"
+  }
+},
+{
+  "model": "accounts.permission",
+  "pk": 16,
+  "fields": {
+    "code": "banners.edit",
+    "module": "banners",
+    "action": "edit",
+    "description": "Edit banners"
+  }
+},
+{
+  "model": "accounts.permission",
+  "pk": 17,
+  "fields": {
+    "code": "banners.delete",
+    "module": "banners",
+    "action": "delete",
+    "description": "Delete banners"
+  }
+},
+{
+  "model": "accounts.permission",
+  "pk": 18,
+  "fields": {
+    "code": "discounts.view",
+    "module": "discounts",
+    "action": "view",
+    "description": "View discounts"
+  }
+},
+{
+  "model": "accounts.permission",
+  "pk": 19,
+  "fields": {
+    "code": "discounts.create",
+    "module": "discounts",
+    "action": "create",
+    "description": "Create discounts"
+  }
+},
+{
+  "model": "accounts.permission",
+  "pk": 20,
+  "fields": {
+    "code": "discounts.edit",
+    "module": "discounts",
+    "action": "edit",
+    "description": "Edit discounts"
+  }
+},
+{
+  "model": "accounts.permission",
+  "pk": 21,
+  "fields": {
+    "code": "discounts.delete",
+    "module": "discounts",
+    "action": "delete",
+    "description": "Delete discounts"
+  }
+},
+{
+  "model": "accounts.permission",
+  "pk": 22,
+  "fields": {
+    "code": "customers.view",
+    "module": "customers",
+    "action": "view",
+    "description": "View customers"
+  }
+},
+{
+  "model": "accounts.permission",
+  "pk": 23,
+  "fields": {
+    "code": "customers.edit",
+    "module": "customers",
+    "action": "edit",
+    "description": "Edit customers"
+  }
+},
+{
+  "model": "accounts.permission",
+  "pk": 24,
+  "fields": {
+    "code": "articles.view",
+    "module": "articles",
+    "action": "view",
+    "description": "View articles"
+  }
+},
+{
+  "model": "accounts.permission",
+  "pk": 25,
+  "fields": {
+    "code": "articles.create",
+    "module": "articles",
+    "action": "create",
+    "description": "Create articles"
+  }
+},
+{
+  "model": "accounts.permission",
+  "pk": 26,
+  "fields": {
+    "code": "articles.edit",
+    "module": "articles",
+    "action": "edit",
+    "description": "Edit articles"
+  }
+},
+{
+  "model": "accounts.permission",
+  "pk": 27,
+  "fields": {
+    "code": "articles.delete",
+    "module": "articles",
+    "action": "delete",
+    "description": "Delete articles"
+  }
+},
+{
+  "model": "accounts.permission",
+  "pk": 28,
+  "fields": {
+    "code": "articles.publish",
+    "module": "articles",
+    "action": "publish",
+    "description": "Publish articles"
+  }
+},
+{
+  "model": "accounts.permission",
+  "pk": 29,
+  "fields": {
+    "code": "users.view",
+    "module": "users",
+    "action": "view",
+    "description": "View staff users"
+  }
+},
+{
+  "model": "accounts.permission",
+  "pk": 30,
+  "fields": {
+    "code": "users.create",
+    "module": "users",
+    "action": "create",
+    "description": "Create staff users"
+  }
+},
+{
+  "model": "accounts.permission",
+  "pk": 31,
+  "fields": {
+    "code": "users.edit",
+    "module": "users",
+    "action": "edit",
+    "description": "Edit staff users"
+  }
+},
+{
+  "model": "accounts.permission",
+  "pk": 32,
+  "fields": {
+    "code": "users.delete",
+    "module": "users",
+    "action": "delete",
+    "description": "Delete staff users"
+  }
+},
+{
+  "model": "accounts.permission",
+  "pk": 33,
+  "fields": {
+    "code": "roles.view",
+    "module": "roles",
+    "action": "view",
+    "description": "View roles"
+  }
+},
+{
+  "model": "accounts.permission",
+  "pk": 34,
+  "fields": {
+    "code": "roles.edit",
+    "module": "roles",
+    "action": "edit",
+    "description": "Edit roles"
+  }
+},
+{
+  "model": "accounts.permission",
+  "pk": 35,
+  "fields": {
+    "code": "settings.manage",
+    "module": "settings",
+    "action": "manage",
+    "description": "Manage store settings"
+  }
+},
+{
+  "model": "accounts.permission",
+  "pk": 36,
+  "fields": {
+    "code": "audit.view",
+    "module": "audit",
+    "action": "view",
+    "description": "View audit logs"
+  }
+},
+{
+  "model": "accounts.permission",
+  "pk": 37,
+  "fields": {
+    "code": "newsletter.view",
+    "module": "newsletter",
+    "action": "view",
+    "description": "View newsletter subscribers"
+  }
+},
+{
+  "model": "accounts.adminrole",
+  "pk": 1,
+  "fields": {
+    "name": "Super Admin",
+    "slug": "super-admin",
+    "description": "Full access",
+    "is_system": true,
+    "created_at": "2026-10-19T14:56:25.322Z",
+    "updated_at": "2026-10-19T14:57:15.723Z",
+    "permissions": [
+      25,
+      27,
+      26,
+      28,
+      24,
+      36,
+      15,
+      17,
+      16,
+      14,
+      11,
+      13,
+      12,
+      10,
+      23,
+      22,
+      1,
+      19,
+      21,
+      20,
+      18,
+      37,
+      3,
+      4,
+      2,
+      6,
+      8,
+      7,
+      9,
+      5,
+      34,
+      33,
+      35,
+      30,
+      32,
+      31,
+      29
+    ]
+  }
+},
+{
+  "model": "accounts.adminrole",
+  "pk": 2,
+  "fields": {
+    "name": "Store Manager",
+    "slug": "store-manager",
+    "description": "Store Manager",
+    "is_system": true,
+    "created_at": "2026-10-19T14:56:25.327Z",
+    "updated_at": "2026-10-19T14:57:15.727Z",
+    "permissions": [
+      15,
+      17,
+      16,
+      14,
+      11,
+      13,
+      12,
+      10,
+      23,
+      22,
+      1,
+      19,
+      21,
+      20,
+      18,
+      37,
+      3,
+      4,
+      2,
+      6,
+      8,
+      7,
+      9,
+      5,
+      35
+    ]
+  }
+},
+{
+  "model": "accounts.adminrole",
+  "pk": 3,
+  "fields": {
+    "name": "Content Manager",
+    "slug": "content-manager",
+    "description": "Content Manager",
+    "is_system": true,
+    "created_at": "2026-10-19T14:56:25.329Z",
+    "updated_at": "2026-10-19T14:57:15.729Z",
+    "permissions": [
+      25,
+      27,
+      26,
+      28,
+      24,
+      15,
+      17,
+      16,
+      14,
+      10,
+      1,
+      5
+    ]
+  }
+},
+{
+  "model": "accounts.adminrole",
+  "pk": 4,
+  "fields": {
+    "name": "Order Manager",
+    "slug": "order-manager",
+    "description": "Order Manager",
+    "is_system": true,
+    "created_at": "2026-10-19T14:56:25.331Z",
+    "updated_at": "2026-10-19T14:57:15.731Z",
+    "permissions": [
+      23,
+      22,
+      1,
+      3,
+      4,
+      2
+    ]
+  }
+},
+{
+  "model": "accounts.adminrole",
+  "pk": 5,
+  "fields": {
+    "name": "Analyst",
+    "slug": "analyst",
+    "description": "Analyst",
+    "is_system": true,
+    "created_at": "2026-10-19T14:56:25.333Z",
+    "updated_at": "2026-10-19T14:57:15.732Z",
+    "permissions": [
+      36,
+      22,
+      1,
+      37,
+      2,
+      5
+    ]
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$fcnMvOqKmKrdxWlfROnFSw$6KONwfl26EXRx+oeNFGq3i3cwdjf1IMI2RSvK5RMgVI=",
+    "last_login": null,
+    "is_superuser": true,
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-10-19T14:56:25.335Z",
+    "email": "admin@bch-coffee.com",
+    "first_name": "Store",
+    "last_name": "Admin",
+    "phone": "06 222 3330",
+    "user_type": "staff",
+    "role": 1,
+    "is_email_verified": false,
+    "marketing_opt_in": false,
+    "loyalty_consent": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$pQ3g7ReSCdWojs1PddLKKF$bYfjHA6U0oV1cOiDJ8zOTyINwntW1Ldi1kTdqarpYVU=",
+    "last_login": null,
+    "is_superuser": false,
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-10-19T14:56:25.467Z",
+    "email": "manager@bch-coffee.com",
+    "first_name": "Lina",
+    "last_name": "Haddad",
+    "phone": "",
+    "user_type": "staff",
+    "role": 2,
+    "is_email_verified": false,
+    "marketing_opt_in": false,
+    "loyalty_consent": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$Rl3iuyalJCCWiAW43QVDIw$sifXhTlgJN1ojHjlrpzsH/0zn/RcpoXp5XWWulelMGY=",
+    "last_login": null,
+    "is_superuser": false,
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-10-19T14:56:25.592Z",
+    "email": "content@bch-coffee.com",
+    "first_name": "Maya",
+    "last_name": "Nasser",
+    "phone": "",
+    "user_type": "staff",
+    "role": 3,
+    "is_email_verified": false,
+    "marketing_opt_in": false,
+    "loyalty_consent": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$Cwv6VDMDQb7dx5HbROy83E$9ovNAHhjiqog7tYQDnbdnZRSlNpexiYU63qzJoV6Opk=",
+    "last_login": null,
+    "is_superuser": false,
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-10-19T14:56:25.716Z",
+    "email": "orders@bch-coffee.com",
+    "first_name": "Omar",
+    "last_name": "Saleh",
+    "phone": "",
+    "user_type": "staff",
+    "role": 4,
+    "is_email_verified": false,
+    "marketing_opt_in": false,
+    "loyalty_consent": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$zGp9Ij0ZG6G7DtP1UerdDQ$nmE7H+TIp0+uTQKYrTvAF+U3eUoaCS1esP9UG7q8IO8=",
+    "last_login": null,
+    "is_superuser": false,
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-10-19T14:56:25.840Z",
+    "email": "analyst@bch-coffee.com",
+    "first_name": "Rami",
+    "last_name": "Issa",
+    "phone": "",
+    "user_type": "staff",
+    "role": 5,
+    "is_email_verified": false,
+    "marketing_opt_in": false,
+    "loyalty_consent": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$V8iiHEiqwwmJ7iVr25FCxT$+qnb0F5Z3PQ02KG+4m6NOcfNXqPqc/3CPay/RK8FkoU=",
+    "last_login": null,
+    "is_superuser": false,
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-19T14:56:25.963Z",
+    "email": "customer@example.com",
+    "first_name": "Sara",
+    "last_name": "Ahmad",
+    "phone": "0795551234",
+    "user_type": "customer",
+    "role": null,
+    "is_email_verified": false,
+    "marketing_opt_in": false,
+    "loyalty_consent": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 1,
+  "fields": {
+    "name": "Turkish Coffee",
+    "name_ar": "قهوة تركية",
+    "slug": "turkish-coffee",
+    "description": "Classic Turkish coffee, flavored blends, and origin lots roasted for cezve brewing.",
+    "image": "categories/image.jpg",
+    "parent": null,
+    "is_active": true,
+    "show_in_nav": true,
+    "display_order": 1,
+    "seo_title": "",
+    "seo_description": "",
+    "created_at": "2026-10-19T14:56:26.091Z",
+    "updated_at": "2026-10-19T14:57:16.806Z"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 2,
+  "fields": {
+    "name": "Filter Coffee",
+    "name_ar": "قهوة فلتر",
+    "slug": "filter-coffee",
+    "description": "Filter and drip coffee from Brazil, Colombia, Kenya, Ethiopia, and flavored lots.",
+    "image": "categories/image_XJhvlGU.jpg",
+    "parent": null,
+    "is_active": true,
+    "show_in_nav": true,
+    "display_order": 2,
+    "seo_title": "",
+    "seo_description": "",
+    "created_at": "2026-10-19T14:56:26.095Z",
+    "updated_at": "2026-10-19T14:57:16.808Z"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 3,
+  "fields": {
+    "name": "Drip Coffee",
+    "name_ar": "قهوة دريب",
+    "slug": "drip-coffee",
+    "description": "Single-serve drip bags for a clean cup anywhere.",
+    "image": "categories/drip-coffee.jpg",
+    "parent": null,
+    "is_active": true,
+    "show_in_nav": true,
+    "display_order": 3,
+    "seo_title": "",
+    "seo_description": "",
+    "created_at": "2026-10-19T14:56:26.096Z",
+    "updated_at": "2026-10-19T14:57:16.810Z"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 4,
+  "fields": {
+    "name": "Espresso",
+    "name_ar": "إسبريسو",
+    "slug": "espresso",
+    "description": "100% Arabica espresso roasted for machine extraction.",
+    "image": "categories/espresso-medium.jpg",
+    "parent": null,
+    "is_active": true,
+    "show_in_nav": true,
+    "display_order": 4,
+    "seo_title": "",
+    "seo_description": "",
+    "created_at": "2026-10-19T14:56:26.098Z",
+    "updated_at": "2026-10-19T14:57:16.811Z"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 5,
+  "fields": {
+    "name": "Arabic Coffee",
+    "name_ar": "قهوة عربية",
+    "slug": "arabic-coffee",
+    "description": "Instant Arabic and Saudi coffee sachets for a traditional cup in minutes.",
+    "image": "categories/image_825Mjbf.png",
+    "parent": null,
+    "is_active": true,
+    "show_in_nav": true,
+    "display_order": 5,
+    "seo_title": "",
+    "seo_description": "",
+    "created_at": "2026-10-19T14:56:26.100Z",
+    "updated_at": "2026-10-19T14:57:16.812Z"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 6,
+  "fields": {
+    "name": "Rio House",
+    "name_ar": "ريو هاوس",
+    "slug": "rio-house",
+    "description": "Instant mixes, cappuccino, chocolate, and specialty drinks from Rio House.",
+    "image": "categories/3-in-1.jpg",
+    "parent": null,
+    "is_active": true,
+    "show_in_nav": true,
+    "display_order": 6,
+    "seo_title": "",
+    "seo_description": "",
+    "created_at": "2026-10-19T14:56:26.101Z",
+    "updated_at": "2026-10-19T14:57:16.814Z"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 7,
+  "fields": {
+    "name": "Caffitaly Capsules",
+    "name_ar": "كبسولات كافيتالي",
+    "slug": "caffitaly-capsules",
+    "description": "Caffitaly system capsules and Nespresso-compatible blends.",
+    "image": "categories/aac61de4eaaac6df66546af34c0683f8.jpg",
+    "parent": null,
+    "is_active": true,
+    "show_in_nav": true,
+    "display_order": 7,
+    "seo_title": "",
+    "seo_description": "",
+    "created_at": "2026-10-19T14:56:26.104Z",
+    "updated_at": "2026-10-19T14:57:16.816Z"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 8,
+  "fields": {
+    "name": "Caffitaly Machines",
+    "name_ar": "آلات كافيتالي",
+    "slug": "caffitaly-machines",
+    "description": "Caffitaly capsule machines for home and office.",
+    "image": "categories/s-16.jpg",
+    "parent": null,
+    "is_active": true,
+    "show_in_nav": true,
+    "display_order": 8,
+    "seo_title": "",
+    "seo_description": "",
+    "created_at": "2026-10-19T14:56:26.105Z",
+    "updated_at": "2026-10-19T14:57:16.817Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 1,
+  "fields": {
+    "category": 1,
+    "name": "Turkish Coffee Light",
+    "name_ar": "قهوة تركية فاتح",
+    "slug": "turkish-coffee-light",
+    "sku": "BCH-TR-LGT-250",
+    "short_description": "A light Turkish roast with cardamom, prepared for cezve brewing. 250g tin.",
+    "description": "A light Turkish roast with cardamom, prepared for cezve brewing. 250g tin.",
+    "tasting_notes": "Light roast with cardamom",
+    "roast_level": "light",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": true,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.818Z",
+    "created_at": "2026-10-19T14:56:26.109Z",
+    "updated_at": "2026-10-19T14:57:16.819Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 2,
+  "fields": {
+    "category": 1,
+    "name": "Turkish Coffee Medium",
+    "name_ar": "قهوة تركية وسط",
+    "slug": "turkish-coffee-medium",
+    "sku": "BCH-TR-MED-250",
+    "short_description": "The house Turkish roast — medium with cardamom. 250g tin.",
+    "description": "The house Turkish roast — medium with cardamom. 250g tin.",
+    "tasting_notes": "Balanced body with cardamom",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": true,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.824Z",
+    "created_at": "2026-10-19T14:56:26.516Z",
+    "updated_at": "2026-10-19T14:57:16.825Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 3,
+  "fields": {
+    "category": 1,
+    "name": "Turkish Coffee Dark",
+    "name_ar": "قهوة تركية غامق",
+    "slug": "turkish-coffee-dark",
+    "sku": "BCH-TR-DRK-250",
+    "short_description": "A darker Turkish roast with cardamom for a fuller cup. 250g tin.",
+    "description": "A darker Turkish roast with cardamom for a fuller cup. 250g tin.",
+    "tasting_notes": "Deep roast with cardamom",
+    "roast_level": "dark",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.828Z",
+    "created_at": "2026-10-19T14:56:26.866Z",
+    "updated_at": "2026-10-19T14:57:16.830Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 4,
+  "fields": {
+    "category": 1,
+    "name": "Turkish Coffee Vanilla",
+    "name_ar": "قهوة تركية فانيلا",
+    "slug": "turkish-coffee-vanilla",
+    "sku": "BCH-TR-VAN-250",
+    "short_description": "Turkish coffee with vanilla. 250g tin.",
+    "description": "Turkish coffee with vanilla. 250g tin.",
+    "tasting_notes": "Vanilla",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.833Z",
+    "created_at": "2026-10-19T14:56:27.603Z",
+    "updated_at": "2026-10-19T14:57:16.833Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 5,
+  "fields": {
+    "category": 1,
+    "name": "Turkish Coffee Hazelnut & Vanilla",
+    "name_ar": "قهوة تركية بندق وفانيلا",
+    "slug": "turkish-coffee-hazelnut-vanilla",
+    "sku": "BCH-TR-HZV-250",
+    "short_description": "Turkish coffee with hazelnut and vanilla. 250g tin.",
+    "description": "Turkish coffee with hazelnut and vanilla. 250g tin.",
+    "tasting_notes": "Hazelnut, vanilla",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.836Z",
+    "created_at": "2026-10-19T14:56:27.907Z",
+    "updated_at": "2026-10-19T14:57:16.837Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 6,
+  "fields": {
+    "category": 1,
+    "name": "Turkish Coffee Caramel",
+    "name_ar": "قهوة تركية كراميل",
+    "slug": "turkish-coffee-caramel",
+    "sku": "BCH-TR-CAR-250",
+    "short_description": "Turkish coffee with caramel. 250g tin.",
+    "description": "Turkish coffee with caramel. 250g tin.",
+    "tasting_notes": "Caramel",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.839Z",
+    "created_at": "2026-10-19T14:56:28.137Z",
+    "updated_at": "2026-10-19T14:57:16.840Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 7,
+  "fields": {
+    "category": 1,
+    "name": "Turkish Coffee Macadamia",
+    "name_ar": "قهوة تركية مكاديميا",
+    "slug": "turkish-coffee-macadamia",
+    "sku": "BCH-TR-MAC-250",
+    "short_description": "Turkish coffee with macadamia. 250g tin.",
+    "description": "Turkish coffee with macadamia. 250g tin.",
+    "tasting_notes": "Macadamia",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.843Z",
+    "created_at": "2026-10-19T14:56:28.375Z",
+    "updated_at": "2026-10-19T14:57:16.844Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 8,
+  "fields": {
+    "category": 1,
+    "name": "Turkish Coffee Chocolate",
+    "name_ar": "قهوة تركية شوكولاتة",
+    "slug": "turkish-coffee-chocolate",
+    "sku": "BCH-TR-CHO-250",
+    "short_description": "Turkish coffee with chocolate. 250g tin.",
+    "description": "Turkish coffee with chocolate. 250g tin.",
+    "tasting_notes": "Chocolate",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.847Z",
+    "created_at": "2026-10-19T14:56:28.823Z",
+    "updated_at": "2026-10-19T14:57:16.847Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 9,
+  "fields": {
+    "category": 1,
+    "name": "Turkish Coffee Hazelnut",
+    "name_ar": "قهوة تركية بندق",
+    "slug": "turkish-coffee-hazelnut",
+    "sku": "BCH-TR-HAZ-250",
+    "short_description": "Turkish coffee with hazelnut. 250g tin.",
+    "description": "Turkish coffee with hazelnut. 250g tin.",
+    "tasting_notes": "Hazelnut",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.850Z",
+    "created_at": "2026-10-19T14:56:29.065Z",
+    "updated_at": "2026-10-19T14:57:16.851Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 10,
+  "fields": {
+    "category": 1,
+    "name": "French Coffee",
+    "name_ar": "قهوة فرنسية",
+    "slug": "french-coffee",
+    "sku": "BCH-FR-ORG-250",
+    "short_description": "French-style coffee from Brazilian Coffee House. 250g tin.",
+    "description": "French-style coffee from Brazilian Coffee House. 250g tin.",
+    "tasting_notes": "Smooth French roast",
+    "roast_level": "medium-dark",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.853Z",
+    "created_at": "2026-10-19T14:56:29.291Z",
+    "updated_at": "2026-10-19T14:57:16.854Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 11,
+  "fields": {
+    "category": 1,
+    "name": "French Coffee Hazelnut",
+    "name_ar": "قهوة فرنسية بندق",
+    "slug": "french-coffee-hazelnut",
+    "sku": "BCH-FR-HAZ-250",
+    "short_description": "French coffee with hazelnut. 250g tin.",
+    "description": "French coffee with hazelnut. 250g tin.",
+    "tasting_notes": "Hazelnut",
+    "roast_level": "medium-dark",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.857Z",
+    "created_at": "2026-10-19T14:56:29.517Z",
+    "updated_at": "2026-10-19T14:57:16.857Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 12,
+  "fields": {
+    "category": 1,
+    "name": "French Coffee Macadamia",
+    "name_ar": "فرنسية مكاديميا",
+    "slug": "french-coffee-macadamia",
+    "sku": "BCH-FR-MAC-250",
+    "short_description": "French coffee with macadamia. 250g tin.",
+    "description": "French coffee with macadamia. 250g tin.",
+    "tasting_notes": "Macadamia",
+    "roast_level": "medium-dark",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.860Z",
+    "created_at": "2026-10-19T14:56:29.745Z",
+    "updated_at": "2026-10-19T14:57:16.861Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 13,
+  "fields": {
+    "category": 1,
+    "name": "Turkish Coffee Mastic",
+    "name_ar": "قهوة تركية مستكة",
+    "slug": "turkish-coffee-mastic",
+    "sku": "BCH-TR-MAS-250",
+    "short_description": "Turkish coffee with mastic. 250g tin.",
+    "description": "Turkish coffee with mastic. 250g tin.",
+    "tasting_notes": "Mastic",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.863Z",
+    "created_at": "2026-10-19T14:56:29.800Z",
+    "updated_at": "2026-10-19T14:57:16.864Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 14,
+  "fields": {
+    "category": 1,
+    "name": "Decaf Turkish Coffee",
+    "name_ar": "قهوة تركية بدون كافيين",
+    "slug": "turkish-coffee-decaf",
+    "sku": "BCH-TR-DEC-250",
+    "short_description": "Decaffeinated Turkish coffee. 250g tin.",
+    "description": "Decaffeinated Turkish coffee. 250g tin.",
+    "tasting_notes": "Decaf, cardamom",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.867Z",
+    "created_at": "2026-10-19T14:56:30.171Z",
+    "updated_at": "2026-10-19T14:57:16.868Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 15,
+  "fields": {
+    "category": 1,
+    "name": "Turkish Coffee Sachet",
+    "name_ar": "قهوة تركية كيس",
+    "slug": "turkish-coffee-sachet",
+    "sku": "BCH-TR-SCH",
+    "short_description": "Turkish coffee in a convenient sachet.",
+    "description": "Turkish coffee in a convenient sachet.",
+    "tasting_notes": "Classic Turkish",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.871Z",
+    "created_at": "2026-10-19T14:56:30.996Z",
+    "updated_at": "2026-10-19T14:57:16.872Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 16,
+  "fields": {
+    "category": 1,
+    "name": "Ottoman Coffee",
+    "name_ar": "قهوة تركية عثمانية",
+    "slug": "ottoman-coffee",
+    "sku": "BCH-TR-OTT-250",
+    "short_description": "Ottoman-style Turkish coffee. 250g tin.",
+    "description": "Ottoman-style Turkish coffee. 250g tin.",
+    "tasting_notes": "Ottoman spice blend",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.874Z",
+    "created_at": "2026-10-19T14:56:31.581Z",
+    "updated_at": "2026-10-19T14:57:16.875Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 17,
+  "fields": {
+    "category": 1,
+    "name": "Turkish Coffee Jordanian Blend",
+    "name_ar": "قهوة تركية بالخلطة الاردنية",
+    "slug": "turkish-coffee-jordanian-blend",
+    "sku": "BCH-TR-JOR-250",
+    "short_description": "Turkish coffee with the Jordanian blend. 250g tin.",
+    "description": "Turkish coffee with the Jordanian blend. 250g tin.",
+    "tasting_notes": "Jordanian blend, cardamom",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": true,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.877Z",
+    "created_at": "2026-10-19T14:56:32.584Z",
+    "updated_at": "2026-10-19T14:57:16.878Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 18,
+  "fields": {
+    "category": 1,
+    "name": "Turkish Coffee Jordanian Blend Bag",
+    "name_ar": "قهوة تركية بالخلطة الاردنية كيس",
+    "slug": "turkish-coffee-jordanian-blend-bag",
+    "sku": "BCH-TR-JOR-BAG",
+    "short_description": "Jordanian blend Turkish coffee in a bag.",
+    "description": "Jordanian blend Turkish coffee in a bag.",
+    "tasting_notes": "Jordanian blend",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.880Z",
+    "created_at": "2026-10-19T14:56:33.290Z",
+    "updated_at": "2026-10-19T14:57:16.881Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 19,
+  "fields": {
+    "category": 1,
+    "name": "Ethiopian Coffee with Cardamom",
+    "name_ar": "قهوة تركية اثيوبي",
+    "slug": "turkish-coffee-ethiopian",
+    "sku": "BCH-TR-ETH-250",
+    "short_description": "Ethiopian coffee, medium with cardamom. 250g.",
+    "description": "Ethiopian coffee, medium with cardamom. 250g.",
+    "tasting_notes": "Ethiopian, cardamom",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.883Z",
+    "created_at": "2026-10-19T14:56:33.640Z",
+    "updated_at": "2026-10-19T14:57:16.884Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 20,
+  "fields": {
+    "category": 1,
+    "name": "Colombian Coffee with Cardamom",
+    "name_ar": "قهوة تركية كولومبي",
+    "slug": "turkish-coffee-colombian",
+    "sku": "BCH-TR-COL-250",
+    "short_description": "Colombian coffee, medium with cardamom. 250g.",
+    "description": "Colombian coffee, medium with cardamom. 250g.",
+    "tasting_notes": "Colombian, cardamom",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.887Z",
+    "created_at": "2026-10-19T14:56:34.263Z",
+    "updated_at": "2026-10-19T14:57:16.888Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 21,
+  "fields": {
+    "category": 1,
+    "name": "Kenyan Coffee with Cardamom",
+    "name_ar": "قهوة تركية كيني",
+    "slug": "turkish-coffee-kenyan",
+    "sku": "BCH-TR-KEN-250",
+    "short_description": "Kenyan coffee, medium with cardamom. 250g.",
+    "description": "Kenyan coffee, medium with cardamom. 250g.",
+    "tasting_notes": "Kenyan, cardamom",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.891Z",
+    "created_at": "2026-10-19T14:56:34.680Z",
+    "updated_at": "2026-10-19T14:57:16.892Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 22,
+  "fields": {
+    "category": 1,
+    "name": "Indian Coffee with Cardamom",
+    "name_ar": "قهوة تركية هندي",
+    "slug": "turkish-coffee-indian",
+    "sku": "BCH-TR-IND-250",
+    "short_description": "Indian coffee, medium with cardamom. 250g.",
+    "description": "Indian coffee, medium with cardamom. 250g.",
+    "tasting_notes": "Indian, cardamom",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.894Z",
+    "created_at": "2026-10-19T14:56:35.483Z",
+    "updated_at": "2026-10-19T14:57:16.895Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 23,
+  "fields": {
+    "category": 1,
+    "name": "Peru Coffee with Cardamom",
+    "name_ar": "قهوة تركية بيرو",
+    "slug": "turkish-coffee-peru",
+    "sku": "BCH-TR-PER-250",
+    "short_description": "Peruvian coffee, medium with cardamom. 250g.",
+    "description": "Peruvian coffee, medium with cardamom. 250g.",
+    "tasting_notes": "Peru, cardamom",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.901Z",
+    "created_at": "2026-10-19T14:56:35.835Z",
+    "updated_at": "2026-10-19T14:57:16.902Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 24,
+  "fields": {
+    "category": 2,
+    "name": "Original Filter Coffee",
+    "name_ar": "قهوة فلتر اصلية",
+    "slug": "filter-coffee-original",
+    "sku": "BCH-FL-ORG-250",
+    "short_description": "Original filter coffee. 100% Arabica.",
+    "description": "Original filter coffee. 100% Arabica.",
+    "tasting_notes": "Clean, balanced",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": true,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.905Z",
+    "created_at": "2026-10-19T14:56:36.114Z",
+    "updated_at": "2026-10-19T14:57:16.906Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 25,
+  "fields": {
+    "category": 2,
+    "name": "Colombian Filter Coffee",
+    "name_ar": "قهوة فلتر كولومبية",
+    "slug": "filter-coffee-colombian",
+    "sku": "BCH-FL-COL-250",
+    "short_description": "Colombian filter coffee.",
+    "description": "Colombian filter coffee.",
+    "tasting_notes": "Colombian",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.909Z",
+    "created_at": "2026-10-19T14:56:36.932Z",
+    "updated_at": "2026-10-19T14:57:16.909Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 26,
+  "fields": {
+    "category": 2,
+    "name": "Kenyan Filter Coffee",
+    "name_ar": "قهوة فلتر كينية",
+    "slug": "filter-coffee-kenyan",
+    "sku": "BCH-FL-KEN-250",
+    "short_description": "Kenyan filter coffee.",
+    "description": "Kenyan filter coffee.",
+    "tasting_notes": "Kenyan",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.912Z",
+    "created_at": "2026-10-19T14:56:37.629Z",
+    "updated_at": "2026-10-19T14:57:16.912Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 27,
+  "fields": {
+    "category": 2,
+    "name": "Ethiopian Filter Coffee",
+    "name_ar": "قهوة فلتر اثيوبية",
+    "slug": "filter-coffee-ethiopian",
+    "sku": "BCH-FL-ETH-250",
+    "short_description": "Ethiopian filter coffee.",
+    "description": "Ethiopian filter coffee.",
+    "tasting_notes": "Ethiopian",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.914Z",
+    "created_at": "2026-10-19T14:56:38.009Z",
+    "updated_at": "2026-10-19T14:57:16.915Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 28,
+  "fields": {
+    "category": 2,
+    "name": "Peru Filter Coffee",
+    "name_ar": "قهوة فلتر بيرو",
+    "slug": "filter-coffee-peru",
+    "sku": "BCH-FL-PER-250",
+    "short_description": "Peruvian filter coffee.",
+    "description": "Peruvian filter coffee.",
+    "tasting_notes": "Peru",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.917Z",
+    "created_at": "2026-10-19T14:56:38.374Z",
+    "updated_at": "2026-10-19T14:57:16.921Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 29,
+  "fields": {
+    "category": 2,
+    "name": "Organic Filter Coffee",
+    "name_ar": "قهوة فلتر عضوية",
+    "slug": "filter-coffee-organic",
+    "sku": "BCH-FL-ORGNC-250",
+    "short_description": "Organic filter coffee.",
+    "description": "Organic filter coffee.",
+    "tasting_notes": "Organic",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.924Z",
+    "created_at": "2026-10-19T14:56:38.735Z",
+    "updated_at": "2026-10-19T14:57:16.924Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 30,
+  "fields": {
+    "category": 2,
+    "name": "Filter Coffee Vanilla",
+    "name_ar": "قهوة فلتر فانيلا",
+    "slug": "filter-coffee-vanilla",
+    "sku": "BCH-FL-VAN-250",
+    "short_description": "Filter coffee with vanilla.",
+    "description": "Filter coffee with vanilla.",
+    "tasting_notes": "Vanilla",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.927Z",
+    "created_at": "2026-10-19T14:56:39.135Z",
+    "updated_at": "2026-10-19T14:57:16.928Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 31,
+  "fields": {
+    "category": 2,
+    "name": "Filter Coffee Hazelnut",
+    "name_ar": "قهوة فلتر بندق",
+    "slug": "filter-coffee-hazelnut",
+    "sku": "BCH-FL-HAZ-250",
+    "short_description": "Filter coffee with hazelnut.",
+    "description": "Filter coffee with hazelnut.",
+    "tasting_notes": "Hazelnut",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.931Z",
+    "created_at": "2026-10-19T14:56:39.514Z",
+    "updated_at": "2026-10-19T14:57:16.931Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 32,
+  "fields": {
+    "category": 2,
+    "name": "Filter Coffee Vanilla & Hazelnut",
+    "name_ar": "قهوة فلتر فانيلا وبندق",
+    "slug": "filter-coffee-vanilla-hazelnut",
+    "sku": "BCH-FL-VHZ-250",
+    "short_description": "Filter coffee with vanilla and hazelnut.",
+    "description": "Filter coffee with vanilla and hazelnut.",
+    "tasting_notes": "Vanilla, hazelnut",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.934Z",
+    "created_at": "2026-10-19T14:56:40.360Z",
+    "updated_at": "2026-10-19T14:57:16.935Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 33,
+  "fields": {
+    "category": 2,
+    "name": "Filter Coffee Salted Caramel",
+    "name_ar": "قهوة فلتر بالكراميل المملح",
+    "slug": "filter-coffee-salted-caramel",
+    "sku": "BCH-FL-SCR-250",
+    "short_description": "Filter coffee with salted caramel.",
+    "description": "Filter coffee with salted caramel.",
+    "tasting_notes": "Salted caramel",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.947Z",
+    "created_at": "2026-10-19T14:56:40.807Z",
+    "updated_at": "2026-10-19T14:57:16.948Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 34,
+  "fields": {
+    "category": 2,
+    "name": "Filter Coffee Macadamia",
+    "name_ar": "قهوة فلتر مكاديميا",
+    "slug": "filter-coffee-macadamia",
+    "sku": "BCH-FL-MAC-250",
+    "short_description": "Filter coffee with macadamia.",
+    "description": "Filter coffee with macadamia.",
+    "tasting_notes": "Macadamia",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.950Z",
+    "created_at": "2026-10-19T14:56:41.657Z",
+    "updated_at": "2026-10-19T14:57:16.951Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 35,
+  "fields": {
+    "category": 2,
+    "name": "Filter Coffee Chocolate",
+    "name_ar": "قهوة فلتر شوكولاتة",
+    "slug": "filter-coffee-chocolate",
+    "sku": "BCH-FL-CHO-250",
+    "short_description": "Filter coffee with chocolate.",
+    "description": "Filter coffee with chocolate.",
+    "tasting_notes": "Chocolate",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.954Z",
+    "created_at": "2026-10-19T14:56:42.210Z",
+    "updated_at": "2026-10-19T14:57:16.955Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 36,
+  "fields": {
+    "category": 2,
+    "name": "Filter Coffee Mastic",
+    "name_ar": "قهوة فلتر مستكة",
+    "slug": "filter-coffee-mastic",
+    "sku": "BCH-FL-MAS-250",
+    "short_description": "Filter coffee with mastic.",
+    "description": "Filter coffee with mastic.",
+    "tasting_notes": "Mastic",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.958Z",
+    "created_at": "2026-10-19T14:56:43.124Z",
+    "updated_at": "2026-10-19T14:57:16.959Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 37,
+  "fields": {
+    "category": 2,
+    "name": "Filter Coffee Decaf",
+    "name_ar": "قهوة فلتر بدون كافيين",
+    "slug": "filter-coffee-decaf",
+    "sku": "BCH-FL-DEC-250",
+    "short_description": "Decaffeinated filter coffee.",
+    "description": "Decaffeinated filter coffee.",
+    "tasting_notes": "Decaf",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.961Z",
+    "created_at": "2026-10-19T14:56:43.563Z",
+    "updated_at": "2026-10-19T14:57:16.962Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 38,
+  "fields": {
+    "category": 2,
+    "name": "Original Filter Coffee Bag",
+    "name_ar": "قهوة فلتر كيس",
+    "slug": "filter-coffee-bag",
+    "sku": "BCH-FL-BAG",
+    "short_description": "Original filtered coffee in a bag.",
+    "description": "Original filtered coffee in a bag.",
+    "tasting_notes": "Original",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.965Z",
+    "created_at": "2026-10-19T14:56:44.648Z",
+    "updated_at": "2026-10-19T14:57:16.966Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 39,
+  "fields": {
+    "category": 3,
+    "name": "Drip Coffee Original",
+    "name_ar": "قهوة دريب",
+    "slug": "drip-coffee-original",
+    "sku": "BCH-DR-ORG",
+    "short_description": "Single-serve drip coffee, original.",
+    "description": "Single-serve drip coffee, original.",
+    "tasting_notes": "Clean drip cup",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": true,
+    "is_new": true,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.968Z",
+    "created_at": "2026-10-19T14:56:44.918Z",
+    "updated_at": "2026-10-19T14:57:16.970Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 40,
+  "fields": {
+    "category": 3,
+    "name": "Drip Coffee Hazelnut",
+    "name_ar": "قهوة دريب بندق",
+    "slug": "drip-coffee-hazelnut",
+    "sku": "BCH-DR-HAZ",
+    "short_description": "Single-serve drip coffee with hazelnut.",
+    "description": "Single-serve drip coffee with hazelnut.",
+    "tasting_notes": "Hazelnut",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": true,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.972Z",
+    "created_at": "2026-10-19T14:56:45.649Z",
+    "updated_at": "2026-10-19T14:57:16.973Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 41,
+  "fields": {
+    "category": 3,
+    "name": "Drip Coffee Macadamia",
+    "name_ar": "قهوة دريب مكاديميا",
+    "slug": "drip-coffee-macadamia",
+    "sku": "BCH-DR-MAC",
+    "short_description": "Single-serve drip coffee with macadamia.",
+    "description": "Single-serve drip coffee with macadamia.",
+    "tasting_notes": "Macadamia",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": true,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.975Z",
+    "created_at": "2026-10-19T14:56:46.278Z",
+    "updated_at": "2026-10-19T14:57:16.976Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 42,
+  "fields": {
+    "category": 3,
+    "name": "Drip Coffee Decaf",
+    "name_ar": "قهوة دريب بدون كافيين",
+    "slug": "drip-coffee-decaf",
+    "sku": "BCH-DR-DEC",
+    "short_description": "Decaffeinated single-serve drip coffee.",
+    "description": "Decaffeinated single-serve drip coffee.",
+    "tasting_notes": "Decaf",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": true,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.978Z",
+    "created_at": "2026-10-19T14:56:46.886Z",
+    "updated_at": "2026-10-19T14:57:16.979Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 43,
+  "fields": {
+    "category": 4,
+    "name": "Espresso Medium",
+    "name_ar": "إسبريسو وسط",
+    "slug": "espresso-medium",
+    "sku": "BCH-ES-MED-250",
+    "short_description": "100% Arabica espresso, medium roast.",
+    "description": "100% Arabica espresso, medium roast.",
+    "tasting_notes": "Chocolate, orange, balanced",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": true,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.982Z",
+    "created_at": "2026-10-19T14:56:47.475Z",
+    "updated_at": "2026-10-19T14:57:16.983Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 44,
+  "fields": {
+    "category": 4,
+    "name": "Espresso Dark",
+    "name_ar": "إسبريسو غامق",
+    "slug": "espresso-dark",
+    "sku": "BCH-ES-DRK-250",
+    "short_description": "100% Arabica espresso, dark roast.",
+    "description": "100% Arabica espresso, dark roast.",
+    "tasting_notes": "Dark chocolate, full body",
+    "roast_level": "dark",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": true,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.986Z",
+    "created_at": "2026-10-19T14:56:47.802Z",
+    "updated_at": "2026-10-19T14:57:16.987Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 45,
+  "fields": {
+    "category": 5,
+    "name": "Arabic Coffee Sachet",
+    "name_ar": "قهوة عربية سريعة التحضير - مغلف",
+    "slug": "arabic-coffee-sachet",
+    "sku": "BCH-AR-SCH",
+    "short_description": "Instant Arabic coffee, single sachet.",
+    "description": "Instant Arabic coffee, single sachet.",
+    "tasting_notes": "Cardamom, Arabic spices",
+    "roast_level": "light",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.989Z",
+    "created_at": "2026-10-19T14:56:48.129Z",
+    "updated_at": "2026-10-19T14:57:16.990Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 46,
+  "fields": {
+    "category": 5,
+    "name": "Arabic Coffee 10 Sachets",
+    "name_ar": "قهوة عربية سريعة التحضير 10 مغلف",
+    "slug": "arabic-coffee-10-sachets",
+    "sku": "BCH-AR-10",
+    "short_description": "Instant Arabic coffee, box of 10 sachets.",
+    "description": "Instant Arabic coffee, box of 10 sachets.",
+    "tasting_notes": "Cardamom, Arabic spices",
+    "roast_level": "light",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": true,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.993Z",
+    "created_at": "2026-10-19T14:56:48.171Z",
+    "updated_at": "2026-10-19T14:57:16.994Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 47,
+  "fields": {
+    "category": 5,
+    "name": "Saudi Coffee Sachet",
+    "name_ar": "قهوة سعودية سريعة التحضير - مغلف",
+    "slug": "saudi-coffee-sachet",
+    "sku": "BCH-SA-SCH",
+    "short_description": "Instant Saudi coffee, single sachet.",
+    "description": "Instant Saudi coffee, single sachet.",
+    "tasting_notes": "Saudi roast, spices",
+    "roast_level": "light",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.996Z",
+    "created_at": "2026-10-19T14:56:49.484Z",
+    "updated_at": "2026-10-19T14:57:16.997Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 48,
+  "fields": {
+    "category": 5,
+    "name": "Saudi Coffee 10 Sachets",
+    "name_ar": "قهوة سعودية سريعة التحضير - 10 مغلفات",
+    "slug": "saudi-coffee-10-sachets",
+    "sku": "BCH-SA-10",
+    "short_description": "Instant Saudi coffee, box of 10 sachets.",
+    "description": "Instant Saudi coffee, box of 10 sachets.",
+    "tasting_notes": "Saudi roast, spices",
+    "roast_level": "light",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:16.999Z",
+    "created_at": "2026-10-19T14:56:49.521Z",
+    "updated_at": "2026-10-19T14:57:17.000Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 49,
+  "fields": {
+    "category": 6,
+    "name": "Rio House 3 in 1",
+    "name_ar": "ريو هاوس 3 في 1",
+    "slug": "rio-house-3-in-1",
+    "sku": "BCH-RIO-3IN1-24",
+    "short_description": "Rio House 3 in 1 Regular. 24 sachets, 20g each.",
+    "description": "Rio House 3 in 1 Regular. 24 sachets, 20g each.",
+    "tasting_notes": "Coffee, milk, sugar",
+    "roast_level": "",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": true,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:17.003Z",
+    "created_at": "2026-10-19T14:56:50.090Z",
+    "updated_at": "2026-10-19T14:57:17.003Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 50,
+  "fields": {
+    "category": 6,
+    "name": "Rio House 3 in 1 Bag",
+    "name_ar": "ريو هاوس 3 في 1 كيس",
+    "slug": "rio-house-3-in-1-bag",
+    "sku": "BCH-RIO-3IN1-30",
+    "short_description": "Rio House 3 in 1 bag, 30 sachets.",
+    "description": "Rio House 3 in 1 bag, 30 sachets.",
+    "tasting_notes": "Coffee, milk, sugar",
+    "roast_level": "",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:17.006Z",
+    "created_at": "2026-10-19T14:56:50.539Z",
+    "updated_at": "2026-10-19T14:57:17.007Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 51,
+  "fields": {
+    "category": 6,
+    "name": "Rio House 2 in 1",
+    "name_ar": "ريو هاوس 2 في 1",
+    "slug": "rio-house-2-in-1",
+    "sku": "BCH-RIO-2IN1-24",
+    "short_description": "Rio House 2 in 1. Coffee with creamer.",
+    "description": "Rio House 2 in 1. Coffee with creamer.",
+    "tasting_notes": "Coffee and creamer, unsweetened",
+    "roast_level": "",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:17.009Z",
+    "created_at": "2026-10-19T14:56:51.506Z",
+    "updated_at": "2026-10-19T14:57:17.010Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 52,
+  "fields": {
+    "category": 6,
+    "name": "Rio House 2 in 1 Bag",
+    "name_ar": "ريو هاوس 2 في 1 كيس",
+    "slug": "rio-house-2-in-1-bag",
+    "sku": "BCH-RIO-2IN1-30",
+    "short_description": "Rio House 2 in 1 bag, 30 sachets.",
+    "description": "Rio House 2 in 1 bag, 30 sachets.",
+    "tasting_notes": "Coffee and creamer",
+    "roast_level": "",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:17.012Z",
+    "created_at": "2026-10-19T14:56:52.059Z",
+    "updated_at": "2026-10-19T14:57:17.013Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 53,
+  "fields": {
+    "category": 6,
+    "name": "Rio House Black",
+    "name_ar": "ريو هاوس بلاك",
+    "slug": "rio-house-black",
+    "sku": "BCH-RIO-BLK",
+    "short_description": "Rio House Black instant coffee.",
+    "description": "Rio House Black instant coffee.",
+    "tasting_notes": "Black instant coffee",
+    "roast_level": "",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:17.015Z",
+    "created_at": "2026-10-19T14:56:53.826Z",
+    "updated_at": "2026-10-19T14:57:17.016Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 54,
+  "fields": {
+    "category": 6,
+    "name": "Rio House Black Gar",
+    "name_ar": "ريو هاوس بلاك جار",
+    "slug": "rio-house-black-gar",
+    "sku": "BCH-RIO-BLK-JAR",
+    "short_description": "Rio House Black in a jar.",
+    "description": "Rio House Black in a jar.",
+    "tasting_notes": "Black instant coffee",
+    "roast_level": "",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:17.018Z",
+    "created_at": "2026-10-19T14:56:54.363Z",
+    "updated_at": "2026-10-19T14:57:17.019Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 55,
+  "fields": {
+    "category": 6,
+    "name": "Rio House Gold",
+    "name_ar": "ريو هاوس جولد",
+    "slug": "rio-house-gold",
+    "sku": "BCH-RIO-GLD",
+    "short_description": "Rio House Gold instant coffee.",
+    "description": "Rio House Gold instant coffee.",
+    "tasting_notes": "Premium instant",
+    "roast_level": "",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:17.021Z",
+    "created_at": "2026-10-19T14:56:55.354Z",
+    "updated_at": "2026-10-19T14:57:17.022Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 56,
+  "fields": {
+    "category": 6,
+    "name": "Rio House Mix",
+    "name_ar": "ريو هاوس مكس",
+    "slug": "rio-house-mix",
+    "sku": "BCH-RIO-MIX",
+    "short_description": "Rio House Mix.",
+    "description": "Rio House Mix.",
+    "tasting_notes": "Mixed instant coffee",
+    "roast_level": "",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:17.025Z",
+    "created_at": "2026-10-19T14:56:55.866Z",
+    "updated_at": "2026-10-19T14:57:17.025Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 57,
+  "fields": {
+    "category": 6,
+    "name": "Rio House Caramel Cappuccino",
+    "name_ar": "كابتشينو كراميل",
+    "slug": "rio-house-caramel-cappuccino",
+    "sku": "BCH-RIO-CAP-CAR",
+    "short_description": "Rio House caramel cappuccino mix.",
+    "description": "Rio House caramel cappuccino mix.",
+    "tasting_notes": "Caramel cappuccino",
+    "roast_level": "",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:17.028Z",
+    "created_at": "2026-10-19T14:56:56.297Z",
+    "updated_at": "2026-10-19T14:57:17.029Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 58,
+  "fields": {
+    "category": 6,
+    "name": "Rio House Hazelnut Cappuccino",
+    "name_ar": "كابتشينو بندق",
+    "slug": "rio-house-hazelnut-cappuccino",
+    "sku": "BCH-RIO-CAP-HAZ",
+    "short_description": "Rio House hazelnut cappuccino mix.",
+    "description": "Rio House hazelnut cappuccino mix.",
+    "tasting_notes": "Hazelnut cappuccino",
+    "roast_level": "",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:17.031Z",
+    "created_at": "2026-10-19T14:56:56.711Z",
+    "updated_at": "2026-10-19T14:57:17.032Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 59,
+  "fields": {
+    "category": 6,
+    "name": "Rio House Hot Chocolate",
+    "name_ar": "هوت شوكليت",
+    "slug": "rio-house-hot-chocolate",
+    "sku": "BCH-RIO-CHO",
+    "short_description": "Rio House hot chocolate.",
+    "description": "Rio House hot chocolate.",
+    "tasting_notes": "Cocoa",
+    "roast_level": "",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:17.034Z",
+    "created_at": "2026-10-19T14:56:57.531Z",
+    "updated_at": "2026-10-19T14:57:17.035Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 60,
+  "fields": {
+    "category": 6,
+    "name": "Rio House Mocha",
+    "name_ar": "موكا",
+    "slug": "rio-house-mocha",
+    "sku": "BCH-RIO-MOC",
+    "short_description": "Rio House mocha mix.",
+    "description": "Rio House mocha mix.",
+    "tasting_notes": "Mocha",
+    "roast_level": "",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:17.038Z",
+    "created_at": "2026-10-19T14:56:57.948Z",
+    "updated_at": "2026-10-19T14:57:17.039Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 61,
+  "fields": {
+    "category": 6,
+    "name": "Rio House Chai Karak",
+    "name_ar": "شاي كرك",
+    "slug": "rio-house-chai-karak",
+    "sku": "BCH-RIO-KRK",
+    "short_description": "Rio House chai karak.",
+    "description": "Rio House chai karak.",
+    "tasting_notes": "Karak tea spices",
+    "roast_level": "",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:17.041Z",
+    "created_at": "2026-10-19T14:56:58.395Z",
+    "updated_at": "2026-10-19T14:57:17.042Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 62,
+  "fields": {
+    "category": 6,
+    "name": "Rio House Lentil",
+    "name_ar": "عدس",
+    "slug": "rio-house-lentil",
+    "sku": "BCH-RIO-LNT",
+    "short_description": "Rio House instant lentil.",
+    "description": "Rio House instant lentil.",
+    "tasting_notes": "Savory lentil drink",
+    "roast_level": "",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:17.044Z",
+    "created_at": "2026-10-19T14:56:58.810Z",
+    "updated_at": "2026-10-19T14:57:17.045Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 63,
+  "fields": {
+    "category": 6,
+    "name": "Rio House Milk & Ginger",
+    "name_ar": "حليب وزنجبيل",
+    "slug": "rio-house-milk-ginger",
+    "sku": "BCH-RIO-GIN",
+    "short_description": "Rio House milk and ginger.",
+    "description": "Rio House milk and ginger.",
+    "tasting_notes": "Milk and ginger",
+    "roast_level": "",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:17.048Z",
+    "created_at": "2026-10-19T14:56:59.247Z",
+    "updated_at": "2026-10-19T14:57:17.048Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 64,
+  "fields": {
+    "category": 6,
+    "name": "Rio House Salep",
+    "name_ar": "سحلب",
+    "slug": "rio-house-salep",
+    "sku": "BCH-RIO-SLP",
+    "short_description": "Rio House salep (sahlab).",
+    "description": "Rio House salep (sahlab).",
+    "tasting_notes": "Sahlab",
+    "roast_level": "",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:17.051Z",
+    "created_at": "2026-10-19T14:56:59.668Z",
+    "updated_at": "2026-10-19T14:57:17.052Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 65,
+  "fields": {
+    "category": 6,
+    "name": "Rio House Creamer",
+    "name_ar": "كريمر",
+    "slug": "rio-house-creamer",
+    "sku": "BCH-RIO-CRM",
+    "short_description": "Rio House coffee creamer.",
+    "description": "Rio House coffee creamer.",
+    "tasting_notes": "Non-dairy creamer",
+    "roast_level": "",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:17.055Z",
+    "created_at": "2026-10-19T14:57:00.518Z",
+    "updated_at": "2026-10-19T14:57:17.056Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 66,
+  "fields": {
+    "category": 7,
+    "name": "Caffitaly Cremoso",
+    "name_ar": "كافيتالي كريموزو",
+    "slug": "caffitaly-cremoso",
+    "sku": "BCH-CAF-CRE-10",
+    "short_description": "Caffitaly Cremoso, box of 10 capsules.",
+    "description": "Caffitaly Cremoso, box of 10 capsules.",
+    "tasting_notes": "Crema caffè",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": true,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:17.059Z",
+    "created_at": "2026-10-19T14:57:01.198Z",
+    "updated_at": "2026-10-19T14:57:17.059Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 67,
+  "fields": {
+    "category": 7,
+    "name": "Caffitaly Decaffeinato",
+    "name_ar": "كافيتالي منزوع الكافيين",
+    "slug": "caffitaly-decaffeinato",
+    "sku": "BCH-CAF-DEC-10",
+    "short_description": "Caffitaly Decaffeinato, box of 10 capsules.",
+    "description": "Caffitaly Decaffeinato, box of 10 capsules.",
+    "tasting_notes": "Decaf",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:17.062Z",
+    "created_at": "2026-10-19T14:57:01.236Z",
+    "updated_at": "2026-10-19T14:57:17.063Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 68,
+  "fields": {
+    "category": 7,
+    "name": "Caffitaly Intenso",
+    "name_ar": "كافيتالي انتينسو",
+    "slug": "caffitaly-intenso",
+    "sku": "BCH-CAF-INT-10",
+    "short_description": "Caffitaly Intenso capsules.",
+    "description": "Caffitaly Intenso capsules.",
+    "tasting_notes": "Intense",
+    "roast_level": "dark",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:17.065Z",
+    "created_at": "2026-10-19T14:57:01.250Z",
+    "updated_at": "2026-10-19T14:57:17.066Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 69,
+  "fields": {
+    "category": 7,
+    "name": "Caffitaly Corposo",
+    "name_ar": "كافيتالي كوربوسو",
+    "slug": "caffitaly-corposo",
+    "sku": "BCH-CAF-COR-10",
+    "short_description": "Caffitaly Corposo, box of 10 capsules.",
+    "description": "Caffitaly Corposo, box of 10 capsules.",
+    "tasting_notes": "Full body",
+    "roast_level": "dark",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:17.070Z",
+    "created_at": "2026-10-19T14:57:01.274Z",
+    "updated_at": "2026-10-19T14:57:17.071Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 70,
+  "fields": {
+    "category": 7,
+    "name": "Compatible Ethiopia Capsules",
+    "name_ar": "كبسولات اثيوبيا",
+    "slug": "compatible-ethiopia",
+    "sku": "BCH-NSP-ETH-10",
+    "short_description": "Nespresso-compatible Ethiopia capsules.",
+    "description": "Nespresso-compatible Ethiopia capsules.",
+    "tasting_notes": "Ethiopia",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:17.073Z",
+    "created_at": "2026-10-19T14:57:01.289Z",
+    "updated_at": "2026-10-19T14:57:17.074Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 71,
+  "fields": {
+    "category": 7,
+    "name": "Compatible Deciso Capsules",
+    "name_ar": "كبسولات ديسيزو",
+    "slug": "compatible-deciso",
+    "sku": "BCH-NSP-DES-10",
+    "short_description": "Nespresso-compatible Deciso capsules.",
+    "description": "Nespresso-compatible Deciso capsules.",
+    "tasting_notes": "Deciso, intense",
+    "roast_level": "dark",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:17.077Z",
+    "created_at": "2026-10-19T14:57:01.421Z",
+    "updated_at": "2026-10-19T14:57:17.078Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 72,
+  "fields": {
+    "category": 7,
+    "name": "Compatible Soave Capsules",
+    "name_ar": "كبسولات سوآفي",
+    "slug": "compatible-soave",
+    "sku": "BCH-NSP-SOA-10",
+    "short_description": "Nespresso-compatible Soave capsules.",
+    "description": "Nespresso-compatible Soave capsules.",
+    "tasting_notes": "Soave, smooth",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:17.080Z",
+    "created_at": "2026-10-19T14:57:01.479Z",
+    "updated_at": "2026-10-19T14:57:17.081Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 73,
+  "fields": {
+    "category": 7,
+    "name": "Compatible Deca Capsules",
+    "name_ar": "كبسولات ديكا",
+    "slug": "compatible-deca",
+    "sku": "BCH-NSP-DEC-10",
+    "short_description": "Nespresso-compatible Deca capsules.",
+    "description": "Nespresso-compatible Deca capsules.",
+    "tasting_notes": "Decaf",
+    "roast_level": "medium",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:17.084Z",
+    "created_at": "2026-10-19T14:57:01.510Z",
+    "updated_at": "2026-10-19T14:57:17.084Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 74,
+  "fields": {
+    "category": 8,
+    "name": "Caffitaly S16",
+    "name_ar": "Caffitaly S16",
+    "slug": "caffitaly-s16",
+    "sku": "BCH-CAFFITALY-S16",
+    "short_description": "Caffitaly S16 capsule machine.",
+    "description": "Caffitaly S16 capsule machine.",
+    "tasting_notes": "",
+    "roast_level": "",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:17.087Z",
+    "created_at": "2026-10-19T14:57:01.534Z",
+    "updated_at": "2026-10-19T14:57:17.088Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 75,
+  "fields": {
+    "category": 8,
+    "name": "Caffitaly S18",
+    "name_ar": "Caffitaly S18",
+    "slug": "caffitaly-s18",
+    "sku": "BCH-CAFFITALY-S18",
+    "short_description": "Caffitaly S18 capsule machine.",
+    "description": "Caffitaly S18 capsule machine.",
+    "tasting_notes": "",
+    "roast_level": "",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:17.090Z",
+    "created_at": "2026-10-19T14:57:01.557Z",
+    "updated_at": "2026-10-19T14:57:17.091Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 76,
+  "fields": {
+    "category": 8,
+    "name": "Caffitaly S22",
+    "name_ar": "Caffitaly S22",
+    "slug": "caffitaly-s22",
+    "sku": "BCH-CAFFITALY-S22",
+    "short_description": "Caffitaly S22 capsule machine.",
+    "description": "Caffitaly S22 capsule machine.",
+    "tasting_notes": "",
+    "roast_level": "",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:17.093Z",
+    "created_at": "2026-10-19T14:57:01.581Z",
+    "updated_at": "2026-10-19T14:57:17.094Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 77,
+  "fields": {
+    "category": 8,
+    "name": "Caffitaly S24",
+    "name_ar": "Caffitaly S24",
+    "slug": "caffitaly-s24",
+    "sku": "BCH-CAFFITALY-S24",
+    "short_description": "Caffitaly S24 capsule machine.",
+    "description": "Caffitaly S24 capsule machine.",
+    "tasting_notes": "",
+    "roast_level": "",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:17.097Z",
+    "created_at": "2026-10-19T14:57:01.614Z",
+    "updated_at": "2026-10-19T14:57:17.098Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 78,
+  "fields": {
+    "category": 8,
+    "name": "Caffitaly S27",
+    "name_ar": "Caffitaly S27",
+    "slug": "caffitaly-s27",
+    "sku": "BCH-CAFFITALY-S27",
+    "short_description": "Caffitaly S27 capsule machine.",
+    "description": "Caffitaly S27 capsule machine.",
+    "tasting_notes": "",
+    "roast_level": "",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:17.100Z",
+    "created_at": "2026-10-19T14:57:01.638Z",
+    "updated_at": "2026-10-19T14:57:17.101Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 79,
+  "fields": {
+    "category": 8,
+    "name": "Caffitaly S33",
+    "name_ar": "Caffitaly S33",
+    "slug": "caffitaly-s33",
+    "sku": "BCH-CAFFITALY-S33",
+    "short_description": "Caffitaly S33 capsule machine.",
+    "description": "Caffitaly S33 capsule machine.",
+    "tasting_notes": "",
+    "roast_level": "",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:17.104Z",
+    "created_at": "2026-10-19T14:57:01.666Z",
+    "updated_at": "2026-10-19T14:57:17.105Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 80,
+  "fields": {
+    "category": 8,
+    "name": "Caffitaly S36",
+    "name_ar": "Caffitaly S36",
+    "slug": "caffitaly-s36",
+    "sku": "BCH-CAFFITALY-S36",
+    "short_description": "Caffitaly S36 capsule machine.",
+    "description": "Caffitaly S36 capsule machine.",
+    "tasting_notes": "",
+    "roast_level": "",
+    "origin": "Jordan / Brazil heritage",
+    "is_active": true,
+    "is_featured": false,
+    "is_new": false,
+    "is_promotional": false,
+    "allow_backorder": false,
+    "seo_title": "",
+    "seo_description": "",
+    "published_at": "2026-10-19T14:57:17.108Z",
+    "created_at": "2026-10-19T14:57:01.939Z",
+    "updated_at": "2026-10-19T14:57:17.108Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 1,
+  "fields": {
+    "product": 1,
+    "image": "products/image.jpg",
+    "alt_text": "Turkish Coffee Light",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:26.492Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 2,
+  "fields": {
+    "product": 2,
+    "image": "products/image_OSBIjpf.jpg",
+    "alt_text": "Turkish Coffee Medium",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:26.855Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 3,
+  "fields": {
+    "product": 3,
+    "image": "products/image_5oVctKm.jpg",
+    "alt_text": "Turkish Coffee Dark",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:27.589Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 4,
+  "fields": {
+    "product": 4,
+    "image": "products/image_bqGo5OE.jpg",
+    "alt_text": "Turkish Coffee Vanilla",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:27.905Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 5,
+  "fields": {
+    "product": 5,
+    "image": "products/image_Btsulbj.jpg",
+    "alt_text": "Turkish Coffee Hazelnut & Vanilla",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:28.135Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 6,
+  "fields": {
+    "product": 6,
+    "image": "products/image_PBXLqbf.jpg",
+    "alt_text": "Turkish Coffee Caramel",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:28.372Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 7,
+  "fields": {
+    "product": 7,
+    "image": "products/image_W60frA5.jpg",
+    "alt_text": "Turkish Coffee Macadamia",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:28.821Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 8,
+  "fields": {
+    "product": 8,
+    "image": "products/image_dJhkHF7.jpg",
+    "alt_text": "Turkish Coffee Chocolate",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:29.063Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 9,
+  "fields": {
+    "product": 9,
+    "image": "products/image_dgW05H8.jpg",
+    "alt_text": "Turkish Coffee Hazelnut",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:29.289Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 10,
+  "fields": {
+    "product": 10,
+    "image": "products/image_86FhDmS.jpg",
+    "alt_text": "French Coffee",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:29.515Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 11,
+  "fields": {
+    "product": 11,
+    "image": "products/image_7nx1cbh.jpg",
+    "alt_text": "French Coffee Hazelnut",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:29.743Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 12,
+  "fields": {
+    "product": 12,
+    "image": "products/copy.jpg",
+    "alt_text": "French Coffee Macadamia",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:29.798Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 13,
+  "fields": {
+    "product": 13,
+    "image": "products/image_1Ib3tJW.jpg",
+    "alt_text": "Turkish Coffee Mastic",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:30.169Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 14,
+  "fields": {
+    "product": 14,
+    "image": "products/image_QpuFiHv.jpg",
+    "alt_text": "Decaf Turkish Coffee",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:30.989Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 15,
+  "fields": {
+    "product": 15,
+    "image": "products/image_yCwoXNG.jpg",
+    "alt_text": "Turkish Coffee Sachet",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:31.555Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 16,
+  "fields": {
+    "product": 16,
+    "image": "products/image_UOA84Ws.jpg",
+    "alt_text": "Ottoman Coffee",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:32.577Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 17,
+  "fields": {
+    "product": 17,
+    "image": "products/image_B1xg5Jc.jpg",
+    "alt_text": "Turkish Coffee Jordanian Blend",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:33.282Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 18,
+  "fields": {
+    "product": 18,
+    "image": "products/image_81hJbeu.jpg",
+    "alt_text": "Turkish Coffee Jordanian Blend Bag",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:33.638Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 19,
+  "fields": {
+    "product": 19,
+    "image": "products/image_PL7yeC6.jpg",
+    "alt_text": "Ethiopian Coffee with Cardamom",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:34.260Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 20,
+  "fields": {
+    "product": 20,
+    "image": "products/image_HFDVHV9.jpg",
+    "alt_text": "Colombian Coffee with Cardamom",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:34.654Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 21,
+  "fields": {
+    "product": 21,
+    "image": "products/image_kr9GoFk.jpg",
+    "alt_text": "Kenyan Coffee with Cardamom",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:35.478Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 22,
+  "fields": {
+    "product": 22,
+    "image": "products/image_3skd8sp.jpg",
+    "alt_text": "Indian Coffee with Cardamom",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:35.832Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 23,
+  "fields": {
+    "product": 23,
+    "image": "products/image_hcojrOc.jpg",
+    "alt_text": "Peru Coffee with Cardamom",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:36.112Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 24,
+  "fields": {
+    "product": 24,
+    "image": "products/image_XJhvlGU.jpg",
+    "alt_text": "Original Filter Coffee",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:36.924Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 25,
+  "fields": {
+    "product": 25,
+    "image": "products/image_EjDDygj.jpg",
+    "alt_text": "Colombian Filter Coffee",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:37.627Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 26,
+  "fields": {
+    "product": 26,
+    "image": "products/image_R48mQw8.jpg",
+    "alt_text": "Kenyan Filter Coffee",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:38.007Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 27,
+  "fields": {
+    "product": 27,
+    "image": "products/image_pRAZdSt.jpg",
+    "alt_text": "Ethiopian Filter Coffee",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:38.372Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 28,
+  "fields": {
+    "product": 28,
+    "image": "products/image_k4D7m8F.jpg",
+    "alt_text": "Peru Filter Coffee",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:38.732Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 29,
+  "fields": {
+    "product": 29,
+    "image": "products/image_jiXOTh7.jpg",
+    "alt_text": "Organic Filter Coffee",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:39.133Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 30,
+  "fields": {
+    "product": 30,
+    "image": "products/image_7G2bylS.jpg",
+    "alt_text": "Filter Coffee Vanilla",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:39.512Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 31,
+  "fields": {
+    "product": 31,
+    "image": "products/image_or0K6M5.jpg",
+    "alt_text": "Filter Coffee Hazelnut",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:40.357Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 32,
+  "fields": {
+    "product": 32,
+    "image": "products/image_ULXs9h0.jpg",
+    "alt_text": "Filter Coffee Vanilla & Hazelnut",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:40.805Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 33,
+  "fields": {
+    "product": 33,
+    "image": "products/image_Hd1uemX.jpg",
+    "alt_text": "Filter Coffee Salted Caramel",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:41.653Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 34,
+  "fields": {
+    "product": 34,
+    "image": "products/image_o6603Tm.jpg",
+    "alt_text": "Filter Coffee Macadamia",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:42.185Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 35,
+  "fields": {
+    "product": 35,
+    "image": "products/image_D3qCBbc.jpg",
+    "alt_text": "Filter Coffee Chocolate",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:43.119Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 36,
+  "fields": {
+    "product": 36,
+    "image": "products/image_PsjREma.jpg",
+    "alt_text": "Filter Coffee Mastic",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:43.560Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 37,
+  "fields": {
+    "product": 37,
+    "image": "products/image_m97IG6w.jpg",
+    "alt_text": "Filter Coffee Decaf",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:44.643Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 38,
+  "fields": {
+    "product": 38,
+    "image": "products/image_HopMmoh.jpg",
+    "alt_text": "Original Filter Coffee Bag",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:44.916Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 39,
+  "fields": {
+    "product": 39,
+    "image": "products/drip-coffee.jpg",
+    "alt_text": "Drip Coffee Original",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:45.643Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 40,
+  "fields": {
+    "product": 40,
+    "image": "products/drip-coffee-hazelnut.jpg",
+    "alt_text": "Drip Coffee Hazelnut",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:46.275Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 41,
+  "fields": {
+    "product": 41,
+    "image": "products/drip-coffee-macadamia.jpg",
+    "alt_text": "Drip Coffee Macadamia",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:46.884Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 42,
+  "fields": {
+    "product": 42,
+    "image": "products/drip-coffee-decaf.jpg",
+    "alt_text": "Drip Coffee Decaf",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:47.473Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 43,
+  "fields": {
+    "product": 43,
+    "image": "products/espresso-medium.jpg",
+    "alt_text": "Espresso Medium",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:47.797Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 44,
+  "fields": {
+    "product": 44,
+    "image": "products/espresso-dark.jpg",
+    "alt_text": "Espresso Dark",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:48.127Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 45,
+  "fields": {
+    "product": 45,
+    "image": "products/image_825Mjbf.png",
+    "alt_text": "Arabic Coffee Sachet",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:48.165Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 46,
+  "fields": {
+    "product": 46,
+    "image": "products/10.jpg",
+    "alt_text": "Arabic Coffee 10 Sachets",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:49.475Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 47,
+  "fields": {
+    "product": 47,
+    "image": "products/image_KUYC0Vp.jpg",
+    "alt_text": "Saudi Coffee Sachet",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:49.519Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 48,
+  "fields": {
+    "product": 48,
+    "image": "products/10_oEkDx55.jpg",
+    "alt_text": "Saudi Coffee 10 Sachets",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:50.087Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 49,
+  "fields": {
+    "product": 49,
+    "image": "products/3-in-1.jpg",
+    "alt_text": "Rio House 3 in 1",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:50.529Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 50,
+  "fields": {
+    "product": 50,
+    "image": "products/3-in-1-bag.jpg",
+    "alt_text": "Rio House 3 in 1 Bag",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:51.496Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 51,
+  "fields": {
+    "product": 51,
+    "image": "products/2-in-1.jpg",
+    "alt_text": "Rio House 2 in 1",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:52.056Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 52,
+  "fields": {
+    "product": 52,
+    "image": "products/2-in-1-bag.jpg",
+    "alt_text": "Rio House 2 in 1 Bag",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:53.810Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 53,
+  "fields": {
+    "product": 53,
+    "image": "products/black.jpg",
+    "alt_text": "Rio House Black",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:54.359Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 54,
+  "fields": {
+    "product": 54,
+    "image": "products/black-gar.jpg",
+    "alt_text": "Rio House Black Gar",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:55.351Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 55,
+  "fields": {
+    "product": 55,
+    "image": "products/gold.jpg",
+    "alt_text": "Rio House Gold",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:55.862Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 56,
+  "fields": {
+    "product": 56,
+    "image": "products/rio-mix.jpg",
+    "alt_text": "Rio House Mix",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:56.295Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 57,
+  "fields": {
+    "product": 57,
+    "image": "products/image_67wZ5oO.jpg",
+    "alt_text": "Rio House Caramel Cappuccino",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:56.709Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 58,
+  "fields": {
+    "product": 58,
+    "image": "products/image_6zxpbvj.jpg",
+    "alt_text": "Rio House Hazelnut Cappuccino",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:57.529Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 59,
+  "fields": {
+    "product": 59,
+    "image": "products/hot-chocolate.jpg",
+    "alt_text": "Rio House Hot Chocolate",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:57.946Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 60,
+  "fields": {
+    "product": 60,
+    "image": "products/mocha.jpg",
+    "alt_text": "Rio House Mocha",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:58.392Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 61,
+  "fields": {
+    "product": 61,
+    "image": "products/image_jpGll2O.jpg",
+    "alt_text": "Rio House Chai Karak",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:58.807Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 62,
+  "fields": {
+    "product": 62,
+    "image": "products/lentil.jpg",
+    "alt_text": "Rio House Lentil",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:59.245Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 63,
+  "fields": {
+    "product": 63,
+    "image": "products/milk-and-ginger.jpg",
+    "alt_text": "Rio House Milk & Ginger",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:56:59.664Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 64,
+  "fields": {
+    "product": 64,
+    "image": "products/image_Yx0PYI3.jpg",
+    "alt_text": "Rio House Salep",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:57:00.515Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 65,
+  "fields": {
+    "product": 65,
+    "image": "products/creamer.jpg",
+    "alt_text": "Rio House Creamer",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:57:01.191Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 66,
+  "fields": {
+    "product": 66,
+    "image": "products/aac61de4eaaac6df66546af34c0683f8.jpg",
+    "alt_text": "Caffitaly Cremoso",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:57:01.230Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 67,
+  "fields": {
+    "product": 67,
+    "image": "products/caffitaly-_-decaffeinato-box-of-10-capsules.jpg",
+    "alt_text": "Caffitaly Decaffeinato",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:57:01.248Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 68,
+  "fields": {
+    "product": 68,
+    "image": "products/caffitaly-intenso-capsules.jpg",
+    "alt_text": "Caffitaly Intenso",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:57:01.272Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 69,
+  "fields": {
+    "product": 69,
+    "image": "products/caffitaly-_-corposo-box-of-10-capsules.jpg",
+    "alt_text": "Caffitaly Corposo",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:57:01.287Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 70,
+  "fields": {
+    "product": 70,
+    "image": "products/ethiopia-nespresso-capsules.jpg",
+    "alt_text": "Compatible Ethiopia Capsules",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:57:01.419Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 71,
+  "fields": {
+    "product": 71,
+    "image": "products/deciso-nespresso-capsules.jpg",
+    "alt_text": "Compatible Deciso Capsules",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:57:01.477Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 72,
+  "fields": {
+    "product": 72,
+    "image": "products/soave-nespresso-capsules.jpg",
+    "alt_text": "Compatible Soave Capsules",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:57:01.507Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 73,
+  "fields": {
+    "product": 73,
+    "image": "products/deca-nespresso-capsules.jpg",
+    "alt_text": "Compatible Deca Capsules",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:57:01.532Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 74,
+  "fields": {
+    "product": 74,
+    "image": "products/s-16.jpg",
+    "alt_text": "Caffitaly S16",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:57:01.552Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 75,
+  "fields": {
+    "product": 75,
+    "image": "products/s-18.jpg",
+    "alt_text": "Caffitaly S18",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:57:01.578Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 76,
+  "fields": {
+    "product": 76,
+    "image": "products/s-22.jpg",
+    "alt_text": "Caffitaly S22",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:57:01.612Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 77,
+  "fields": {
+    "product": 77,
+    "image": "products/s-24.jpg",
+    "alt_text": "Caffitaly S24",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:57:01.636Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 78,
+  "fields": {
+    "product": 78,
+    "image": "products/s-27.jpg",
+    "alt_text": "Caffitaly S27",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:57:01.664Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 79,
+  "fields": {
+    "product": 79,
+    "image": "products/s-33.jpg",
+    "alt_text": "Caffitaly S33",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:57:01.937Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 80,
+  "fields": {
+    "product": 80,
+    "image": "products/s-36.jpg",
+    "alt_text": "Caffitaly S36",
+    "is_primary": true,
+    "sort_order": 0,
+    "created_at": "2026-10-19T14:57:02.233Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 1,
+  "fields": {
+    "product": 1,
+    "name": "250g",
+    "sku": "BCH-TR-LGT-250",
+    "price": "3.750",
+    "compare_at_price": null,
+    "stock_quantity": 25,
+    "weight_label": "250g",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:26.120Z",
+    "updated_at": "2026-10-19T15:02:13.454Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 2,
+  "fields": {
+    "product": 2,
+    "name": "250g",
+    "sku": "BCH-TR-MED-250",
+    "price": "3.750",
+    "compare_at_price": null,
+    "stock_quantity": 38,
+    "weight_label": "250g",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:26.517Z",
+    "updated_at": "2026-10-19T14:57:16.827Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 3,
+  "fields": {
+    "product": 3,
+    "name": "250g",
+    "sku": "BCH-TR-DRK-250",
+    "price": "3.750",
+    "compare_at_price": null,
+    "stock_quantity": 9,
+    "weight_label": "250g",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:26.872Z",
+    "updated_at": "2026-10-19T14:57:16.831Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 4,
+  "fields": {
+    "product": 4,
+    "name": "250g",
+    "sku": "BCH-TR-VAN-250",
+    "price": "4.250",
+    "compare_at_price": null,
+    "stock_quantity": 40,
+    "weight_label": "250g",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:27.608Z",
+    "updated_at": "2026-10-19T14:57:16.835Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 5,
+  "fields": {
+    "product": 5,
+    "name": "250g",
+    "sku": "BCH-TR-HZV-250",
+    "price": "4.250",
+    "compare_at_price": null,
+    "stock_quantity": 16,
+    "weight_label": "250g",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:27.909Z",
+    "updated_at": "2026-10-19T14:57:16.838Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 6,
+  "fields": {
+    "product": 6,
+    "name": "250g",
+    "sku": "BCH-TR-CAR-250",
+    "price": "4.250",
+    "compare_at_price": null,
+    "stock_quantity": 40,
+    "weight_label": "250g",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:28.139Z",
+    "updated_at": "2026-10-19T14:57:16.842Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 7,
+  "fields": {
+    "product": 7,
+    "name": "250g",
+    "sku": "BCH-TR-MAC-250",
+    "price": "4.250",
+    "compare_at_price": null,
+    "stock_quantity": 8,
+    "weight_label": "250g",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:28.379Z",
+    "updated_at": "2026-10-19T14:57:16.846Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 8,
+  "fields": {
+    "product": 8,
+    "name": "250g",
+    "sku": "BCH-TR-CHO-250",
+    "price": "4.250",
+    "compare_at_price": null,
+    "stock_quantity": 39,
+    "weight_label": "250g",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:28.825Z",
+    "updated_at": "2026-10-19T14:57:16.849Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 9,
+  "fields": {
+    "product": 9,
+    "name": "250g",
+    "sku": "BCH-TR-HAZ-250",
+    "price": "4.250",
+    "compare_at_price": null,
+    "stock_quantity": 21,
+    "weight_label": "250g",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:29.067Z",
+    "updated_at": "2026-10-19T14:57:16.852Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 10,
+  "fields": {
+    "product": 10,
+    "name": "250g",
+    "sku": "BCH-FR-ORG-250",
+    "price": "4.000",
+    "compare_at_price": null,
+    "stock_quantity": 16,
+    "weight_label": "250g",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:29.293Z",
+    "updated_at": "2026-10-19T14:57:16.856Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 11,
+  "fields": {
+    "product": 11,
+    "name": "250g",
+    "sku": "BCH-FR-HAZ-250",
+    "price": "4.250",
+    "compare_at_price": null,
+    "stock_quantity": 16,
+    "weight_label": "250g",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:29.519Z",
+    "updated_at": "2026-10-19T14:57:16.859Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 12,
+  "fields": {
+    "product": 12,
+    "name": "250g",
+    "sku": "BCH-FR-MAC-250",
+    "price": "4.250",
+    "compare_at_price": null,
+    "stock_quantity": 10,
+    "weight_label": "250g",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:29.747Z",
+    "updated_at": "2026-10-19T14:57:16.862Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 13,
+  "fields": {
+    "product": 13,
+    "name": "250g",
+    "sku": "BCH-TR-MAS-250",
+    "price": "4.250",
+    "compare_at_price": null,
+    "stock_quantity": 30,
+    "weight_label": "250g",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:29.801Z",
+    "updated_at": "2026-10-19T14:57:16.866Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 14,
+  "fields": {
+    "product": 14,
+    "name": "250g",
+    "sku": "BCH-TR-DEC-250",
+    "price": "4.500",
+    "compare_at_price": null,
+    "stock_quantity": 16,
+    "weight_label": "250g",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:30.173Z",
+    "updated_at": "2026-10-19T14:57:16.870Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 15,
+  "fields": {
+    "product": 15,
+    "name": "sachet",
+    "sku": "BCH-TR-SCH",
+    "price": "2.500",
+    "compare_at_price": null,
+    "stock_quantity": 22,
+    "weight_label": "sachet",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:30.998Z",
+    "updated_at": "2026-10-19T14:57:16.873Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 16,
+  "fields": {
+    "product": 16,
+    "name": "250g",
+    "sku": "BCH-TR-OTT-250",
+    "price": "4.500",
+    "compare_at_price": null,
+    "stock_quantity": 9,
+    "weight_label": "250g",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:31.592Z",
+    "updated_at": "2026-10-19T14:57:16.876Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 17,
+  "fields": {
+    "product": 17,
+    "name": "250g",
+    "sku": "BCH-TR-JOR-250",
+    "price": "4.000",
+    "compare_at_price": null,
+    "stock_quantity": 29,
+    "weight_label": "250g",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:32.591Z",
+    "updated_at": "2026-10-19T14:57:16.879Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 18,
+  "fields": {
+    "product": 18,
+    "name": "bag",
+    "sku": "BCH-TR-JOR-BAG",
+    "price": "3.500",
+    "compare_at_price": null,
+    "stock_quantity": 9,
+    "weight_label": "bag",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:33.293Z",
+    "updated_at": "2026-10-19T14:57:16.882Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 19,
+  "fields": {
+    "product": 19,
+    "name": "250g",
+    "sku": "BCH-TR-ETH-250",
+    "price": "5.000",
+    "compare_at_price": null,
+    "stock_quantity": 8,
+    "weight_label": "250g",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:33.642Z",
+    "updated_at": "2026-10-19T14:57:16.886Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 20,
+  "fields": {
+    "product": 20,
+    "name": "250g",
+    "sku": "BCH-TR-COL-250",
+    "price": "5.000",
+    "compare_at_price": null,
+    "stock_quantity": 34,
+    "weight_label": "250g",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:34.266Z",
+    "updated_at": "2026-10-19T14:57:16.890Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 21,
+  "fields": {
+    "product": 21,
+    "name": "250g",
+    "sku": "BCH-TR-KEN-250",
+    "price": "5.000",
+    "compare_at_price": null,
+    "stock_quantity": 30,
+    "weight_label": "250g",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:34.699Z",
+    "updated_at": "2026-10-19T14:57:16.893Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 22,
+  "fields": {
+    "product": 22,
+    "name": "250g",
+    "sku": "BCH-TR-IND-250",
+    "price": "4.750",
+    "compare_at_price": null,
+    "stock_quantity": 25,
+    "weight_label": "250g",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:35.486Z",
+    "updated_at": "2026-10-19T14:57:16.898Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 23,
+  "fields": {
+    "product": 23,
+    "name": "250g",
+    "sku": "BCH-TR-PER-250",
+    "price": "4.750",
+    "compare_at_price": null,
+    "stock_quantity": 25,
+    "weight_label": "250g",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:35.837Z",
+    "updated_at": "2026-10-19T14:57:16.904Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 24,
+  "fields": {
+    "product": 24,
+    "name": "250g",
+    "sku": "BCH-FL-ORG-250",
+    "price": "4.500",
+    "compare_at_price": null,
+    "stock_quantity": 12,
+    "weight_label": "250g",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:36.116Z",
+    "updated_at": "2026-10-19T14:57:16.908Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 25,
+  "fields": {
+    "product": 25,
+    "name": "250g",
+    "sku": "BCH-FL-COL-250",
+    "price": "5.250",
+    "compare_at_price": null,
+    "stock_quantity": 24,
+    "weight_label": "250g",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:36.940Z",
+    "updated_at": "2026-10-19T14:57:16.911Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 26,
+  "fields": {
+    "product": 26,
+    "name": "250g",
+    "sku": "BCH-FL-KEN-250",
+    "price": "5.250",
+    "compare_at_price": null,
+    "stock_quantity": 19,
+    "weight_label": "250g",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:37.631Z",
+    "updated_at": "2026-10-19T14:57:16.913Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 27,
+  "fields": {
+    "product": 27,
+    "name": "250g",
+    "sku": "BCH-FL-ETH-250",
+    "price": "5.250",
+    "compare_at_price": null,
+    "stock_quantity": 12,
+    "weight_label": "250g",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:38.012Z",
+    "updated_at": "2026-10-19T14:57:16.916Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 28,
+  "fields": {
+    "product": 28,
+    "name": "250g",
+    "sku": "BCH-FL-PER-250",
+    "price": "5.000",
+    "compare_at_price": null,
+    "stock_quantity": 13,
+    "weight_label": "250g",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:38.376Z",
+    "updated_at": "2026-10-19T14:57:16.922Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 29,
+  "fields": {
+    "product": 29,
+    "name": "250g",
+    "sku": "BCH-FL-ORGNC-250",
+    "price": "5.750",
+    "compare_at_price": null,
+    "stock_quantity": 21,
+    "weight_label": "250g",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:38.738Z",
+    "updated_at": "2026-10-19T14:57:16.926Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 30,
+  "fields": {
+    "product": 30,
+    "name": "250g",
+    "sku": "BCH-FL-VAN-250",
+    "price": "4.750",
+    "compare_at_price": null,
+    "stock_quantity": 37,
+    "weight_label": "250g",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:39.137Z",
+    "updated_at": "2026-10-19T14:57:16.929Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 31,
+  "fields": {
+    "product": 31,
+    "name": "250g",
+    "sku": "BCH-FL-HAZ-250",
+    "price": "4.750",
+    "compare_at_price": null,
+    "stock_quantity": 16,
+    "weight_label": "250g",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:39.516Z",
+    "updated_at": "2026-10-19T14:57:16.933Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 32,
+  "fields": {
+    "product": 32,
+    "name": "250g",
+    "sku": "BCH-FL-VHZ-250",
+    "price": "4.750",
+    "compare_at_price": null,
+    "stock_quantity": 27,
+    "weight_label": "250g",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:40.362Z",
+    "updated_at": "2026-10-19T14:57:16.946Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 33,
+  "fields": {
+    "product": 33,
+    "name": "250g",
+    "sku": "BCH-FL-SCR-250",
+    "price": "4.750",
+    "compare_at_price": null,
+    "stock_quantity": 19,
+    "weight_label": "250g",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:40.809Z",
+    "updated_at": "2026-10-19T14:57:16.950Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 34,
+  "fields": {
+    "product": 34,
+    "name": "250g",
+    "sku": "BCH-FL-MAC-250",
+    "price": "4.750",
+    "compare_at_price": null,
+    "stock_quantity": 36,
+    "weight_label": "250g",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:41.662Z",
+    "updated_at": "2026-10-19T14:57:16.953Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 35,
+  "fields": {
+    "product": 35,
+    "name": "250g",
+    "sku": "BCH-FL-CHO-250",
+    "price": "4.750",
+    "compare_at_price": null,
+    "stock_quantity": 21,
+    "weight_label": "250g",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:42.213Z",
+    "updated_at": "2026-10-19T14:57:16.957Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 36,
+  "fields": {
+    "product": 36,
+    "name": "250g",
+    "sku": "BCH-FL-MAS-250",
+    "price": "4.750",
+    "compare_at_price": null,
+    "stock_quantity": 27,
+    "weight_label": "250g",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:43.127Z",
+    "updated_at": "2026-10-19T14:57:16.960Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 37,
+  "fields": {
+    "product": 37,
+    "name": "250g",
+    "sku": "BCH-FL-DEC-250",
+    "price": "5.000",
+    "compare_at_price": null,
+    "stock_quantity": 9,
+    "weight_label": "250g",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:43.565Z",
+    "updated_at": "2026-10-19T14:57:16.964Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 38,
+  "fields": {
+    "product": 38,
+    "name": "bag",
+    "sku": "BCH-FL-BAG",
+    "price": "3.250",
+    "compare_at_price": null,
+    "stock_quantity": 11,
+    "weight_label": "bag",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:44.651Z",
+    "updated_at": "2026-10-19T14:57:16.967Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 39,
+  "fields": {
+    "product": 39,
+    "name": "drip bag",
+    "sku": "BCH-DR-ORG",
+    "price": "3.500",
+    "compare_at_price": null,
+    "stock_quantity": 17,
+    "weight_label": "drip bag",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:44.921Z",
+    "updated_at": "2026-10-19T14:57:16.971Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 40,
+  "fields": {
+    "product": 40,
+    "name": "drip bag",
+    "sku": "BCH-DR-HAZ",
+    "price": "3.750",
+    "compare_at_price": null,
+    "stock_quantity": 36,
+    "weight_label": "drip bag",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:45.653Z",
+    "updated_at": "2026-10-19T14:57:16.974Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 41,
+  "fields": {
+    "product": 41,
+    "name": "drip bag",
+    "sku": "BCH-DR-MAC",
+    "price": "3.750",
+    "compare_at_price": null,
+    "stock_quantity": 38,
+    "weight_label": "drip bag",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:46.286Z",
+    "updated_at": "2026-10-19T14:57:16.977Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 42,
+  "fields": {
+    "product": 42,
+    "name": "drip bag",
+    "sku": "BCH-DR-DEC",
+    "price": "3.750",
+    "compare_at_price": null,
+    "stock_quantity": 38,
+    "weight_label": "drip bag",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:46.888Z",
+    "updated_at": "2026-10-19T14:57:16.981Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 43,
+  "fields": {
+    "product": 43,
+    "name": "250g",
+    "sku": "BCH-ES-MED-250",
+    "price": "4.750",
+    "compare_at_price": null,
+    "stock_quantity": 8,
+    "weight_label": "250g",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:47.477Z",
+    "updated_at": "2026-10-19T14:57:16.984Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 44,
+  "fields": {
+    "product": 44,
+    "name": "250g",
+    "sku": "BCH-ES-DRK-250",
+    "price": "4.750",
+    "compare_at_price": null,
+    "stock_quantity": 10,
+    "weight_label": "250g",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:47.804Z",
+    "updated_at": "2026-10-19T14:57:16.988Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 45,
+  "fields": {
+    "product": 45,
+    "name": "sachet",
+    "sku": "BCH-AR-SCH",
+    "price": "0.750",
+    "compare_at_price": null,
+    "stock_quantity": 30,
+    "weight_label": "sachet",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:48.132Z",
+    "updated_at": "2026-10-19T14:57:16.992Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 46,
+  "fields": {
+    "product": 46,
+    "name": "10 sachets",
+    "sku": "BCH-AR-10",
+    "price": "4.500",
+    "compare_at_price": null,
+    "stock_quantity": 15,
+    "weight_label": "10 sachets",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:48.173Z",
+    "updated_at": "2026-10-19T14:57:16.995Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 47,
+  "fields": {
+    "product": 47,
+    "name": "sachet",
+    "sku": "BCH-SA-SCH",
+    "price": "0.750",
+    "compare_at_price": null,
+    "stock_quantity": 35,
+    "weight_label": "sachet",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:49.487Z",
+    "updated_at": "2026-10-19T14:57:16.998Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 48,
+  "fields": {
+    "product": 48,
+    "name": "10 sachets",
+    "sku": "BCH-SA-10",
+    "price": "4.500",
+    "compare_at_price": null,
+    "stock_quantity": 17,
+    "weight_label": "10 sachets",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:49.523Z",
+    "updated_at": "2026-10-19T14:57:17.001Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 49,
+  "fields": {
+    "product": 49,
+    "name": "24 sachets",
+    "sku": "BCH-RIO-3IN1-24",
+    "price": "3.250",
+    "compare_at_price": null,
+    "stock_quantity": 32,
+    "weight_label": "24 sachets",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:50.092Z",
+    "updated_at": "2026-10-19T14:57:17.005Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 50,
+  "fields": {
+    "product": 50,
+    "name": "30 sachets",
+    "sku": "BCH-RIO-3IN1-30",
+    "price": "3.750",
+    "compare_at_price": null,
+    "stock_quantity": 22,
+    "weight_label": "30 sachets",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:50.542Z",
+    "updated_at": "2026-10-19T14:57:17.008Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 51,
+  "fields": {
+    "product": 51,
+    "name": "24 sachets",
+    "sku": "BCH-RIO-2IN1-24",
+    "price": "3.250",
+    "compare_at_price": null,
+    "stock_quantity": 18,
+    "weight_label": "24 sachets",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:51.510Z",
+    "updated_at": "2026-10-19T14:57:17.011Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 52,
+  "fields": {
+    "product": 52,
+    "name": "30 sachets",
+    "sku": "BCH-RIO-2IN1-30",
+    "price": "3.750",
+    "compare_at_price": null,
+    "stock_quantity": 18,
+    "weight_label": "30 sachets",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:52.061Z",
+    "updated_at": "2026-10-19T14:57:17.014Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 53,
+  "fields": {
+    "product": 53,
+    "name": "box",
+    "sku": "BCH-RIO-BLK",
+    "price": "3.000",
+    "compare_at_price": null,
+    "stock_quantity": 35,
+    "weight_label": "box",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:53.828Z",
+    "updated_at": "2026-10-19T14:57:17.017Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 54,
+  "fields": {
+    "product": 54,
+    "name": "jar",
+    "sku": "BCH-RIO-BLK-JAR",
+    "price": "4.250",
+    "compare_at_price": null,
+    "stock_quantity": 13,
+    "weight_label": "jar",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:54.366Z",
+    "updated_at": "2026-10-19T14:57:17.020Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 55,
+  "fields": {
+    "product": 55,
+    "name": "box",
+    "sku": "BCH-RIO-GLD",
+    "price": "3.500",
+    "compare_at_price": null,
+    "stock_quantity": 17,
+    "weight_label": "box",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:55.356Z",
+    "updated_at": "2026-10-19T14:57:17.023Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 56,
+  "fields": {
+    "product": 56,
+    "name": "box",
+    "sku": "BCH-RIO-MIX",
+    "price": "3.250",
+    "compare_at_price": null,
+    "stock_quantity": 13,
+    "weight_label": "box",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:55.869Z",
+    "updated_at": "2026-10-19T14:57:17.027Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 57,
+  "fields": {
+    "product": 57,
+    "name": "box",
+    "sku": "BCH-RIO-CAP-CAR",
+    "price": "3.500",
+    "compare_at_price": null,
+    "stock_quantity": 11,
+    "weight_label": "box",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:56.299Z",
+    "updated_at": "2026-10-19T14:57:17.030Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 58,
+  "fields": {
+    "product": 58,
+    "name": "box",
+    "sku": "BCH-RIO-CAP-HAZ",
+    "price": "3.500",
+    "compare_at_price": null,
+    "stock_quantity": 28,
+    "weight_label": "box",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:56.714Z",
+    "updated_at": "2026-10-19T14:57:17.033Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 59,
+  "fields": {
+    "product": 59,
+    "name": "box",
+    "sku": "BCH-RIO-CHO",
+    "price": "3.500",
+    "compare_at_price": null,
+    "stock_quantity": 19,
+    "weight_label": "box",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:57.533Z",
+    "updated_at": "2026-10-19T14:57:17.037Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 60,
+  "fields": {
+    "product": 60,
+    "name": "box",
+    "sku": "BCH-RIO-MOC",
+    "price": "3.500",
+    "compare_at_price": null,
+    "stock_quantity": 21,
+    "weight_label": "box",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:57.950Z",
+    "updated_at": "2026-10-19T14:57:17.040Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 61,
+  "fields": {
+    "product": 61,
+    "name": "box",
+    "sku": "BCH-RIO-KRK",
+    "price": "3.250",
+    "compare_at_price": null,
+    "stock_quantity": 30,
+    "weight_label": "box",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:58.396Z",
+    "updated_at": "2026-10-19T14:57:17.043Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 62,
+  "fields": {
+    "product": 62,
+    "name": "box",
+    "sku": "BCH-RIO-LNT",
+    "price": "2.750",
+    "compare_at_price": null,
+    "stock_quantity": 40,
+    "weight_label": "box",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:58.811Z",
+    "updated_at": "2026-10-19T14:57:17.047Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 63,
+  "fields": {
+    "product": 63,
+    "name": "box",
+    "sku": "BCH-RIO-GIN",
+    "price": "3.000",
+    "compare_at_price": null,
+    "stock_quantity": 36,
+    "weight_label": "box",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:59.249Z",
+    "updated_at": "2026-10-19T14:57:17.050Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 64,
+  "fields": {
+    "product": 64,
+    "name": "box",
+    "sku": "BCH-RIO-SLP",
+    "price": "3.500",
+    "compare_at_price": null,
+    "stock_quantity": 15,
+    "weight_label": "box",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:56:59.670Z",
+    "updated_at": "2026-10-19T14:57:17.054Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 65,
+  "fields": {
+    "product": 65,
+    "name": "box",
+    "sku": "BCH-RIO-CRM",
+    "price": "2.750",
+    "compare_at_price": null,
+    "stock_quantity": 28,
+    "weight_label": "box",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:57:00.520Z",
+    "updated_at": "2026-10-19T14:57:17.057Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 66,
+  "fields": {
+    "product": 66,
+    "name": "10 capsules",
+    "sku": "BCH-CAF-CRE-10",
+    "price": "4.500",
+    "compare_at_price": null,
+    "stock_quantity": 40,
+    "weight_label": "10 capsules",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:57:01.207Z",
+    "updated_at": "2026-10-19T14:57:17.061Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 67,
+  "fields": {
+    "product": 67,
+    "name": "10 capsules",
+    "sku": "BCH-CAF-DEC-10",
+    "price": "4.500",
+    "compare_at_price": null,
+    "stock_quantity": 34,
+    "weight_label": "10 capsules",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:57:01.238Z",
+    "updated_at": "2026-10-19T14:57:17.064Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 68,
+  "fields": {
+    "product": 68,
+    "name": "10 capsules",
+    "sku": "BCH-CAF-INT-10",
+    "price": "4.500",
+    "compare_at_price": null,
+    "stock_quantity": 40,
+    "weight_label": "10 capsules",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:57:01.251Z",
+    "updated_at": "2026-10-19T14:57:17.068Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 69,
+  "fields": {
+    "product": 69,
+    "name": "10 capsules",
+    "sku": "BCH-CAF-COR-10",
+    "price": "4.500",
+    "compare_at_price": null,
+    "stock_quantity": 17,
+    "weight_label": "10 capsules",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:57:01.276Z",
+    "updated_at": "2026-10-19T14:57:17.072Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 70,
+  "fields": {
+    "product": 70,
+    "name": "10 capsules",
+    "sku": "BCH-NSP-ETH-10",
+    "price": "4.250",
+    "compare_at_price": null,
+    "stock_quantity": 19,
+    "weight_label": "10 capsules",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:57:01.291Z",
+    "updated_at": "2026-10-19T14:57:17.076Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 71,
+  "fields": {
+    "product": 71,
+    "name": "10 capsules",
+    "sku": "BCH-NSP-DES-10",
+    "price": "4.250",
+    "compare_at_price": null,
+    "stock_quantity": 11,
+    "weight_label": "10 capsules",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:57:01.423Z",
+    "updated_at": "2026-10-19T14:57:17.079Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 72,
+  "fields": {
+    "product": 72,
+    "name": "10 capsules",
+    "sku": "BCH-NSP-SOA-10",
+    "price": "4.250",
+    "compare_at_price": null,
+    "stock_quantity": 17,
+    "weight_label": "10 capsules",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:57:01.487Z",
+    "updated_at": "2026-10-19T14:57:17.083Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 73,
+  "fields": {
+    "product": 73,
+    "name": "10 capsules",
+    "sku": "BCH-NSP-DEC-10",
+    "price": "4.250",
+    "compare_at_price": null,
+    "stock_quantity": 32,
+    "weight_label": "10 capsules",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:57:01.512Z",
+    "updated_at": "2026-10-19T14:57:17.086Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 74,
+  "fields": {
+    "product": 74,
+    "name": "machine",
+    "sku": "BCH-CAFFITALY-S16",
+    "price": "49.000",
+    "compare_at_price": null,
+    "stock_quantity": 8,
+    "weight_label": "machine",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:57:01.537Z",
+    "updated_at": "2026-10-19T14:57:17.089Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 75,
+  "fields": {
+    "product": 75,
+    "name": "machine",
+    "sku": "BCH-CAFFITALY-S18",
+    "price": "59.000",
+    "compare_at_price": null,
+    "stock_quantity": 26,
+    "weight_label": "machine",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:57:01.559Z",
+    "updated_at": "2026-10-19T14:57:17.092Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 76,
+  "fields": {
+    "product": 76,
+    "name": "machine",
+    "sku": "BCH-CAFFITALY-S22",
+    "price": "69.000",
+    "compare_at_price": null,
+    "stock_quantity": 25,
+    "weight_label": "machine",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:57:01.583Z",
+    "updated_at": "2026-10-19T14:57:17.096Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 77,
+  "fields": {
+    "product": 77,
+    "name": "machine",
+    "sku": "BCH-CAFFITALY-S24",
+    "price": "79.000",
+    "compare_at_price": null,
+    "stock_quantity": 29,
+    "weight_label": "machine",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:57:01.616Z",
+    "updated_at": "2026-10-19T14:57:17.099Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 78,
+  "fields": {
+    "product": 78,
+    "name": "machine",
+    "sku": "BCH-CAFFITALY-S27",
+    "price": "89.000",
+    "compare_at_price": null,
+    "stock_quantity": 40,
+    "weight_label": "machine",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:57:01.640Z",
+    "updated_at": "2026-10-19T14:57:17.103Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 79,
+  "fields": {
+    "product": 79,
+    "name": "machine",
+    "sku": "BCH-CAFFITALY-S33",
+    "price": "99.000",
+    "compare_at_price": null,
+    "stock_quantity": 33,
+    "weight_label": "machine",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:57:01.668Z",
+    "updated_at": "2026-10-19T14:57:17.106Z"
+  }
+},
+{
+  "model": "catalog.productvariant",
+  "pk": 80,
+  "fields": {
+    "product": 80,
+    "name": "machine",
+    "sku": "BCH-CAFFITALY-S36",
+    "price": "119.000",
+    "compare_at_price": null,
+    "stock_quantity": 31,
+    "weight_label": "machine",
+    "image": "",
+    "is_active": true,
+    "created_at": "2026-10-19T14:57:01.942Z",
+    "updated_at": "2026-10-19T14:57:17.110Z"
+  }
+},
+{
+  "model": "cms.announcement",
+  "pk": 1,
+  "fields": {
+    "text": "Free delivery in Amman over JD 25 — demo, editable.",
+    "link_url": "/products",
+    "is_active": true,
+    "dismissible": true,
+    "starts_at": null,
+    "ends_at": null,
+    "display_order": 0,
+    "created_at": "2026-10-19T14:57:02.297Z",
+    "updated_at": "2026-10-19T14:57:17.128Z"
+  }
+},
+{
+  "model": "cms.article",
+  "pk": 1,
+  "fields": {
+    "title": "Coffee culture in Amman",
+    "slug": "coffee-culture-in-amman",
+    "excerpt": "From the cezve on the stove to the office espresso — how Jordan drinks coffee now.",
+    "content": "<p>Amman drinks coffee in layers. There is the morning cezve, cardamom rising through the kitchen.\nThere is the office machine, the visit to a parent’s house, the tin opened for guests.</p>\n<p>Brazilian Coffee House has been part of that rhythm since 1995, after decades of roasting at\nKuwait International Mill. The blends are familiar on purpose: Turkish, filter, espresso, and the\nsachets people keep in a drawer for unexpected company.</p>",
+    "cover_image": "articles/image_OSBIjpf.jpg",
+    "category": 1,
+    "author": [
+      "content@bch-coffee.com"
+    ],
+    "status": "published",
+    "is_featured": true,
+    "published_at": "2026-10-18T14:57:17.133Z",
+    "seo_title": "Coffee culture in Amman",
+    "seo_description": "From the cezve on the stove to the office espresso — how Jordan drinks coffee now.",
+    "og_image": "",
+    "created_at": "2026-10-19T14:57:02.306Z",
+    "updated_at": "2026-10-19T14:57:17.134Z",
+    "related_products": [
+      43,
+      1,
+      2
+    ],
+    "related_articles": []
+  }
+},
+{
+  "model": "cms.article",
+  "pk": 2,
+  "fields": {
+    "title": "How we make Turkish coffee",
+    "slug": "how-we-make-turkish-coffee",
+    "excerpt": "A short guide to the house Turkish roast, the grind, and a calm cezve.",
+    "content": "<p>Turkish coffee is not hurried. Use a fine grind, cold water, and a cezve that can sit on a low flame.\nSweeten in the pot if you take sugar. Add cardamom if you want the house cup.</p>\n<p>Our light, medium, and dark Turkish tins are roasted for that method — not for a machine, not for a\nfilter. Bring it just to the rise, pour, and wait for the grounds to settle.</p>",
+    "cover_image": "articles/image.jpg",
+    "category": 1,
+    "author": [
+      "content@bch-coffee.com"
+    ],
+    "status": "published",
+    "is_featured": false,
+    "published_at": "2026-10-17T14:57:17.133Z",
+    "seo_title": "How we make Turkish coffee",
+    "seo_description": "A short guide to the house Turkish roast, the grind, and a calm cezve.",
+    "og_image": "",
+    "created_at": "2026-10-19T14:57:02.322Z",
+    "updated_at": "2026-10-19T14:57:17.139Z",
+    "related_products": [
+      17,
+      1,
+      2
+    ],
+    "related_articles": []
+  }
+},
+{
+  "model": "cms.article",
+  "pk": 3,
+  "fields": {
+    "title": "From the mill to Jordan",
+    "slug": "from-the-mill-to-jordan",
+    "excerpt": "A heritage note: 1955 at Kuwait International Mill, 1995 in Jordan.",
+    "content": "<p>The house began in 1955 at Kuwait International Mill. Forty years later the same roasting craft\narrived in Jordan. The tins changed, the cities changed, the mill memory did not.</p>\n<p>That is the story we still tell in the shop: origin lots and flavored Turkish, espresso for the\nmachine, filter for the weekend, and Rio House for the cupboard that has to work on a busy morning.</p>",
+    "cover_image": "articles/espresso-medium.jpg",
+    "category": 1,
+    "author": [
+      "content@bch-coffee.com"
+    ],
+    "status": "published",
+    "is_featured": false,
+    "published_at": "2026-10-16T14:57:17.133Z",
+    "seo_title": "From the mill to Jordan",
+    "seo_description": "A heritage note: 1955 at Kuwait International Mill, 1995 in Jordan.",
+    "og_image": "",
+    "created_at": "2026-10-19T14:57:02.329Z",
+    "updated_at": "2026-10-19T14:57:17.142Z",
+    "related_products": [
+      44,
+      43,
+      24
+    ],
+    "related_articles": []
+  }
+},
+{
+  "model": "cms.articlecategory",
+  "pk": 1,
+  "fields": {
+    "name": "Journal",
+    "slug": "journal",
+    "description": "Coffee culture from the house mill."
+  }
+},
+{
+  "model": "cms.banner",
+  "pk": 1,
+  "fields": {
+    "title": "Espresso, roasted for the machine",
+    "subtitle": "100% Arabica espresso with chocolate and orange — the house shot since the mill days.",
+    "cta_label": "Shop espresso",
+    "cta_url": "/products?category=espresso",
+    "secondary_cta_label": "",
+    "secondary_cta_url": "",
+    "desktop_image": "banners/hero-espresso.png",
+    "mobile_image": "",
+    "alignment": "left",
+    "placement": "hero",
+    "is_active": true,
+    "display_order": 1,
+    "starts_at": null,
+    "ends_at": null,
+    "created_at": "2026-10-19T14:57:02.282Z",
+    "updated_at": "2026-10-19T14:57:17.119Z"
+  }
+},
+{
+  "model": "cms.banner",
+  "pk": 2,
+  "fields": {
+    "title": "The cezve, as it should be",
+    "subtitle": "Medium Turkish roast with cardamom, packed for a proper cup at home.",
+    "cta_label": "Shop Turkish coffee",
+    "cta_url": "/products?category=turkish-coffee",
+    "secondary_cta_label": "",
+    "secondary_cta_url": "",
+    "desktop_image": "banners/hero-turkish.png",
+    "mobile_image": "",
+    "alignment": "left",
+    "placement": "hero",
+    "is_active": true,
+    "display_order": 2,
+    "starts_at": null,
+    "ends_at": null,
+    "created_at": "2026-10-19T14:57:02.288Z",
+    "updated_at": "2026-10-19T14:57:17.121Z"
+  }
+},
+{
+  "model": "cms.banner",
+  "pk": 3,
+  "fields": {
+    "title": "Filter coffee, origin lots",
+    "subtitle": "Brazil, Colombia, Kenya, and Ethiopia — roasted for pour-over and drip.",
+    "cta_label": "Shop filter",
+    "cta_url": "/products?category=filter-coffee",
+    "secondary_cta_label": "",
+    "secondary_cta_url": "",
+    "desktop_image": "banners/hero-filter.png",
+    "mobile_image": "",
+    "alignment": "left",
+    "placement": "hero",
+    "is_active": true,
+    "display_order": 3,
+    "starts_at": null,
+    "ends_at": null,
+    "created_at": "2026-10-19T14:57:02.292Z",
+    "updated_at": "2026-10-19T14:57:17.124Z"
+  }
+},
+{
+  "model": "cms.banner",
+  "pk": 4,
+  "fields": {
+    "title": "Drip coffee, anywhere",
+    "subtitle": "Single-serve drip bags for a clean cup on the desk, in the car, or visiting family.",
+    "cta_label": "Try drip bags",
+    "cta_url": "/products?category=drip-coffee",
+    "secondary_cta_label": "",
+    "secondary_cta_url": "",
+    "desktop_image": "banners/promo-drip.jpg",
+    "mobile_image": "",
+    "alignment": "center",
+    "placement": "promo",
+    "is_active": true,
+    "display_order": 1,
+    "starts_at": null,
+    "ends_at": null,
+    "created_at": "2026-10-19T14:57:02.295Z",
+    "updated_at": "2026-10-19T14:57:17.126Z"
+  }
+},
+{
+  "model": "cms.legalpage",
+  "pk": 1,
+  "fields": {
+    "slug": "privacy",
+    "title": "Privacy Policy",
+    "content": "<p>Brazilian Coffee House collects only what we need to fulfil orders, answer enquiries, and improve the shop. We do not sell personal data. Contact info@bch-coffee.com with privacy requests.</p>",
+    "is_published": true,
+    "updated_at": "2026-10-19T14:57:17.145Z"
+  }
+},
+{
+  "model": "cms.legalpage",
+  "pk": 2,
+  "fields": {
+    "slug": "terms",
+    "title": "Terms of Sale",
+    "content": "<p>Orders are an offer to purchase. Cash on delivery orders are confirmed by our team. Prices are in Jordanian dinars. Demonstration catalogue prices may be edited in the admin.</p>",
+    "is_published": true,
+    "updated_at": "2026-10-19T14:57:17.147Z"
+  }
+},
+{
+  "model": "cms.legalpage",
+  "pk": 3,
+  "fields": {
+    "slug": "shipping",
+    "title": "Shipping",
+    "content": "<p>We deliver in Amman. Delivery is JD 2.000, free over JD 25.000. Lead times are confirmed after the order is placed. Remote areas may require a phone confirmation.</p>",
+    "is_published": true,
+    "updated_at": "2026-10-19T14:57:17.148Z"
+  }
+},
+{
+  "model": "cms.legalpage",
+  "pk": 4,
+  "fields": {
+    "slug": "returns",
+    "title": "Returns",
+    "content": "<p>Unopened tins and sealed goods may be returned within 7 days if unused. Perishable opened coffee is not returnable. Write to info@bch-coffee.com to start a return.</p>",
+    "is_published": true,
+    "updated_at": "2026-10-19T14:57:17.149Z"
+  }
+},
+{
+  "model": "cms.storesetting",
+  "pk": 1,
+  "fields": {
+    "key": "store",
+    "value": {
+      "logo": "/media/brand/logo.png",
+      "about": "Brazilian Coffee House began in 1955 at Kuwait International Mill, roasting coffee for homes and cafés across the region. In 1995 the house arrived in Jordan, bringing the same craft of Turkish, filter, espresso, and specialty blends to Amman. Every tin still carries that mill heritage — slow, careful, and made to be shared.",
+      "email": "info@bch-coffee.com",
+      "phone": "06 222 3330",
+      "social": {
+        "tiktok": "",
+        "facebook": "https://facebook.com/braziliancoffeehouse",
+        "instagram": "https://instagram.com/braziliancoffeehouse"
+      },
+      "website": "https://braziliancoffeehouse.com",
+      "branches": [
+        {
+          "city": "Amman",
+          "name": "Abdali Boulevard",
+          "phone": "06 222 3330"
+        },
+        {
+          "city": "Amman",
+          "name": "Sweifieh",
+          "phone": "06 222 3330"
+        },
+        {
+          "city": "Amman",
+          "name": "Khalda",
+          "phone": "06 222 3330"
+        }
+      ],
+      "currency": "JOD",
+      "store_name": "Brazilian Coffee House",
+      "established": 1955,
+      "delivery_fee": "2.000",
+      "jordan_since": 1995,
+      "store_name_ar": "بيت البن البرازيلي",
+      "currency_symbol": "JD",
+      "homepage_sections": [
+        "announcement",
+        "hero",
+        "featured_categories",
+        "featured_products",
+        "promo",
+        "new_arrivals",
+        "journal"
+      ],
+      "free_shipping_over": "25.000"
+    },
+    "updated_at": "2026-10-19T14:57:17.113Z"
+  }
+}
+]

@@ -166,6 +166,7 @@ CORS_ALLOWED_ORIGINS = env_list(
 if FRONTEND_URL and FRONTEND_URL.rstrip("/") not in CORS_ALLOWED_ORIGINS:
     CORS_ALLOWED_ORIGINS.append(FRONTEND_URL.rstrip("/"))
 CORS_ALLOWED_ORIGIN_REGEXES = [
+    r"^https://brazilian-coffee-house(-[a-z0-9]+)?\.vercel\.app$",
     r"^https://brazilian-coffee-front-end(-[a-z0-9]+)?\.vercel\.app$",
 ]
 if DEBUG:

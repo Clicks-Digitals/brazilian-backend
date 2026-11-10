@@ -287,7 +287,7 @@ class Command(BaseCommand):
                 {"name": "Khalda", "city": "Amman", "phone": "06 222 3330"},
             ],
             "social": {
-                "instagram": "https://instagram.com/braziliancoffeehouse",
+                "instagram": "https://www.instagram.com/brazilian_coffee_house/",
                 "facebook": "https://facebook.com/braziliancoffeehouse",
                 "tiktok": "",
             },

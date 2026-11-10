@@ -70,7 +70,7 @@ class CheckoutCustomerSerializer(serializers.Serializer):
 class CheckoutAddressSerializer(serializers.Serializer):
     line1 = serializers.CharField()
     line2 = serializers.CharField(required=False, allow_blank=True)
-    city = serializers.CharField()
+    city = serializers.CharField(required=False, allow_blank=True)
     area = serializers.CharField(required=False, allow_blank=True)
     country = serializers.CharField(required=False, allow_blank=True)
     delivery_instructions = serializers.CharField(required=False, allow_blank=True)

@@ -333,9 +333,13 @@ def checkout(request, payload: dict) -> Order:
     customer = payload.get("customer") or {}
     address = payload.get("address") or {}
     user = request.user if getattr(request.user, "is_authenticated", False) else None
+    phone = customer.get("phone") or (user.phone if user else "")
+    if not phone:
+        raise APIError("Customer phone is required.", code="validation_error")
     email = (customer.get("email") or (user.email if user else "")).lower()
     if not email:
-        raise APIError("Customer email is required.", code="validation_error")
+        digits = "".join(ch for ch in str(phone) if ch.isdigit()) or "guest"
+        email = f"{digits}@guest.bch-coffee.com"
     name = (
         customer.get("full_name")
         or f"{customer.get('first_name', '')} {customer.get('last_name', '')}".strip()
@@ -343,11 +347,12 @@ def checkout(request, payload: dict) -> Order:
     )
     if not name:
         raise APIError("Customer name is required.", code="validation_error")
-    phone = customer.get("phone") or (user.phone if user else "")
-    if not phone:
-        raise APIError("Customer phone is required.", code="validation_error")
-    if not address.get("line1") or not address.get("city"):
-        raise APIError("Delivery address is required.", code="validation_error")
+    location = (address.get("line1") or address.get("location") or "").strip()
+    if not location:
+        raise APIError("Delivery location is required.", code="validation_error")
+    address["line1"] = location
+    if not (address.get("city") or "").strip():
+        address["city"] = location
 
     code = (payload.get("discount_code") or "").strip()
     if code:

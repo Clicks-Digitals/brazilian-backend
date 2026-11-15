@@ -248,16 +248,57 @@ class Command(BaseCommand):
                     "is_active": True,
                 },
             )
-            source = PRODUCTS_DIR / item["source"]
-            if source.exists() and not product.images.exists():
-                content = optimize_jpeg(source)
-                image = ProductImage(product=product, alt_text=product.name, is_primary=True, sort_order=0)
-                image.image.save(content.name, content, save=True)
+            self.ensure_product_image(product, item)
             if not category.image and product.images.exists():
                 src_file = product.images.first().image
                 category.image.save(Path(src_file.name).name, src_file.file, save=True)
             products[item["slug"]] = product
+        self.ensure_extra_variants()
         return categories, products
+
+    def ensure_product_image(self, product: Product, item: dict) -> None:
+        if product.images.exists():
+            return
+        source = PRODUCTS_DIR / item["source"]
+        if source.exists():
+            content = optimize_jpeg(source)
+            image = ProductImage(product=product, alt_text=product.name, is_primary=True, sort_order=0)
+            image.image.save(content.name, content, save=True)
+            return
+        media_root = Path(settings.MEDIA_ROOT) / "products"
+        candidates = [
+            media_root / f"{item['slug']}.jpg",
+            media_root / f"{slugify(Path(item['source']).stem)}.jpg",
+        ]
+        for cand in candidates:
+            if not cand.exists():
+                continue
+            image = ProductImage(product=product, alt_text=product.name, is_primary=True, sort_order=0)
+            image.image.name = f"products/{cand.name}"
+            image.save()
+            return
+
+    def ensure_extra_variants(self) -> None:
+        extras = [
+            ("rio-house-gold", "BCH-RIO-GLD-100", "100g", "3.500"),
+            ("rio-house-black-gar", "BCH-RIO-BLK-JAR-100", "100g", "4.500"),
+            ("rio-house-black-gar", "BCH-RIO-BLK-JAR-50", "50g", "1.500"),
+        ]
+        for slug, sku, weight, price in extras:
+            product = Product.objects.filter(slug=slug).first()
+            if not product:
+                continue
+            ProductVariant.objects.update_or_create(
+                sku=sku,
+                defaults={
+                    "product": product,
+                    "name": weight,
+                    "price": money(price),
+                    "weight_label": weight,
+                    "stock_quantity": stable_stock(sku),
+                    "is_active": True,
+                },
+            )
 
     def seed_logo(self):
         dest_dir = Path(settings.MEDIA_ROOT) / "brand"

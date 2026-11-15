@@ -29,7 +29,8 @@ class CategoryAdmin(admin.ModelAdmin):
 
 @admin.register(Product)
 class ProductAdmin(admin.ModelAdmin):
-    list_display = ("name", "sku", "category", "is_active", "is_featured", "is_new")
+    list_display = ("name", "sku", "category", "display_order", "is_active", "is_featured", "is_new")
+    list_editable = ("display_order",)
     list_filter = ("category", "is_active", "is_featured", "roast_level")
     search_fields = ("name", "sku", "slug")
     inlines = [ProductVariantInline, ProductImageInline]

@@ -66,6 +66,31 @@ class ProductApiTests(TestCase):
         self.assertTrue(detail.data["in_stock"])
         self.assertTrue(detail.data["primary_image"] is None or detail.data["primary_image"].startswith("http") or True)
 
+    def test_featured_ordering_follows_display_order(self):
+        first = make_product(
+            self.category,
+            name="Jordanian Blend",
+            slug="turkish-coffee-jordanian-blend",
+            sku="BCH-TR-JOR-250",
+            display_order=1,
+        )
+        last = make_product(
+            self.category,
+            name="Turkish Coffee Sachet",
+            slug="turkish-coffee-sachet",
+            sku="BCH-TR-SCH",
+            display_order=23,
+        )
+        make_variant(first, sku="BCH-TR-JOR-250-V")
+        make_variant(last, sku="BCH-TR-SCH-V")
+
+        listing = self.client.get("/api/v1/products/", {"ordering": "featured"})
+        self.assertEqual(listing.status_code, 200)
+        slugs = [row["slug"] for row in listing.data["results"]]
+        self.assertEqual(slugs[0], "turkish-coffee-jordanian-blend")
+        self.assertEqual(slugs[-1], "turkish-coffee-medium")
+        self.assertLess(slugs.index("turkish-coffee-jordanian-blend"), slugs.index("turkish-coffee-sachet"))
+
     def test_product_detail_includes_related_coffees(self):
         extras = [
             make_product(self.category, name="Turkish Coffee Light", slug="turkish-coffee-light", sku="BCH-TR-LGT"),

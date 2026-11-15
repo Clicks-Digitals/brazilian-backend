@@ -56,6 +56,7 @@ class Product(models.Model):
     is_new = models.BooleanField(default=False)
     is_promotional = models.BooleanField(default=False)
     allow_backorder = models.BooleanField(default=False)
+    display_order = models.PositiveIntegerField(default=0)
     seo_title = models.CharField(max_length=180, blank=True)
     seo_description = models.CharField(max_length=320, blank=True)
     published_at = models.DateTimeField(null=True, blank=True)
@@ -63,11 +64,12 @@ class Product(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
 
     class Meta:
-        ordering = ["name"]
+        ordering = ["display_order", "name"]
         indexes = [
             models.Index(fields=["slug"]),
             models.Index(fields=["is_active", "is_featured"]),
             models.Index(fields=["category", "is_active"]),
+            models.Index(fields=["category", "display_order"], name="catalog_prod_cat_order_idx"),
         ]
 
     def __str__(self) -> str:

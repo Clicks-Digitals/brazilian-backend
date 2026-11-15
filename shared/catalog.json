@@ -101,7 +101,8 @@
       "roast": "light",
       "weight": "250g",
       "sku": "BCH-TR-LGT-250",
-      "description": "A light Turkish roast with cardamom, prepared for cezve brewing. 250g tin."
+      "description": "A light Turkish roast with cardamom, prepared for cezve brewing. 250g tin.",
+      "order": 13
     },
     {
       "slug": "turkish-coffee-medium",
@@ -116,7 +117,8 @@
       "roast": "medium",
       "weight": "250g",
       "sku": "BCH-TR-MED-250",
-      "description": "The house Turkish roast — medium with cardamom. 250g tin."
+      "description": "The house Turkish roast — medium with cardamom. 250g tin.",
+      "order": 16
     },
     {
       "slug": "turkish-coffee-dark",
@@ -130,7 +132,8 @@
       "roast": "dark",
       "weight": "250g",
       "sku": "BCH-TR-DRK-250",
-      "description": "A darker Turkish roast with cardamom for a fuller cup. 250g tin."
+      "description": "A darker Turkish roast with cardamom for a fuller cup. 250g tin.",
+      "order": 15
     },
     {
       "slug": "turkish-coffee-vanilla",
@@ -138,12 +141,13 @@
       "name_ar": "قهوة تركية فانيلا",
       "category": "turkish-coffee",
       "source": "Turkish Coffee/قهوة تركية فانيلا.jpg",
-      "price": "4.25",
+      "price": "3.75",
       "tasting": "Vanilla",
       "roast": "medium",
       "weight": "250g",
       "sku": "BCH-TR-VAN-250",
-      "description": "Turkish coffee with vanilla. 250g tin."
+      "description": "Turkish coffee with vanilla. 250g tin.",
+      "order": 25
     },
     {
       "slug": "turkish-coffee-hazelnut-vanilla",
@@ -151,12 +155,13 @@
       "name_ar": "قهوة تركية بندق وفانيلا",
       "category": "turkish-coffee",
       "source": "Turkish Coffee/قهوة تركية بندق وفانيلا.jpg",
-      "price": "4.25",
+      "price": "3.75",
       "tasting": "Hazelnut, vanilla",
       "roast": "medium",
       "weight": "250g",
       "sku": "BCH-TR-HZV-250",
-      "description": "Turkish coffee with hazelnut and vanilla. 250g tin."
+      "description": "Turkish coffee with hazelnut and vanilla. 250g tin.",
+      "order": 28
     },
     {
       "slug": "turkish-coffee-caramel",
@@ -164,12 +169,13 @@
       "name_ar": "قهوة تركية كراميل",
       "category": "turkish-coffee",
       "source": "Turkish Coffee/قهوة تركية كراميل.jpg",
-      "price": "4.25",
+      "price": "3.75",
       "tasting": "Caramel",
       "roast": "medium",
       "weight": "250g",
       "sku": "BCH-TR-CAR-250",
-      "description": "Turkish coffee with caramel. 250g tin."
+      "description": "Turkish coffee with caramel. 250g tin.",
+      "order": 27
     },
     {
       "slug": "turkish-coffee-macadamia",
@@ -177,12 +183,13 @@
       "name_ar": "قهوة تركية مكاديميا",
       "category": "turkish-coffee",
       "source": "Turkish Coffee/قهوة تركية مكاديميا.png",
-      "price": "4.25",
+      "price": "3.75",
       "tasting": "Macadamia",
       "roast": "medium",
       "weight": "250g",
       "sku": "BCH-TR-MAC-250",
-      "description": "Turkish coffee with macadamia. 250g tin."
+      "description": "Turkish coffee with macadamia. 250g tin.",
+      "order": 23
     },
     {
       "slug": "turkish-coffee-chocolate",
@@ -190,12 +197,13 @@
       "name_ar": "قهوة تركية شوكولاتة",
       "category": "turkish-coffee",
       "source": "Turkish Coffee/قهوة تركية شوكولاتة.jpg",
-      "price": "4.25",
+      "price": "3.75",
       "tasting": "Chocolate",
       "roast": "medium",
       "weight": "250g",
       "sku": "BCH-TR-CHO-250",
-      "description": "Turkish coffee with chocolate. 250g tin."
+      "description": "Turkish coffee with chocolate. 250g tin.",
+      "order": 30
     },
     {
       "slug": "turkish-coffee-hazelnut",
@@ -203,12 +211,13 @@
       "name_ar": "قهوة تركية بندق",
       "category": "turkish-coffee",
       "source": "Turkish Coffee/قهوة تركية بندق.jpg",
-      "price": "4.25",
+      "price": "3.75",
       "tasting": "Hazelnut",
       "roast": "medium",
       "weight": "250g",
       "sku": "BCH-TR-HAZ-250",
-      "description": "Turkish coffee with hazelnut. 250g tin."
+      "description": "Turkish coffee with hazelnut. 250g tin.",
+      "order": 26
     },
     {
       "slug": "french-coffee",
@@ -216,12 +225,13 @@
       "name_ar": "قهوة فرنسية",
       "category": "turkish-coffee",
       "source": "Turkish Coffee/قهوة فرنسية.jpg",
-      "price": "4.00",
+      "price": "3.50",
       "tasting": "Smooth French roast",
       "roast": "medium-dark",
       "weight": "250g",
       "sku": "BCH-FR-ORG-250",
-      "description": "French-style coffee from Brazilian Coffee House. 250g tin."
+      "description": "French-style coffee from Brazilian Coffee House. 250g tin.",
+      "order": 21
     },
     {
       "slug": "french-coffee-hazelnut",
@@ -229,12 +239,13 @@
       "name_ar": "قهوة فرنسية بندق",
       "category": "turkish-coffee",
       "source": "Turkish Coffee/قهوة فرنسية بندق.jpg",
-      "price": "4.25",
+      "price": "3.50",
       "tasting": "Hazelnut",
       "roast": "medium-dark",
       "weight": "250g",
       "sku": "BCH-FR-HAZ-250",
-      "description": "French coffee with hazelnut. 250g tin."
+      "description": "French coffee with hazelnut. 250g tin.",
+      "order": 24
     },
     {
       "slug": "french-coffee-macadamia",
@@ -242,12 +253,13 @@
       "name_ar": "فرنسية مكاديميا",
       "category": "turkish-coffee",
       "source": "Turkish Coffee/فرنسية مكاديميا - Copy.png",
-      "price": "4.25",
+      "price": "3.50",
       "tasting": "Macadamia",
       "roast": "medium-dark",
       "weight": "250g",
       "sku": "BCH-FR-MAC-250",
-      "description": "French coffee with macadamia. 250g tin."
+      "description": "French coffee with macadamia. 250g tin.",
+      "order": 3
     },
     {
       "slug": "turkish-coffee-mastic",
@@ -255,12 +267,13 @@
       "name_ar": "قهوة تركية مستكة",
       "category": "turkish-coffee",
       "source": "Turkish Coffee/قهوة تركية مستكة.jpg",
-      "price": "4.25",
+      "price": "3.75",
       "tasting": "Mastic",
       "roast": "medium",
       "weight": "250g",
       "sku": "BCH-TR-MAS-250",
-      "description": "Turkish coffee with mastic. 250g tin."
+      "description": "Turkish coffee with mastic. 250g tin.",
+      "order": 29
     },
     {
       "slug": "turkish-coffee-decaf",
@@ -273,20 +286,22 @@
       "roast": "medium",
       "weight": "250g",
       "sku": "BCH-TR-DEC-250",
-      "description": "Decaffeinated Turkish coffee. 250g tin."
+      "description": "Decaffeinated Turkish coffee. 250g tin.",
+      "order": 5
     },
     {
       "slug": "turkish-coffee-sachet",
-      "name": "Turkish Coffee Sachet",
-      "name_ar": "قهوة تركية كيس",
+      "name": "Turkish Coffee Sachets",
+      "name_ar": "قهوة تركية ساشيت",
       "category": "turkish-coffee",
-      "source": "Turkish Coffee/قهوة تركية كيس.png",
+      "source": "Turkish Coffee/قهوة تركية ساشيت.jpg",
       "price": "2.50",
       "tasting": "Classic Turkish",
       "roast": "medium",
       "weight": "sachet",
       "sku": "BCH-TR-SCH",
-      "description": "Turkish coffee in a convenient sachet."
+      "description": "Turkish coffee in a convenient sachet.",
+      "order": 31
     },
     {
       "slug": "ottoman-coffee",
@@ -294,26 +309,28 @@
       "name_ar": "قهوة تركية عثمانية",
       "category": "turkish-coffee",
       "source": "Turkish Coffee/قهوة تركية عثمانية.jpg",
-      "price": "4.50",
+      "price": "4.00",
       "tasting": "Ottoman spice blend",
       "roast": "medium",
       "weight": "250g",
       "sku": "BCH-TR-OTT-250",
-      "description": "Ottoman-style Turkish coffee. 250g tin."
+      "description": "Ottoman-style Turkish coffee. 250g tin.",
+      "order": 22
     },
     {
       "slug": "turkish-coffee-jordanian-blend",
-      "name": "Turkish Coffee Jordanian Blend",
-      "name_ar": "قهوة تركية بالخلطة الاردنية",
+      "name": "Turkish Coffee Special Blend Medium with Cardamom",
+      "name_ar": "قهوة تركية بخلطة خاصة وسط مع هيل",
       "category": "turkish-coffee",
       "source": "Turkish Coffee/قهوة تركية بالخلطة الاردنية.jpg",
-      "price": "4.00",
+      "price": "3.75",
       "featured": true,
       "tasting": "Jordanian blend, cardamom",
       "roast": "medium",
       "weight": "250g",
       "sku": "BCH-TR-JOR-250",
-      "description": "Turkish coffee with the Jordanian blend. 250g tin."
+      "description": "Turkish coffee with the Jordanian blend. 250g tin.",
+      "order": 1
     },
     {
       "slug": "turkish-coffee-jordanian-blend-bag",
@@ -326,7 +343,8 @@
       "roast": "medium",
       "weight": "bag",
       "sku": "BCH-TR-JOR-BAG",
-      "description": "Jordanian blend Turkish coffee in a bag."
+      "description": "Jordanian blend Turkish coffee in a bag.",
+      "order": 2
     },
     {
       "slug": "turkish-coffee-ethiopian",
@@ -334,12 +352,13 @@
       "name_ar": "قهوة تركية اثيوبي",
       "category": "turkish-coffee",
       "source": "Turkish Coffee/قهوة تركية اثيوبي.png",
-      "price": "5.00",
+      "price": "3.50",
       "tasting": "Ethiopian, cardamom",
       "roast": "medium",
       "weight": "250g",
       "sku": "BCH-TR-ETH-250",
-      "description": "Ethiopian coffee, medium with cardamom. 250g."
+      "description": "Ethiopian coffee, medium with cardamom. 250g.",
+      "order": 8
     },
     {
       "slug": "turkish-coffee-colombian",
@@ -347,12 +366,13 @@
       "name_ar": "قهوة تركية كولومبي",
       "category": "turkish-coffee",
       "source": "Turkish Coffee/قهوة تركية كولومبي.jpg",
-      "price": "5.00",
+      "price": "4.00",
       "tasting": "Colombian, cardamom",
       "roast": "medium",
       "weight": "250g",
       "sku": "BCH-TR-COL-250",
-      "description": "Colombian coffee, medium with cardamom. 250g."
+      "description": "Colombian coffee, medium with cardamom. 250g.",
+      "order": 7
     },
     {
       "slug": "turkish-coffee-kenyan",
@@ -360,12 +380,13 @@
       "name_ar": "قهوة تركية كيني",
       "category": "turkish-coffee",
       "source": "Turkish Coffee/قهوة تركية كيني.png",
-      "price": "5.00",
+      "price": "4.00",
       "tasting": "Kenyan, cardamom",
       "roast": "medium",
       "weight": "250g",
       "sku": "BCH-TR-KEN-250",
-      "description": "Kenyan coffee, medium with cardamom. 250g."
+      "description": "Kenyan coffee, medium with cardamom. 250g.",
+      "order": 10
     },
     {
       "slug": "turkish-coffee-indian",
@@ -378,7 +399,8 @@
       "roast": "medium",
       "weight": "250g",
       "sku": "BCH-TR-IND-250",
-      "description": "Indian coffee, medium with cardamom. 250g."
+      "description": "Indian coffee, medium with cardamom. 250g.",
+      "order": 9
     },
     {
       "slug": "turkish-coffee-peru",
@@ -391,21 +413,159 @@
       "roast": "medium",
       "weight": "250g",
       "sku": "BCH-TR-PER-250",
-      "description": "Peruvian coffee, medium with cardamom. 250g."
+      "description": "Peruvian coffee, medium with cardamom. 250g.",
+      "order": 12
+    },
+    {
+      "slug": "turkish-coffee-jordanian-blend-sachets",
+      "name": "Turkish Coffee Jordanian Blend Sachets",
+      "name_ar": "قهوة تركية بالخلطة الأردنية مغلفات",
+      "source": "Turkish Coffee/قهوة تركية بالخلطة الاردنية مغلفات.jpg",
+      "price": "3.75",
+      "tasting": "Jordanian blend, cardamom",
+      "roast": "medium",
+      "weight": "12 sachets",
+      "sku": "BCH-TR-JOR-SCH",
+      "description": "Jordanian blend Turkish coffee in sachets. 12 sachets.",
+      "category": "turkish-coffee",
+      "featured": false,
+      "is_new": false,
+      "compare": null,
+      "order": 4
+    },
+    {
+      "slug": "turkish-coffee-no-cardamom",
+      "name": "Turkish Coffee without Cardamom",
+      "name_ar": "قهوة تركية بدون هيل",
+      "source": "Turkish Coffee/قهوة تركية بدون هيل.png",
+      "price": "3.50",
+      "tasting": "Medium roast, no cardamom",
+      "roast": "medium",
+      "weight": "250g",
+      "sku": "BCH-TR-NOC-250",
+      "description": "Medium Turkish roast without cardamom. 250g tin.",
+      "category": "turkish-coffee",
+      "featured": false,
+      "is_new": false,
+      "compare": null,
+      "order": 6
+    },
+    {
+      "slug": "turkish-coffee-jordanian-blend-dark",
+      "name": "Turkish Coffee Jordanian Blend Dark",
+      "name_ar": "قهوة تركية بالخلطة الأردنية غامق",
+      "source": "Turkish Coffee/قهوة تركية بالخلطة الاردنية غامق.jpg",
+      "price": "4.00",
+      "tasting": "Jordanian blend, dark roast",
+      "roast": "dark",
+      "weight": "250g",
+      "sku": "BCH-TR-JOR-DRK-250",
+      "description": "Dark Jordanian blend Turkish coffee. 250g tin.",
+      "category": "turkish-coffee",
+      "featured": false,
+      "is_new": false,
+      "compare": null,
+      "order": 11
+    },
+    {
+      "slug": "turkish-coffee-jordanian-blend-light",
+      "name": "Turkish Coffee Jordanian Blend Light",
+      "name_ar": "قهوة تركية بالخلطة الأردنية فاتح",
+      "source": "Turkish Coffee/قهوة تركية بالخلطة الاردنية فاتح.jpg",
+      "price": "4.00",
+      "tasting": "Jordanian blend, light roast",
+      "roast": "light",
+      "weight": "250g",
+      "sku": "BCH-TR-JOR-LGT-250",
+      "description": "Light Jordanian blend Turkish coffee. 250g tin.",
+      "category": "turkish-coffee",
+      "featured": false,
+      "is_new": false,
+      "compare": null,
+      "order": 14
+    },
+    {
+      "slug": "turkish-coffee-medium-bag",
+      "name": "Turkish Coffee Medium Bag",
+      "name_ar": "قهوة تركية وسط كيس",
+      "source": "Turkish Coffee/قهوة تركية كيس.png",
+      "price": "3.50",
+      "tasting": "Medium roast with cardamom",
+      "roast": "medium",
+      "weight": "bag",
+      "sku": "BCH-TR-MED-BAG",
+      "description": "Medium Turkish roast with cardamom in a bag.",
+      "category": "turkish-coffee",
+      "featured": false,
+      "is_new": false,
+      "compare": null,
+      "order": 17
+    },
+    {
+      "slug": "turkish-coffee-light-bag",
+      "name": "Turkish Coffee Light Bag",
+      "name_ar": "قهوة تركية فاتح كيس",
+      "source": "Turkish Coffee/قهوة تركية كيس.png",
+      "price": "3.50",
+      "tasting": "Light roast with cardamom",
+      "roast": "light",
+      "weight": "bag",
+      "sku": "BCH-TR-LGT-BAG",
+      "description": "Light Turkish roast with cardamom in a bag.",
+      "category": "turkish-coffee",
+      "featured": false,
+      "is_new": false,
+      "compare": null,
+      "order": 18
+    },
+    {
+      "slug": "turkish-coffee-decaf-bag",
+      "name": "Decaf Turkish Coffee Bag",
+      "name_ar": "قهوة تركية بدون كافيين كيس",
+      "source": "Turkish Coffee/قهوة تركية كيس.png",
+      "price": "4.00",
+      "tasting": "Decaf, cardamom",
+      "roast": "medium",
+      "weight": "bag",
+      "sku": "BCH-TR-DEC-BAG",
+      "description": "Decaffeinated Turkish coffee in a bag.",
+      "category": "turkish-coffee",
+      "featured": false,
+      "is_new": false,
+      "compare": null,
+      "order": 19
+    },
+    {
+      "slug": "turkish-coffee-dark-bag",
+      "name": "Turkish Coffee Dark Bag",
+      "name_ar": "قهوة تركية غامق كيس",
+      "source": "Turkish Coffee/قهوة تركية كيس.png",
+      "price": "3.50",
+      "tasting": "Dark roast with cardamom",
+      "roast": "dark",
+      "weight": "bag",
+      "sku": "BCH-TR-DRK-BAG",
+      "description": "Dark Turkish roast with cardamom in a bag.",
+      "category": "turkish-coffee",
+      "featured": false,
+      "is_new": false,
+      "compare": null,
+      "order": 20
     },
     {
       "slug": "filter-coffee-original",
       "name": "Original Filter Coffee",
-      "name_ar": "قهوة فلتر اصلية",
+      "name_ar": "قهوة الفلتر الأصلية",
       "category": "filter-coffee",
       "source": "Filter Coffee/قهوة فلتر اصلية.png",
-      "price": "4.50",
+      "price": "4.00",
       "featured": true,
       "tasting": "Clean, balanced",
       "roast": "medium",
       "weight": "250g",
       "sku": "BCH-FL-ORG-250",
-      "description": "Original filter coffee. 100% Arabica."
+      "description": "Original filter coffee. 100% Arabica.",
+      "order": 1
     },
     {
       "slug": "filter-coffee-colombian",
@@ -413,12 +573,13 @@
       "name_ar": "قهوة فلتر كولومبية",
       "category": "filter-coffee",
       "source": "Filter Coffee/قهووة فلتر كولومبية.png",
-      "price": "5.25",
+      "price": "4.00",
       "tasting": "Colombian",
       "roast": "medium",
       "weight": "250g",
       "sku": "BCH-FL-COL-250",
-      "description": "Colombian filter coffee."
+      "description": "Colombian filter coffee.",
+      "order": 4
     },
     {
       "slug": "filter-coffee-kenyan",
@@ -426,25 +587,27 @@
       "name_ar": "قهوة فلتر كينية",
       "category": "filter-coffee",
       "source": "Filter Coffee/قهوة فلتر كينية.jpg",
-      "price": "5.25",
+      "price": "4.00",
       "tasting": "Kenyan",
       "roast": "medium",
       "weight": "250g",
       "sku": "BCH-FL-KEN-250",
-      "description": "Kenyan filter coffee."
+      "description": "Kenyan filter coffee.",
+      "order": 8
     },
     {
       "slug": "filter-coffee-ethiopian",
       "name": "Ethiopian Filter Coffee",
-      "name_ar": "قهوة فلتر اثيوبية",
+      "name_ar": "قهوة فلتر أثيوبيية",
       "category": "filter-coffee",
       "source": "Filter Coffee/قهوة فلتر اثيوبية.jpg",
-      "price": "5.25",
+      "price": "4.00",
       "tasting": "Ethiopian",
       "roast": "medium",
       "weight": "250g",
       "sku": "BCH-FL-ETH-250",
-      "description": "Ethiopian filter coffee."
+      "description": "Ethiopian filter coffee.",
+      "order": 5
     },
     {
       "slug": "filter-coffee-peru",
@@ -452,12 +615,13 @@
       "name_ar": "قهوة فلتر بيرو",
       "category": "filter-coffee",
       "source": "Filter Coffee/قهوة فلتر بيرو.jpg",
-      "price": "5.00",
+      "price": "4.00",
       "tasting": "Peru",
       "roast": "medium",
       "weight": "250g",
       "sku": "BCH-FL-PER-250",
-      "description": "Peruvian filter coffee."
+      "description": "Peruvian filter coffee.",
+      "order": 3
     },
     {
       "slug": "filter-coffee-organic",
@@ -470,98 +634,106 @@
       "roast": "medium",
       "weight": "250g",
       "sku": "BCH-FL-ORGNC-250",
-      "description": "Organic filter coffee."
+      "description": "Organic filter coffee.",
+      "order": 6
     },
     {
       "slug": "filter-coffee-vanilla",
       "name": "Filter Coffee Vanilla",
-      "name_ar": "قهوة فلتر فانيلا",
+      "name_ar": "قهوة فلتر بنكهة الفانيلا",
       "category": "filter-coffee",
       "source": "Filter Coffee/قهوة فلتر فانيلا_.jpg",
-      "price": "4.75",
+      "price": "4.25",
       "tasting": "Vanilla",
       "roast": "medium",
       "weight": "250g",
       "sku": "BCH-FL-VAN-250",
-      "description": "Filter coffee with vanilla."
+      "description": "Filter coffee with vanilla.",
+      "order": 9
     },
     {
       "slug": "filter-coffee-hazelnut",
       "name": "Filter Coffee Hazelnut",
-      "name_ar": "قهوة فلتر بندق",
+      "name_ar": "قهوة فلتر بنكهة البندق",
       "category": "filter-coffee",
       "source": "Filter Coffee/قهوة فلتر بندق.png",
-      "price": "4.75",
+      "price": "4.25",
       "tasting": "Hazelnut",
       "roast": "medium",
       "weight": "250g",
       "sku": "BCH-FL-HAZ-250",
-      "description": "Filter coffee with hazelnut."
+      "description": "Filter coffee with hazelnut.",
+      "order": 10
     },
     {
       "slug": "filter-coffee-vanilla-hazelnut",
       "name": "Filter Coffee Vanilla & Hazelnut",
-      "name_ar": "قهوة فلتر فانيلا وبندق",
+      "name_ar": "قهوة فلتر بنكهة البندق والفانيلا",
       "category": "filter-coffee",
       "source": "Filter Coffee/قهوة فلتر فانيلا وبندق.jpg",
-      "price": "4.75",
+      "price": "4.25",
       "tasting": "Vanilla, hazelnut",
       "roast": "medium",
       "weight": "250g",
       "sku": "BCH-FL-VHZ-250",
-      "description": "Filter coffee with vanilla and hazelnut."
+      "description": "Filter coffee with vanilla and hazelnut.",
+      "order": 12
     },
     {
       "slug": "filter-coffee-salted-caramel",
       "name": "Filter Coffee Salted Caramel",
-      "name_ar": "قهوة فلتر بالكراميل المملح",
+      "name_ar": "قهوة فلتر بنكهة الكراميل",
       "category": "filter-coffee",
       "source": "Filter Coffee/قهوة فلتر بالكراميل المملح.png",
-      "price": "4.75",
+      "price": "4.25",
       "tasting": "Salted caramel",
       "roast": "medium",
       "weight": "250g",
       "sku": "BCH-FL-SCR-250",
-      "description": "Filter coffee with salted caramel."
+      "description": "Filter coffee with salted caramel.",
+      "order": 11
     },
     {
       "slug": "filter-coffee-macadamia",
       "name": "Filter Coffee Macadamia",
-      "name_ar": "قهوة فلتر مكاديميا",
+      "name_ar": "قهوة فلتر بنكهة المكاديميا",
       "category": "filter-coffee",
       "source": "Filter Coffee/قهوة فلتر مكاديميا.jpg",
-      "price": "4.75",
+      "price": "4.25",
       "tasting": "Macadamia",
       "roast": "medium",
       "weight": "250g",
       "sku": "BCH-FL-MAC-250",
-      "description": "Filter coffee with macadamia."
+      "description": "Filter coffee with macadamia.",
+      "order": 7
     },
     {
       "slug": "filter-coffee-chocolate",
       "name": "Filter Coffee Chocolate",
-      "name_ar": "قهوة فلتر شوكولاتة",
+      "name_ar": "قهوة فلتر بنكهة الشوكولاتة",
       "category": "filter-coffee",
       "source": "Filter Coffee/قهوة فلتر شوكولاتة.png",
-      "price": "4.75",
+      "price": "4.25",
       "tasting": "Chocolate",
       "roast": "medium",
       "weight": "250g",
       "sku": "BCH-FL-CHO-250",
-      "description": "Filter coffee with chocolate."
+      "description": "Filter coffee with chocolate.",
+      "order": 14
     },
     {
       "slug": "filter-coffee-mastic",
       "name": "Filter Coffee Mastic",
-      "name_ar": "قهوة فلتر مستكة",
+      "name_ar": "قهوة فلتر بنكهة المستكة",
       "category": "filter-coffee",
       "source": "Filter Coffee/قهوة فلتر مستكة.jpg",
-      "price": "4.75",
+      "price": "4.25",
       "tasting": "Mastic",
       "roast": "medium",
       "weight": "250g",
       "sku": "BCH-FL-MAS-250",
-      "description": "Filter coffee with mastic."
+      "description": "Filter coffee with mastic.",
+      "order": 13
     },
     {
       "slug": "filter-coffee-decaf",
@@ -574,12 +746,13 @@
       "roast": "medium",
       "weight": "250g",
       "sku": "BCH-FL-DEC-250",
-      "description": "Decaffeinated filter coffee."
+      "description": "Decaffeinated filter coffee.",
+      "order": 15
     },
     {
       "slug": "filter-coffee-bag",
       "name": "Original Filter Coffee Bag",
-      "name_ar": "قهوة فلتر كيس",
+      "name_ar": "قهوة فلتر الأصلية كيس",
       "category": "filter-coffee",
       "source": "Filter Coffee/قهوة فلتر كيس.jpg",
       "price": "3.25",
@@ -587,198 +760,264 @@
       "roast": "medium",
       "weight": "bag",
       "sku": "BCH-FL-BAG",
-      "description": "Original filtered coffee in a bag."
+      "description": "Original filtered coffee in a bag.",
+      "order": 2
     },
     {
       "slug": "drip-coffee-original",
       "name": "Drip Coffee Original",
-      "name_ar": "قهوة دريب",
+      "name_ar": "درب كوفي - أوريجينال",
       "category": "drip-coffee",
       "source": "Filter Coffee/Drip Coffee/Drip Coffee.png",
-      "price": "3.50",
+      "price": "5.00",
       "featured": true,
       "is_new": true,
       "tasting": "Clean drip cup",
       "roast": "medium",
-      "weight": "drip bag",
+      "weight": "10 sachets",
       "sku": "BCH-DR-ORG",
-      "description": "Single-serve drip coffee, original."
+      "description": "Single-serve drip coffee, original.",
+      "order": 1
     },
     {
       "slug": "drip-coffee-hazelnut",
       "name": "Drip Coffee Hazelnut",
-      "name_ar": "قهوة دريب بندق",
+      "name_ar": "درب كوفي - بالبندق",
       "category": "drip-coffee",
       "source": "Filter Coffee/Drip Coffee/Drip Coffee Hazelnut.png",
-      "price": "3.75",
+      "price": "5.00",
       "is_new": true,
       "tasting": "Hazelnut",
       "roast": "medium",
-      "weight": "drip bag",
+      "weight": "10 sachets",
       "sku": "BCH-DR-HAZ",
-      "description": "Single-serve drip coffee with hazelnut."
+      "description": "Single-serve drip coffee with hazelnut.",
+      "order": 3
     },
     {
       "slug": "drip-coffee-macadamia",
       "name": "Drip Coffee Macadamia",
-      "name_ar": "قهوة دريب مكاديميا",
+      "name_ar": "درب كوفي - مكاديميا",
       "category": "drip-coffee",
       "source": "Filter Coffee/Drip Coffee/Drip Coffee Macadamia.png",
-      "price": "3.75",
+      "price": "5.00",
       "is_new": true,
       "tasting": "Macadamia",
       "roast": "medium",
-      "weight": "drip bag",
+      "weight": "10 sachets",
       "sku": "BCH-DR-MAC",
-      "description": "Single-serve drip coffee with macadamia."
+      "description": "Single-serve drip coffee with macadamia.",
+      "order": 4
     },
     {
       "slug": "drip-coffee-decaf",
       "name": "Drip Coffee Decaf",
-      "name_ar": "قهوة دريب بدون كافيين",
+      "name_ar": "درب كوفي - بدون كافيين",
       "category": "drip-coffee",
       "source": "Filter Coffee/Drip Coffee/Drip Coffee Decaf.png",
-      "price": "3.75",
+      "price": "5.00",
       "is_new": true,
       "tasting": "Decaf",
       "roast": "medium",
-      "weight": "drip bag",
+      "weight": "10 sachets",
       "sku": "BCH-DR-DEC",
-      "description": "Decaffeinated single-serve drip coffee."
+      "description": "Decaffeinated single-serve drip coffee.",
+      "order": 2
     },
     {
       "slug": "espresso-medium",
-      "name": "Espresso Medium",
-      "name_ar": "إسبريسو وسط",
+      "name": "Original Espresso",
+      "name_ar": "قهوة إسبريسو الأصلية",
       "category": "espresso",
       "source": "Espresso/Espresso Medium.png",
-      "price": "4.75",
+      "price": "4.00",
       "featured": true,
       "tasting": "Chocolate, orange, balanced",
       "roast": "medium",
       "weight": "250g",
       "sku": "BCH-ES-MED-250",
-      "description": "100% Arabica espresso, medium roast."
+      "description": "100% Arabica espresso, medium roast.",
+      "order": 1
     },
     {
       "slug": "espresso-dark",
-      "name": "Espresso Dark",
-      "name_ar": "إسبريسو غامق",
+      "name": "Dark Espresso",
+      "name_ar": "قهوة إسبريسو غامق",
       "category": "espresso",
       "source": "Espresso/Espresso Dark.png",
-      "price": "4.75",
+      "price": "4.00",
       "featured": true,
       "tasting": "Dark chocolate, full body",
       "roast": "dark",
       "weight": "250g",
       "sku": "BCH-ES-DRK-250",
-      "description": "100% Arabica espresso, dark roast."
+      "description": "100% Arabica espresso, dark roast.",
+      "order": 2
+    },
+    {
+      "slug": "espresso-decaf",
+      "name": "Decaf Espresso",
+      "name_ar": "قهوة إسبريسو بدون كافيين",
+      "source": "Espresso/Espresso Medium.png",
+      "price": "4.00",
+      "tasting": "Decaf espresso",
+      "roast": "medium",
+      "weight": "250g",
+      "sku": "BCH-ES-DEC-250",
+      "description": "Decaffeinated 100% Arabica espresso.",
+      "category": "espresso",
+      "featured": false,
+      "is_new": false,
+      "compare": null,
+      "order": 3
     },
     {
       "slug": "arabic-coffee-sachet",
       "name": "Arabic Coffee Sachet",
-      "name_ar": "قهوة عربية سريعة التحضير - مغلف",
+      "name_ar": "قهوة عربية مغلف (سريعه التحضير)",
       "category": "arabic-coffee",
       "source": "Arabic coffee/قهوة عربية سريعة التحضير - مغلف.jpg",
-      "price": "0.75",
+      "price": "1.00",
       "tasting": "Cardamom, Arabic spices",
       "roast": "light",
       "weight": "sachet",
       "sku": "BCH-AR-SCH",
-      "description": "Instant Arabic coffee, single sachet."
+      "description": "Instant Arabic coffee, single sachet.",
+      "order": 1
     },
     {
       "slug": "arabic-coffee-10-sachets",
       "name": "Arabic Coffee 10 Sachets",
-      "name_ar": "قهوة عربية سريعة التحضير 10 مغلف",
+      "name_ar": "قهوة عربية (سريعه التحضير)",
       "category": "arabic-coffee",
       "source": "Arabic coffee/قهوة عربية سريعة التحضير 10 مغلف.png",
-      "price": "4.50",
+      "price": "10.00",
       "featured": true,
       "tasting": "Cardamom, Arabic spices",
       "roast": "light",
       "weight": "10 sachets",
       "sku": "BCH-AR-10",
-      "description": "Instant Arabic coffee, box of 10 sachets."
+      "description": "Instant Arabic coffee, box of 10 sachets.",
+      "order": 2
     },
     {
       "slug": "saudi-coffee-sachet",
       "name": "Saudi Coffee Sachet",
-      "name_ar": "قهوة سعودية سريعة التحضير - مغلف",
+      "name_ar": "قهوة سعودية مغلف (سريعه التحضير)",
       "category": "arabic-coffee",
       "source": "Arabic coffee/قهوة سعودية سريعة التحضير - مغلف.jpg",
-      "price": "0.75",
+      "price": "1.00",
       "tasting": "Saudi roast, spices",
       "roast": "light",
       "weight": "sachet",
       "sku": "BCH-SA-SCH",
-      "description": "Instant Saudi coffee, single sachet."
+      "description": "Instant Saudi coffee, single sachet.",
+      "order": 3
     },
     {
       "slug": "saudi-coffee-10-sachets",
       "name": "Saudi Coffee 10 Sachets",
-      "name_ar": "قهوة سعودية سريعة التحضير - 10 مغلفات",
+      "name_ar": "قهوة سعودية (سريعه التحضير) 10 مغلف",
       "category": "arabic-coffee",
       "source": "Arabic coffee/قهوة سعودية سريعة التحضير - 10 مغلفات.jpg",
-      "price": "4.50",
+      "price": "10.00",
       "tasting": "Saudi roast, spices",
       "roast": "light",
       "weight": "10 sachets",
       "sku": "BCH-SA-10",
-      "description": "Instant Saudi coffee, box of 10 sachets."
+      "description": "Instant Saudi coffee, box of 10 sachets.",
+      "order": 4
+    },
+    {
+      "slug": "saudi-coffee-bag",
+      "name": "Saudi Coffee Bag",
+      "name_ar": "قهوة سعودية",
+      "source": "Arabic coffee/قهوة سعودية كيس.png",
+      "price": "3.50",
+      "tasting": "Saudi roast",
+      "roast": "medium",
+      "weight": "250g",
+      "sku": "BCH-SA-BAG",
+      "description": "Saudi coffee in a bag.",
+      "category": "arabic-coffee",
+      "featured": false,
+      "is_new": false,
+      "compare": null,
+      "order": 5
+    },
+    {
+      "slug": "arabic-coffee-bag",
+      "name": "Arabic Coffee Bag",
+      "name_ar": "قهوة عربية",
+      "source": "Arabic coffee/قهوة عربية كيس.png",
+      "price": "3.50",
+      "tasting": "Cardamom, Arabic spices",
+      "roast": "medium",
+      "weight": "250g",
+      "sku": "BCH-AR-BAG",
+      "description": "Arabic coffee in a bag.",
+      "category": "arabic-coffee",
+      "featured": false,
+      "is_new": false,
+      "compare": null,
+      "order": 6
     },
     {
       "slug": "rio-house-3-in-1",
       "name": "Rio House 3 in 1",
-      "name_ar": "ريو هاوس 3 في 1",
+      "name_ar": "ريو هاوس ٣في١",
       "category": "rio-house",
       "source": "Rio House/3 in 1.jpg",
-      "price": "3.25",
+      "price": "3.50",
       "featured": true,
       "tasting": "Coffee, milk, sugar",
       "roast": null,
       "weight": "24 sachets",
       "sku": "BCH-RIO-3IN1-24",
-      "description": "Rio House 3 in 1 Regular. 24 sachets, 20g each."
+      "description": "Rio House 3 in 1 Regular. 24 sachets, 20g each.",
+      "order": 11
     },
     {
       "slug": "rio-house-3-in-1-bag",
-      "name": "Rio House 3 in 1 Bag",
-      "name_ar": "ريو هاوس 3 في 1 كيس",
+      "name": "3 IN 1 bag 30 sachet",
+      "name_ar": "3 IN 1 bag 30 sachet",
       "category": "rio-house",
       "source": "Rio House/3 in 1 bag.jpg",
-      "price": "3.75",
+      "price": "4.00",
       "tasting": "Coffee, milk, sugar",
       "roast": null,
       "weight": "30 sachets",
       "sku": "BCH-RIO-3IN1-30",
-      "description": "Rio House 3 in 1 bag, 30 sachets."
+      "description": "Rio House 3 in 1 bag, 30 sachets.",
+      "order": 6
     },
     {
       "slug": "rio-house-2-in-1",
       "name": "Rio House 2 in 1",
-      "name_ar": "ريو هاوس 2 في 1",
+      "name_ar": "ريو هاوس ٢ في ١",
       "category": "rio-house",
       "source": "Rio House/2 in 1.jpg",
-      "price": "3.25",
+      "price": "3.50",
       "tasting": "Coffee and creamer, unsweetened",
       "roast": null,
       "weight": "24 sachets",
       "sku": "BCH-RIO-2IN1-24",
-      "description": "Rio House 2 in 1. Coffee with creamer."
+      "description": "Rio House 2 in 1. Coffee with creamer.",
+      "order": 14
     },
     {
       "slug": "rio-house-2-in-1-bag",
-      "name": "Rio House 2 in 1 Bag",
-      "name_ar": "ريو هاوس 2 في 1 كيس",
+      "name": "2 IN 1 bag 30 sachet",
+      "name_ar": "2 IN 1 bag 30 sachet",
       "category": "rio-house",
       "source": "Rio House/2 in 1 bag.png",
-      "price": "3.75",
+      "price": "4.00",
       "tasting": "Coffee and creamer",
       "roast": null,
       "weight": "30 sachets",
       "sku": "BCH-RIO-2IN1-30",
-      "description": "Rio House 2 in 1 bag, 30 sachets."
+      "description": "Rio House 2 in 1 bag, 30 sachets.",
+      "order": 5
     },
     {
       "slug": "rio-house-black",
@@ -786,25 +1025,27 @@
       "name_ar": "ريو هاوس بلاك",
       "category": "rio-house",
       "source": "Rio House/black.jpg",
-      "price": "3.00",
+      "price": "2.25",
       "tasting": "Black instant coffee",
       "roast": null,
-      "weight": "box",
+      "weight": "24 sachets",
       "sku": "BCH-RIO-BLK",
-      "description": "Rio House Black instant coffee."
+      "description": "Rio House Black instant coffee.",
+      "order": 13
     },
     {
       "slug": "rio-house-black-gar",
-      "name": "Rio House Black Gar",
-      "name_ar": "ريو هاوس بلاك جار",
+      "name": "Rio House Black Jar",
+      "name_ar": "ريو هاوس بلاك علبة",
       "category": "rio-house",
       "source": "Rio House/black gar.png",
-      "price": "4.25",
+      "price": "2.50",
       "tasting": "Black instant coffee",
       "roast": null,
-      "weight": "jar",
+      "weight": "200g",
       "sku": "BCH-RIO-BLK-JAR",
-      "description": "Rio House Black in a jar."
+      "description": "Rio House Black instant coffee jar.",
+      "order": 4
     },
     {
       "slug": "rio-house-gold",
@@ -812,12 +1053,13 @@
       "name_ar": "ريو هاوس جولد",
       "category": "rio-house",
       "source": "Rio House/gold.jpg",
-      "price": "3.50",
+      "price": "5.50",
       "tasting": "Premium instant",
       "roast": null,
-      "weight": "box",
+      "weight": "200g",
       "sku": "BCH-RIO-GLD",
-      "description": "Rio House Gold instant coffee."
+      "description": "Rio House Gold instant coffee jar.",
+      "order": 3
     },
     {
       "slug": "rio-house-mix",
@@ -828,9 +1070,10 @@
       "price": "3.25",
       "tasting": "Mixed instant coffee",
       "roast": null,
-      "weight": "box",
+      "weight": "24 sachets",
       "sku": "BCH-RIO-MIX",
-      "description": "Rio House Mix."
+      "description": "Rio House Mix.",
+      "order": 19
     },
     {
       "slug": "rio-house-caramel-cappuccino",
@@ -838,12 +1081,13 @@
       "name_ar": "كابتشينو كراميل",
       "category": "rio-house",
       "source": "Rio House/كابتشينو كراميل.jpg",
-      "price": "3.50",
+      "price": "2.25",
       "tasting": "Caramel cappuccino",
       "roast": null,
-      "weight": "box",
+      "weight": "10 sachets",
       "sku": "BCH-RIO-CAP-CAR",
-      "description": "Rio House caramel cappuccino mix."
+      "description": "Rio House caramel cappuccino mix.",
+      "order": 21
     },
     {
       "slug": "rio-house-hazelnut-cappuccino",
@@ -851,38 +1095,41 @@
       "name_ar": "كابتشينو بندق",
       "category": "rio-house",
       "source": "Rio House/كابتشينو بندق.png",
-      "price": "3.50",
+      "price": "2.25",
       "tasting": "Hazelnut cappuccino",
       "roast": null,
-      "weight": "box",
+      "weight": "10 sachets",
       "sku": "BCH-RIO-CAP-HAZ",
-      "description": "Rio House hazelnut cappuccino mix."
+      "description": "Rio House hazelnut cappuccino mix.",
+      "order": 20
     },
     {
       "slug": "rio-house-hot-chocolate",
       "name": "Rio House Hot Chocolate",
-      "name_ar": "هوت شوكليت",
+      "name_ar": "ريو هاوس شوكولاته ساخنة",
       "category": "rio-house",
       "source": "Rio House/hot chocolate.jpg",
-      "price": "3.50",
+      "price": "2.25",
       "tasting": "Cocoa",
       "roast": null,
-      "weight": "box",
+      "weight": "10 sachets",
       "sku": "BCH-RIO-CHO",
-      "description": "Rio House hot chocolate."
+      "description": "Rio House hot chocolate.",
+      "order": 16
     },
     {
       "slug": "rio-house-mocha",
       "name": "Rio House Mocha",
-      "name_ar": "موكا",
+      "name_ar": "ريو هاوس موكا",
       "category": "rio-house",
       "source": "Rio House/mocha.jpg",
-      "price": "3.50",
+      "price": "2.25",
       "tasting": "Mocha",
       "roast": null,
-      "weight": "box",
+      "weight": "10 sachets",
       "sku": "BCH-RIO-MOC",
-      "description": "Rio House mocha mix."
+      "description": "Rio House mocha mix.",
+      "order": 15
     },
     {
       "slug": "rio-house-chai-karak",
@@ -890,38 +1137,41 @@
       "name_ar": "شاي كرك",
       "category": "rio-house",
       "source": "Rio House/شاي كرك.jpg",
-      "price": "3.25",
+      "price": "1.50",
       "tasting": "Karak tea spices",
       "roast": null,
       "weight": "box",
       "sku": "BCH-RIO-KRK",
-      "description": "Rio House chai karak."
+      "description": "Rio House chai karak.",
+      "order": 22
     },
     {
       "slug": "rio-house-lentil",
       "name": "Rio House Lentil",
-      "name_ar": "عدس",
+      "name_ar": "ريو هاوس عدس",
       "category": "rio-house",
       "source": "Rio House/lentil.jpg",
-      "price": "2.75",
+      "price": "1.50",
       "tasting": "Savory lentil drink",
       "roast": null,
-      "weight": "box",
+      "weight": "10 sachets",
       "sku": "BCH-RIO-LNT",
-      "description": "Rio House instant lentil."
+      "description": "Rio House instant lentil.",
+      "order": 17
     },
     {
       "slug": "rio-house-milk-ginger",
       "name": "Rio House Milk & Ginger",
-      "name_ar": "حليب وزنجبيل",
+      "name_ar": "ريو هاوس حليب وزنجبيل",
       "category": "rio-house",
       "source": "Rio House/milk and ginger.jpg",
-      "price": "3.00",
+      "price": "1.50",
       "tasting": "Milk and ginger",
       "roast": null,
-      "weight": "box",
+      "weight": "10 sachets",
       "sku": "BCH-RIO-GIN",
-      "description": "Rio House milk and ginger."
+      "description": "Rio House milk and ginger.",
+      "order": 18
     },
     {
       "slug": "rio-house-salep",
@@ -929,30 +1179,134 @@
       "name_ar": "سحلب",
       "category": "rio-house",
       "source": "Rio House/سحلب.png",
-      "price": "3.50",
+      "price": "1.50",
       "tasting": "Sahlab",
       "roast": null,
       "weight": "box",
       "sku": "BCH-RIO-SLP",
-      "description": "Rio House salep (sahlab)."
+      "description": "Rio House salep (sahlab).",
+      "order": 23
     },
     {
       "slug": "rio-house-creamer",
-      "name": "Rio House Creamer",
-      "name_ar": "كريمر",
+      "name": "Rio House Whitener Large",
+      "name_ar": "مبيض ريوهاوس",
       "category": "rio-house",
       "source": "Rio House/creamer.jpg",
-      "price": "2.75",
+      "price": "3.00",
       "tasting": "Non-dairy creamer",
       "roast": null,
-      "weight": "box",
+      "weight": "450g",
       "sku": "BCH-RIO-CRM",
-      "description": "Rio House coffee creamer."
+      "description": "Rio House coffee whitener, large bottle.",
+      "order": 2
+    },
+    {
+      "slug": "rio-house-creamer-small",
+      "name": "Rio House Whitener",
+      "name_ar": "مبيض ريوهاوس",
+      "source": "Rio House/creamer-small.jpg",
+      "price": "1.75",
+      "tasting": "Non-dairy creamer",
+      "roast": null,
+      "weight": "200g",
+      "sku": "BCH-RIO-CRM-SML",
+      "description": "Rio House coffee whitener, small bottle.",
+      "category": "rio-house",
+      "featured": false,
+      "is_new": false,
+      "compare": null,
+      "order": 1
+    },
+    {
+      "slug": "rio-house-hazelnut-cappuccino-1kg",
+      "name": "Hazelnut cappuccino 1 kilo",
+      "name_ar": "Hazelnut cappuccino 1 kilo",
+      "source": "Rio House/hazelnut-cappuccino-1kg.jpg",
+      "price": "8.00",
+      "tasting": "Hazelnut cappuccino",
+      "roast": null,
+      "weight": "1kg",
+      "sku": "BCH-RIO-CAP-HAZ-1KG",
+      "description": "Rio House hazelnut cappuccino, 1 kilo bag.",
+      "category": "rio-house",
+      "featured": false,
+      "is_new": false,
+      "compare": null,
+      "order": 7
+    },
+    {
+      "slug": "rio-house-3-in-1-1kg",
+      "name": "Rio House 3 in 1 / 1 kilo",
+      "name_ar": "Rio house 3 in 1 / 1kilo",
+      "source": "Rio House/3-in-1-1kg.jpg",
+      "price": "5.50",
+      "tasting": "Coffee, milk, sugar",
+      "roast": null,
+      "weight": "1kg",
+      "sku": "BCH-RIO-3IN1-1KG",
+      "description": "Rio House 3 in 1, 1 kilo bag.",
+      "category": "rio-house",
+      "featured": false,
+      "is_new": false,
+      "compare": null,
+      "order": 8
+    },
+    {
+      "slug": "rio-house-caramel-cappuccino-1kg",
+      "name": "Caramel cappuccino 1 kg",
+      "name_ar": "Caramel cappuccino 1 kg",
+      "source": "Rio House/caramel-cappuccino-1kg.jpg",
+      "price": "8.00",
+      "tasting": "Caramel cappuccino",
+      "roast": null,
+      "weight": "1kg",
+      "sku": "BCH-RIO-CAP-CAR-1KG",
+      "description": "Rio House caramel cappuccino, 1 kilo bag.",
+      "category": "rio-house",
+      "featured": false,
+      "is_new": false,
+      "compare": null,
+      "order": 9
+    },
+    {
+      "slug": "rio-house-hot-chocolate-1kg",
+      "name": "Hot chocolate 1 kg",
+      "name_ar": "Hot chocolate 1 kg",
+      "source": "Rio House/hot-chocolate-1kg.jpg",
+      "price": "8.00",
+      "tasting": "Cocoa",
+      "roast": null,
+      "weight": "1kg",
+      "sku": "BCH-RIO-CHO-1KG",
+      "description": "Rio House hot chocolate, 1 kilo bag.",
+      "category": "rio-house",
+      "featured": false,
+      "is_new": false,
+      "compare": null,
+      "order": 10
+    },
+    {
+      "slug": "rio-house-black-500g",
+      "name": "Rio House Black 500g",
+      "name_ar": "Rio house Black 500g",
+      "source": "Rio House/black-500g.jpg",
+      "price": "11.50",
+      "tasting": "Black instant coffee",
+      "roast": null,
+      "weight": "500g",
+      "sku": "BCH-RIO-BLK-500",
+      "description": "Rio House Black instant coffee, 500g bag.",
+      "category": "rio-house",
+      "featured": false,
+      "is_new": false,
+      "compare": null,
+      "order": 12
     },
     {
       "slug": "caffitaly-cremoso",
       "name": "Caffitaly Cremoso",
-      "name_ar": "كافيتالي كريموزو",
+      "name_ar": "Caffitaly Cremoso",
       "category": "caffitaly-capsules",
       "source": "Cffitaly Capsules/aac61de4eaaac6df66546af34c0683f8.jpg",
       "price": "4.50",
@@ -961,12 +1315,13 @@
       "roast": "medium",
       "weight": "10 capsules",
       "sku": "BCH-CAF-CRE-10",
-      "description": "Caffitaly Cremoso, box of 10 capsules."
+      "description": "Caffitaly Cremoso, box of 10 capsules.",
+      "order": 6
     },
     {
       "slug": "caffitaly-decaffeinato",
       "name": "Caffitaly Decaffeinato",
-      "name_ar": "كافيتالي منزوع الكافيين",
+      "name_ar": "Caffitaly Decaffeinato",
       "category": "caffitaly-capsules",
       "source": "Cffitaly Capsules/Caffitaly _ Decaffeinato - box of 10 capsules.jpg",
       "price": "4.50",
@@ -974,12 +1329,13 @@
       "roast": "medium",
       "weight": "10 capsules",
       "sku": "BCH-CAF-DEC-10",
-      "description": "Caffitaly Decaffeinato, box of 10 capsules."
+      "description": "Caffitaly Decaffeinato, box of 10 capsules.",
+      "order": 5
     },
     {
       "slug": "caffitaly-intenso",
       "name": "Caffitaly Intenso",
-      "name_ar": "كافيتالي انتينسو",
+      "name_ar": "Caffitaly Intenso",
       "category": "caffitaly-capsules",
       "source": "Cffitaly Capsules/Caffitaly INTENSO Capsules.png",
       "price": "4.50",
@@ -987,12 +1343,13 @@
       "roast": "dark",
       "weight": "10 capsules",
       "sku": "BCH-CAF-INT-10",
-      "description": "Caffitaly Intenso capsules."
+      "description": "Caffitaly Intenso capsules.",
+      "order": 8
     },
     {
       "slug": "caffitaly-corposo",
-      "name": "Caffitaly Corposo",
-      "name_ar": "كافيتالي كوربوسو",
+      "name": "Caffitaly Croposo",
+      "name_ar": "Caffitaly Croposo",
       "category": "caffitaly-capsules",
       "source": "Cffitaly Capsules/Caffitaly _ Corposo - box of 10 capsules.jpg",
       "price": "4.50",
@@ -1000,12 +1357,47 @@
       "roast": "dark",
       "weight": "10 capsules",
       "sku": "BCH-CAF-COR-10",
-      "description": "Caffitaly Corposo, box of 10 capsules."
+      "description": "Caffitaly Corposo, box of 10 capsules.",
+      "order": 3
+    },
+    {
+      "slug": "caffitaly-vigoroso",
+      "name": "Caffitaly Virgoso",
+      "name_ar": "Caffitaly Virgoso",
+      "source": "Cffitaly Capsules/caffitaly-vigoroso.jpg",
+      "price": "4.50",
+      "tasting": "Espresso robusto",
+      "roast": "dark",
+      "weight": "10 capsules",
+      "sku": "BCH-CAF-VIG-10",
+      "description": "Caffitaly Vigoroso, box of 10 capsules.",
+      "category": "caffitaly-capsules",
+      "featured": false,
+      "is_new": false,
+      "compare": null,
+      "order": 4
+    },
+    {
+      "slug": "compatible-vivace",
+      "name": "COMPATIBLE Vivace",
+      "name_ar": "COMPATIBLE Vivace",
+      "source": "Cffitaly Capsules/compatible-vivace.jpg",
+      "price": "4.25",
+      "tasting": "Vivace",
+      "roast": "medium",
+      "weight": "10 capsules",
+      "sku": "BCH-NSP-VIV-10",
+      "description": "Nespresso-compatible Vivace capsules.",
+      "category": "caffitaly-capsules",
+      "featured": false,
+      "is_new": false,
+      "compare": null,
+      "order": 9
     },
     {
       "slug": "compatible-ethiopia",
-      "name": "Compatible Ethiopia Capsules",
-      "name_ar": "كبسولات اثيوبيا",
+      "name": "COMPATIBLE ETHIOPIA",
+      "name_ar": "COMPATIBLE ETHIOPIA",
       "category": "caffitaly-capsules",
       "source": "Cffitaly Capsules/ETHIOPIA Nespresso  Capsules.png",
       "price": "4.25",
@@ -1013,7 +1405,8 @@
       "roast": "medium",
       "weight": "10 capsules",
       "sku": "BCH-NSP-ETH-10",
-      "description": "Nespresso-compatible Ethiopia capsules."
+      "description": "Nespresso-compatible Ethiopia capsules.",
+      "order": 2
     },
     {
       "slug": "compatible-deciso",
@@ -1026,12 +1419,13 @@
       "roast": "dark",
       "weight": "10 capsules",
       "sku": "BCH-NSP-DES-10",
-      "description": "Nespresso-compatible Deciso capsules."
+      "description": "Nespresso-compatible Deciso capsules.",
+      "order": 10
     },
     {
       "slug": "compatible-soave",
-      "name": "Compatible Soave Capsules",
-      "name_ar": "كبسولات سوآفي",
+      "name": "COMPATIBLE SOAVE",
+      "name_ar": "COMPATIBLE SOAVE",
       "category": "caffitaly-capsules",
       "source": "Cffitaly Capsules/SOAVE Nespresso Capsules.png",
       "price": "4.25",
@@ -1039,12 +1433,13 @@
       "roast": "medium",
       "weight": "10 capsules",
       "sku": "BCH-NSP-SOA-10",
-      "description": "Nespresso-compatible Soave capsules."
+      "description": "Nespresso-compatible Soave capsules.",
+      "order": 1
     },
     {
       "slug": "compatible-deca",
-      "name": "Compatible Deca Capsules",
-      "name_ar": "كبسولات ديكا",
+      "name": "COMPATIBLE Deca",
+      "name_ar": "COMPATIBLE Deca",
       "category": "caffitaly-capsules",
       "source": "Cffitaly Capsules/DECA Nespresso Capsules.png",
       "price": "4.25",
@@ -1052,12 +1447,13 @@
       "roast": "medium",
       "weight": "10 capsules",
       "sku": "BCH-NSP-DEC-10",
-      "description": "Nespresso-compatible Deca capsules."
+      "description": "Nespresso-compatible Deca capsules.",
+      "order": 7
     },
     {
       "slug": "caffitaly-s16",
       "name": "Caffitaly S16",
-      "name_ar": "Caffitaly S16",
+      "name_ar": "كافيتالي S16",
       "category": "caffitaly-machines",
       "source": "Caffitaly Machines/S 16.jpg",
       "price": "49.00",
@@ -1065,12 +1461,13 @@
       "roast": null,
       "weight": "machine",
       "sku": "BCH-CAFFITALY-S16",
-      "description": "Caffitaly S16 capsule machine."
+      "description": "Caffitaly S16 capsule machine.",
+      "order": 4
     },
     {
       "slug": "caffitaly-s18",
       "name": "Caffitaly S18",
-      "name_ar": "Caffitaly S18",
+      "name_ar": "كافيتالي S18",
       "category": "caffitaly-machines",
       "source": "Caffitaly Machines/S 18.png",
       "price": "59.00",
@@ -1078,12 +1475,13 @@
       "roast": null,
       "weight": "machine",
       "sku": "BCH-CAFFITALY-S18",
-      "description": "Caffitaly S18 capsule machine."
+      "description": "Caffitaly S18 capsule machine.",
+      "order": 3
     },
     {
       "slug": "caffitaly-s22",
       "name": "Caffitaly S22",
-      "name_ar": "Caffitaly S22",
+      "name_ar": "كافيتالي S22",
       "category": "caffitaly-machines",
       "source": "Caffitaly Machines/S 22.jpg",
       "price": "69.00",
@@ -1091,12 +1489,13 @@
       "roast": null,
       "weight": "machine",
       "sku": "BCH-CAFFITALY-S22",
-      "description": "Caffitaly S22 capsule machine."
+      "description": "Caffitaly S22 capsule machine.",
+      "order": 5
     },
     {
       "slug": "caffitaly-s24",
       "name": "Caffitaly S24",
-      "name_ar": "Caffitaly S24",
+      "name_ar": "كافيتالي S24",
       "category": "caffitaly-machines",
       "source": "Caffitaly Machines/S 24.png",
       "price": "79.00",
@@ -1104,12 +1503,13 @@
       "roast": null,
       "weight": "machine",
       "sku": "BCH-CAFFITALY-S24",
-      "description": "Caffitaly S24 capsule machine."
+      "description": "Caffitaly S24 capsule machine.",
+      "order": 6
     },
     {
       "slug": "caffitaly-s27",
       "name": "Caffitaly S27",
-      "name_ar": "Caffitaly S27",
+      "name_ar": "كافيتالي S27",
       "category": "caffitaly-machines",
       "source": "Caffitaly Machines/S 27.jpg",
       "price": "89.00",
@@ -1117,12 +1517,13 @@
       "roast": null,
       "weight": "machine",
       "sku": "BCH-CAFFITALY-S27",
-      "description": "Caffitaly S27 capsule machine."
+      "description": "Caffitaly S27 capsule machine.",
+      "order": 7
     },
     {
       "slug": "caffitaly-s33",
       "name": "Caffitaly S33",
-      "name_ar": "Caffitaly S33",
+      "name_ar": "كافيتالي S33",
       "category": "caffitaly-machines",
       "source": "Caffitaly Machines/S 33.jpg",
       "price": "99.00",
@@ -1130,12 +1531,13 @@
       "roast": null,
       "weight": "machine",
       "sku": "BCH-CAFFITALY-S33",
-      "description": "Caffitaly S33 capsule machine."
+      "description": "Caffitaly S33 capsule machine.",
+      "order": 1
     },
     {
       "slug": "caffitaly-s36",
       "name": "Caffitaly S36",
-      "name_ar": "Caffitaly S36",
+      "name_ar": "كافيتالي S36",
       "category": "caffitaly-machines",
       "source": "Caffitaly Machines/S 36.jpg",
       "price": "119.00",
@@ -1143,7 +1545,8 @@
       "roast": null,
       "weight": "machine",
       "sku": "BCH-CAFFITALY-S36",
-      "description": "Caffitaly S36 capsule machine."
+      "description": "Caffitaly S36 capsule machine.",
+      "order": 2
     }
   ]
 }

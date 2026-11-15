@@ -27,7 +27,11 @@ if not (ROOT / "shared" / "catalog.json").exists():
     ROOT = ROOT.parent
 CATALOG_PATH = ROOT / "shared" / "catalog.json"
 PRODUCTS_DIR = ROOT / "_source_assets" / "Brazillian Coffee House" / "Website Products"
+if not PRODUCTS_DIR.exists():
+    PRODUCTS_DIR = ROOT.parent / "_source_assets" / "Brazillian Coffee House" / "Website Products"
 LOGO_SRC = ROOT / "_source_assets" / "brand" / "logo-2.png"
+if not LOGO_SRC.exists():
+    LOGO_SRC = ROOT.parent / "_source_assets" / "brand" / "logo-2.png"
 
 
 def stable_stock(sku: str) -> int:
@@ -228,6 +232,7 @@ class Command(BaseCommand):
                     "is_active": True,
                     "is_featured": bool(item.get("featured")),
                     "is_new": bool(item.get("is_new")),
+                    "display_order": int(item.get("order") or 0),
                     "published_at": timezone.now(),
                 },
             )

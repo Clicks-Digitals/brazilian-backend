@@ -1,4 +1,4 @@
-from django.db.models import Count, IntegerField, Min, OuterRef, Prefetch, Q, Subquery, Sum
+from django.db.models import Case, Count, IntegerField, Min, OuterRef, Prefetch, Q, Subquery, Sum, Value, When
 from django.db.models.functions import Coalesce
 
 from apps.catalog.models import Category, Product, ProductImage, ProductVariant
@@ -40,7 +40,6 @@ def public_category_queryset():
 
 def apply_product_ordering(qs, ordering: str | None):
     mapping = {
-        "featured": ("-is_featured", "-created_at"),
         "-created_at": ("-created_at",),
         "created_at": ("created_at",),
         "price": ("min_price", "name"),
@@ -51,12 +50,18 @@ def apply_product_ordering(qs, ordering: str | None):
     }
     if ordering in mapping:
         return qs.order_by(*mapping[ordering])
-    return qs.order_by("-is_featured", "name")
+    return qs.annotate(
+        shelf_order=Case(
+            When(display_order=0, then=Value(9999)),
+            default="display_order",
+            output_field=IntegerField(),
+        )
+    ).order_by("shelf_order", "name")
 
 
 def related_products_for(product: Product, limit: int = 4):
     qs = public_product_queryset().exclude(pk=product.pk)
-    same = list(qs.filter(category_id=product.category_id).order_by("-is_featured", "name")[:limit])
+    same = list(qs.filter(category_id=product.category_id).order_by("display_order", "name")[:limit])
     if len(same) >= limit:
         return same
     seen = {item.id for item in same} | {product.id}

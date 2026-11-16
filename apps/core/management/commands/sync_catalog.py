@@ -4,7 +4,15 @@ import json
 
 from django.core.management.base import BaseCommand
 
+from apps.cms.models import Article
 from apps.core.management.commands.seed_store import CATALOG_PATH, Command as SeedCommand
+
+AMMAN_ARTICLE_BODY = (
+    "<p>In Amman, coffee is more than just a drink. It’s a morning tradition, a warm welcome, "
+    "and a moment that brings people together. From the rich aroma of Turkish coffee to the "
+    "comforting taste of a freshly brewed cup, coffee has always been part of our everyday stories.</p>\n"
+    "<p>Through generations, one thing remains unchanged: our passion for great coffee.</p>"
+)
 
 
 class Command(BaseCommand):
@@ -19,6 +27,10 @@ class Command(BaseCommand):
         seed.style = self.style
         self.stdout.write("Syncing catalog from catalog.json...")
         categories, products = seed.seed_catalog(catalog)
+        amman_updated = Article.objects.filter(slug="coffee-culture-in-amman").update(content=AMMAN_ARTICLE_BODY)
         self.stdout.write(
-            self.style.SUCCESS(f"Catalog synced: {len(categories)} categories, {len(products)} products.")
+            self.style.SUCCESS(
+                f"Catalog synced: {len(categories)} categories, {len(products)} products"
+                + (f", Amman article updated ({amman_updated})." if amman_updated else ".")
+            )
         )

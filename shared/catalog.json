@@ -858,7 +858,7 @@
       "weight": "sachet",
       "sku": "BCH-AR-SCH",
       "description": "Instant Arabic coffee, single sachet.",
-      "order": 3
+      "order": 7
     },
     {
       "slug": "arabic-coffee-10-sachets",
@@ -873,7 +873,7 @@
       "weight": "10 sachets",
       "sku": "BCH-AR-10",
       "description": "Instant Arabic coffee, box of 10 sachets.",
-      "order": 4
+      "order": 8
     },
     {
       "slug": "saudi-coffee-sachet",
@@ -887,7 +887,7 @@
       "weight": "sachet",
       "sku": "BCH-SA-SCH",
       "description": "Instant Saudi coffee, single sachet.",
-      "order": 5
+      "order": 9
     },
     {
       "slug": "saudi-coffee-10-sachets",
@@ -901,7 +901,7 @@
       "weight": "10 sachets",
       "sku": "BCH-SA-10",
       "description": "Instant Saudi coffee, box of 10 sachets.",
-      "order": 6
+      "order": 10
     },
     {
       "slug": "saudi-coffee-bag",
@@ -936,6 +936,74 @@
       "is_new": false,
       "compare": null,
       "order": 2
+    },
+    {
+      "slug": "saudi-coffee-8-dallat",
+      "name": "Instant Saudi Coffee 8 Dallat",
+      "name_ar": "قهوة سعودية 8 دلات",
+      "category": "arabic-coffee",
+      "source": "Arabic coffee/saudi-8-dallat.jpg",
+      "price": "5.50",
+      "featured": false,
+      "is_new": true,
+      "tasting": "Saudi roast, spices",
+      "roast": "light",
+      "weight": "8 dallat",
+      "sku": "BCH-SA-8DAL",
+      "description": "Instant Saudi coffee tin, 8 dallat.",
+      "compare": null,
+      "order": 4
+    },
+    {
+      "slug": "saudi-coffee-4-dallat",
+      "name": "Instant Saudi Coffee 4 Dallat",
+      "name_ar": "قهوة سعودية 4 دلات",
+      "category": "arabic-coffee",
+      "source": "Arabic coffee/saudi-4-dallat.jpg",
+      "price": "2.85",
+      "featured": false,
+      "is_new": true,
+      "tasting": "Saudi roast, spices",
+      "roast": "light",
+      "weight": "4 dallat",
+      "sku": "BCH-SA-4DAL",
+      "description": "Instant Saudi coffee tin, 4 dallat.",
+      "compare": null,
+      "order": 3
+    },
+    {
+      "slug": "arabic-coffee-7-dalla",
+      "name": "Instant Arabic Coffee 7 Dalla",
+      "name_ar": "قهوة عربية 7 دلة",
+      "category": "arabic-coffee",
+      "source": "Arabic coffee/arabic-7-dalla.jpg",
+      "price": "2.85",
+      "featured": false,
+      "is_new": true,
+      "tasting": "Cardamom, Arabic spices",
+      "roast": "light",
+      "weight": "7 dalla",
+      "sku": "BCH-AR-7DAL",
+      "description": "Instant Arabic coffee tin, 7 dalla.",
+      "compare": null,
+      "order": 5
+    },
+    {
+      "slug": "arabic-coffee-13-dalla",
+      "name": "Instant Arabic Coffee 13 Dalla",
+      "name_ar": "قهوة عربية 13 دلة",
+      "category": "arabic-coffee",
+      "source": "Arabic coffee/arabic-13-dalla.jpg",
+      "price": "5.50",
+      "featured": false,
+      "is_new": true,
+      "tasting": "Cardamom, Arabic spices",
+      "roast": "light",
+      "weight": "13 dalla",
+      "sku": "BCH-AR-13DAL",
+      "description": "Instant Arabic coffee tin, 13 dalla.",
+      "compare": null,
+      "order": 6
     },
     {
       "slug": "rio-house-3-in-1",

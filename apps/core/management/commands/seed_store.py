@@ -281,6 +281,10 @@ class Command(BaseCommand):
             "french-coffee-hazelnut",
             "french-coffee-macadamia",
             "caffitaly-nocciola",
+            "saudi-coffee-8-dallat",
+            "saudi-coffee-4-dallat",
+            "arabic-coffee-7-dalla",
+            "arabic-coffee-13-dalla",
         }
         if not missing and not force:
             return

@@ -102,7 +102,7 @@
       "weight": "250g",
       "sku": "BCH-TR-LGT-250",
       "description": "A light Turkish roast with cardamom, prepared for cezve brewing. 250g tin.",
-      "order": 13
+      "order": 12
     },
     {
       "slug": "turkish-coffee-medium",
@@ -118,7 +118,7 @@
       "weight": "250g",
       "sku": "BCH-TR-MED-250",
       "description": "The house Turkish roast — medium with cardamom. 250g tin.",
-      "order": 16
+      "order": 15
     },
     {
       "slug": "turkish-coffee-dark",
@@ -133,7 +133,7 @@
       "weight": "250g",
       "sku": "BCH-TR-DRK-250",
       "description": "A darker Turkish roast with cardamom for a fuller cup. 250g tin.",
-      "order": 15
+      "order": 14
     },
     {
       "slug": "turkish-coffee-vanilla",
@@ -147,7 +147,7 @@
       "weight": "250g",
       "sku": "BCH-TR-VAN-250",
       "description": "Turkish coffee with vanilla. 250g tin.",
-      "order": 21
+      "order": 18
     },
     {
       "slug": "turkish-coffee-hazelnut-vanilla",
@@ -161,7 +161,7 @@
       "weight": "250g",
       "sku": "BCH-TR-HZV-250",
       "description": "Turkish coffee with hazelnut and vanilla. 250g tin.",
-      "order": 24
+      "order": 21
     },
     {
       "slug": "turkish-coffee-caramel",
@@ -175,7 +175,7 @@
       "weight": "250g",
       "sku": "BCH-TR-CAR-250",
       "description": "Turkish coffee with caramel. 250g tin.",
-      "order": 23
+      "order": 20
     },
     {
       "slug": "turkish-coffee-macadamia",
@@ -189,7 +189,7 @@
       "weight": "250g",
       "sku": "BCH-TR-MAC-250",
       "description": "Turkish coffee with macadamia. 250g tin.",
-      "order": 19
+      "order": 17
     },
     {
       "slug": "turkish-coffee-chocolate",
@@ -203,7 +203,7 @@
       "weight": "250g",
       "sku": "BCH-TR-CHO-250",
       "description": "Turkish coffee with chocolate. 250g tin.",
-      "order": 26
+      "order": 23
     },
     {
       "slug": "turkish-coffee-hazelnut",
@@ -217,49 +217,49 @@
       "weight": "250g",
       "sku": "BCH-TR-HAZ-250",
       "description": "Turkish coffee with hazelnut. 250g tin.",
-      "order": 22
+      "order": 19
     },
     {
       "slug": "french-coffee",
-      "name": "French Coffee",
-      "name_ar": "قهوة فرنسية",
+      "name": "French Original",
+      "name_ar": "فرنسية أورجينال",
       "category": "turkish-coffee",
-      "source": "Turkish Coffee/قهوة فرنسية.jpg",
+      "source": "Turkish Coffee/french-original.jpg",
       "price": "3.50",
       "tasting": "Smooth French roast",
       "roast": "medium-dark",
       "weight": "250g",
       "sku": "BCH-FR-ORG-250",
-      "description": "French-style coffee from Brazilian Coffee House. 250g tin.",
-      "order": 17
+      "description": "French original coffee, 250g box.",
+      "order": 24
     },
     {
       "slug": "french-coffee-hazelnut",
-      "name": "French Coffee Hazelnut",
-      "name_ar": "قهوة فرنسية بندق",
+      "name": "French Hazelnut",
+      "name_ar": "فرنسية بالبندق",
       "category": "turkish-coffee",
-      "source": "Turkish Coffee/قهوة فرنسية بندق.jpg",
+      "source": "Turkish Coffee/french-hazelnut.jpg",
       "price": "3.50",
       "tasting": "Hazelnut",
       "roast": "medium-dark",
       "weight": "250g",
       "sku": "BCH-FR-HAZ-250",
-      "description": "French coffee with hazelnut. 250g tin.",
-      "order": 20
+      "description": "French coffee with hazelnut, 250g box.",
+      "order": 25
     },
     {
       "slug": "french-coffee-macadamia",
-      "name": "French Coffee Macadamia",
-      "name_ar": "فرنسية مكاديميا",
+      "name": "French Macadamia",
+      "name_ar": "فرنسية بالمكاديميا",
       "category": "turkish-coffee",
-      "source": "Turkish Coffee/فرنسية مكاديميا - Copy.png",
+      "source": "Turkish Coffee/french-macadamia.jpg",
       "price": "3.50",
       "tasting": "Macadamia",
       "roast": "medium-dark",
       "weight": "250g",
       "sku": "BCH-FR-MAC-250",
-      "description": "French coffee with macadamia. 250g tin.",
-      "order": 6
+      "description": "French coffee with macadamia, 250g box.",
+      "order": 26
     },
     {
       "slug": "turkish-coffee-mastic",
@@ -273,7 +273,7 @@
       "weight": "250g",
       "sku": "BCH-TR-MAS-250",
       "description": "Turkish coffee with mastic. 250g tin.",
-      "order": 25
+      "order": 22
     },
     {
       "slug": "turkish-coffee-decaf",
@@ -287,7 +287,7 @@
       "weight": "250g",
       "sku": "BCH-TR-DEC-250",
       "description": "Decaffeinated Turkish coffee. 250g tin.",
-      "order": 7
+      "order": 6
     },
     {
       "slug": "ottoman-coffee",
@@ -301,7 +301,7 @@
       "weight": "250g",
       "sku": "BCH-TR-OTT-250",
       "description": "Ottoman-style Turkish coffee. 250g tin.",
-      "order": 18
+      "order": 16
     },
     {
       "slug": "turkish-coffee-jordanian-blend",
@@ -330,7 +330,7 @@
       "weight": "250g",
       "sku": "BCH-TR-ETH-250",
       "description": "Ethiopian coffee, medium with cardamom. 250g.",
-      "order": 10
+      "order": 9
     },
     {
       "slug": "turkish-coffee-colombian",
@@ -344,7 +344,7 @@
       "weight": "250g",
       "sku": "BCH-TR-COL-250",
       "description": "Colombian coffee, medium with cardamom. 250g.",
-      "order": 9
+      "order": 8
     },
     {
       "slug": "turkish-coffee-kenyan",
@@ -358,7 +358,7 @@
       "weight": "250g",
       "sku": "BCH-TR-KEN-250",
       "description": "Kenyan coffee, medium with cardamom. 250g.",
-      "order": 11
+      "order": 10
     },
     {
       "slug": "turkish-coffee-peru",
@@ -372,7 +372,7 @@
       "weight": "250g",
       "sku": "BCH-TR-PER-250",
       "description": "Peruvian coffee, medium with cardamom. 250g.",
-      "order": 12
+      "order": 11
     },
     {
       "slug": "turkish-coffee-jordanian-blend-sachets",
@@ -406,7 +406,7 @@
       "featured": false,
       "is_new": false,
       "compare": null,
-      "order": 8
+      "order": 7
     },
     {
       "slug": "turkish-coffee-jordanian-blend-light",
@@ -423,7 +423,7 @@
       "featured": false,
       "is_new": false,
       "compare": null,
-      "order": 14
+      "order": 13
     },
     {
       "slug": "turkish-coffee-medium-bag",
@@ -950,7 +950,7 @@
       "weight": "24 sachets",
       "sku": "BCH-RIO-3IN1-24",
       "description": "Rio House 3 in 1 Regular. 24 sachets, 20g each.",
-      "order": 12
+      "order": 13
     },
     {
       "slug": "rio-house-3-in-1-bag",
@@ -978,7 +978,7 @@
       "weight": "24 sachets",
       "sku": "BCH-RIO-2IN1-24",
       "description": "Rio House 2 in 1. Coffee with creamer.",
-      "order": 14
+      "order": 15
     },
     {
       "slug": "rio-house-2-in-1-bag",
@@ -1006,7 +1006,7 @@
       "weight": "24 sachets",
       "sku": "BCH-RIO-BLK",
       "description": "Rio House Black instant coffee.",
-      "order": 13
+      "order": 14
     },
     {
       "slug": "rio-house-black-gar",
@@ -1020,7 +1020,24 @@
       "weight": "200g",
       "sku": "BCH-RIO-BLK-JAR",
       "description": "Rio House Black instant coffee jar.",
-      "order": 11
+      "order": 12
+    },
+    {
+      "slug": "rio-house-cacao",
+      "name": "Rio House Cacao",
+      "name_ar": "كاكاو خام",
+      "category": "rio-house",
+      "source": "Rio House/cacao.jpg",
+      "price": "4.50",
+      "featured": false,
+      "is_new": true,
+      "tasting": "100% pure cacao powder",
+      "roast": null,
+      "weight": "tin",
+      "sku": "BCH-RIO-CACAO",
+      "description": "Rio House premium cacao powder.",
+      "compare": null,
+      "order": 8
     },
     {
       "slug": "rio-house-gold",
@@ -1034,7 +1051,7 @@
       "weight": "200g",
       "sku": "BCH-RIO-GLD",
       "description": "Rio House Gold instant coffee jar.",
-      "order": 10
+      "order": 11
     },
     {
       "slug": "rio-house-mix",
@@ -1048,7 +1065,7 @@
       "weight": "24 sachets",
       "sku": "BCH-RIO-MIX",
       "description": "Rio House Mix.",
-      "order": 19
+      "order": 20
     },
     {
       "slug": "rio-house-caramel-cappuccino",
@@ -1062,7 +1079,7 @@
       "weight": "10 sachets",
       "sku": "BCH-RIO-CAP-CAR",
       "description": "Rio House caramel cappuccino mix.",
-      "order": 21
+      "order": 22
     },
     {
       "slug": "rio-house-hazelnut-cappuccino",
@@ -1076,7 +1093,7 @@
       "weight": "10 sachets",
       "sku": "BCH-RIO-CAP-HAZ",
       "description": "Rio House hazelnut cappuccino mix.",
-      "order": 20
+      "order": 21
     },
     {
       "slug": "rio-house-hot-chocolate",
@@ -1090,7 +1107,7 @@
       "weight": "10 sachets",
       "sku": "BCH-RIO-CHO",
       "description": "Rio House hot chocolate.",
-      "order": 16
+      "order": 17
     },
     {
       "slug": "rio-house-mocha",
@@ -1104,7 +1121,7 @@
       "weight": "10 sachets",
       "sku": "BCH-RIO-MOC",
       "description": "Rio House mocha mix.",
-      "order": 15
+      "order": 16
     },
     {
       "slug": "rio-house-chai-karak",
@@ -1118,7 +1135,7 @@
       "weight": "box",
       "sku": "BCH-RIO-KRK",
       "description": "Rio House chai karak.",
-      "order": 22
+      "order": 23
     },
     {
       "slug": "rio-house-lentil",
@@ -1132,7 +1149,7 @@
       "weight": "10 sachets",
       "sku": "BCH-RIO-LNT",
       "description": "Rio House instant lentil.",
-      "order": 17
+      "order": 18
     },
     {
       "slug": "rio-house-milk-ginger",
@@ -1146,7 +1163,7 @@
       "weight": "10 sachets",
       "sku": "BCH-RIO-GIN",
       "description": "Rio House milk and ginger.",
-      "order": 18
+      "order": 19
     },
     {
       "slug": "rio-house-salep",
@@ -1160,7 +1177,7 @@
       "weight": "box",
       "sku": "BCH-RIO-SLP",
       "description": "Rio House salep (sahlab).",
-      "order": 23
+      "order": 24
     },
     {
       "slug": "rio-house-creamer",
@@ -1174,7 +1191,7 @@
       "weight": "450g",
       "sku": "BCH-RIO-CRM",
       "description": "Rio House coffee whitener, large bottle.",
-      "order": 9
+      "order": 10
     },
     {
       "slug": "rio-house-creamer-small",
@@ -1191,7 +1208,7 @@
       "featured": false,
       "is_new": false,
       "compare": null,
-      "order": 8
+      "order": 9
     },
     {
       "slug": "rio-house-hazelnut-cappuccino-1kg",

@@ -271,7 +271,15 @@ class Command(BaseCommand):
         if existing and existing.image:
             existing_path = Path(settings.MEDIA_ROOT) / str(existing.image)
         missing = existing is None or not existing_path or not existing_path.exists()
-        force = product.slug in {"espresso-nicaragua", "filter-coffee-bag-decaf"}
+        force = product.slug in {
+            "espresso-nicaragua",
+            "filter-coffee-bag-decaf",
+            "rio-house-cacao",
+            "rio-house-gold",
+            "french-coffee",
+            "french-coffee-hazelnut",
+            "french-coffee-macadamia",
+        }
         if not missing and not force:
             return
 

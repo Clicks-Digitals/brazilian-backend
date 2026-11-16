@@ -14,6 +14,9 @@ def variant_queryset(active_only=True):
             When(weight_label__iexact="500g", then=Value(2)),
             When(weight_label__iexact="1kg", then=Value(3)),
             When(weight_label__iexact="1000g", then=Value(3)),
+            When(weight_label__iexact="100g", then=Value(4)),
+            When(weight_label__iexact="200g", then=Value(5)),
+            When(weight_label__iexact="50g", then=Value(6)),
             default=Value(50),
             output_field=IntegerField(),
         )

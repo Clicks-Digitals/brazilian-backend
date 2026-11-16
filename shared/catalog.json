@@ -784,8 +784,8 @@
     },
     {
       "slug": "espresso-medium",
-      "name": "Original Espresso",
-      "name_ar": "قهوة إسبريسو الأصلية",
+      "name": "Medium Roast Espresso",
+      "name_ar": "قهوة إسبريسو وسط",
       "category": "espresso",
       "source": "Espresso/Espresso Medium.png",
       "price": "4.00",
@@ -799,7 +799,7 @@
     },
     {
       "slug": "espresso-dark",
-      "name": "Dark Espresso",
+      "name": "Dark Roast Espresso",
       "name_ar": "قهوة إسبريسو غامق",
       "category": "espresso",
       "source": "Espresso/Espresso Dark.png",

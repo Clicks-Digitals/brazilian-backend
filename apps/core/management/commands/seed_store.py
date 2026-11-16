@@ -254,6 +254,9 @@ class Command(BaseCommand):
                 category.image.save(Path(src_file.name).name, src_file.file, save=True)
             products[item["slug"]] = product
         self.ensure_extra_variants()
+        from apps.catalog.weight_sizes import ensure_250g_family_variants
+
+        ensure_250g_family_variants()
         return categories, products
 
     def ensure_product_image(self, product: Product, item: dict) -> None:

@@ -4,6 +4,22 @@ from django.db.models.functions import Coalesce
 from apps.catalog.models import Category, Product, ProductImage, ProductVariant
 
 
+def variant_queryset(active_only=True):
+    qs = ProductVariant.objects.all()
+    if active_only:
+        qs = qs.filter(is_active=True)
+    return qs.annotate(
+        size_rank=Case(
+            When(weight_label__iexact="250g", then=Value(1)),
+            When(weight_label__iexact="500g", then=Value(2)),
+            When(weight_label__iexact="1kg", then=Value(3)),
+            When(weight_label__iexact="1000g", then=Value(3)),
+            default=Value(50),
+            output_field=IntegerField(),
+        )
+    ).order_by("size_rank", "id")
+
+
 def public_product_queryset():
     from apps.commerce.models import Order, OrderItem
 
@@ -19,7 +35,7 @@ def public_product_queryset():
         .select_related("category")
         .prefetch_related(
             Prefetch("images", queryset=ProductImage.objects.order_by("sort_order", "id")),
-            Prefetch("variants", queryset=ProductVariant.objects.filter(is_active=True)),
+            Prefetch("variants", queryset=variant_queryset()),
         )
         .annotate(
             min_price=Min("variants__price", filter=Q(variants__is_active=True)),

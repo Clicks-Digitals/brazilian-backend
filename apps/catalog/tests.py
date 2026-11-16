@@ -91,6 +91,21 @@ class ProductApiTests(TestCase):
         self.assertEqual(slugs[-1], "turkish-coffee-medium")
         self.assertLess(slugs.index("turkish-coffee-jordanian-blend"), slugs.index("turkish-coffee-sachet"))
 
+    def test_250g_products_get_500g_and_1kg_options(self):
+        from apps.catalog.weight_sizes import ensure_250g_family_variants
+
+        created = ensure_250g_family_variants()
+        self.assertGreaterEqual(created, 2)
+        detail = self.client.get("/api/v1/products/turkish-coffee-medium/")
+        self.assertEqual(detail.status_code, 200)
+        labels = [row["weight_label"] for row in detail.data["variants"]]
+        self.assertEqual(labels[:3], ["250g", "500g", "1kg"])
+        prices = {row["weight_label"]: row["price"] for row in detail.data["variants"]}
+        self.assertEqual(prices["250g"], "3.750")
+        self.assertEqual(prices["500g"], "7.500")
+        self.assertEqual(prices["1kg"], "15.000")
+        self.assertEqual(detail.data["default_variant"]["weight_label"], "250g")
+
     def test_product_detail_includes_related_coffees(self):
         extras = [
             make_product(self.category, name="Turkish Coffee Light", slug="turkish-coffee-light", sku="BCH-TR-LGT"),

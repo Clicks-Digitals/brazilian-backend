@@ -253,10 +253,13 @@ class Command(BaseCommand):
                 src_file = product.images.first().image
                 category.image.save(Path(src_file.name).name, src_file.file, save=True)
             products[item["slug"]] = product
+        keep_slugs = {item["slug"] for item in catalog["products"]}
+        Product.objects.exclude(slug__in=keep_slugs).update(is_active=False)
         self.ensure_extra_variants()
-        from apps.catalog.weight_sizes import ensure_250g_family_variants
+        from apps.catalog.weight_sizes import ensure_250g_family_variants, ensure_bag_kg_variants
 
         ensure_250g_family_variants()
+        ensure_bag_kg_variants()
         return categories, products
 
     def ensure_product_image(self, product: Product, item: dict) -> None:

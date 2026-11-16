@@ -287,7 +287,7 @@ class Command(BaseCommand):
     def ensure_extra_variants(self) -> None:
         extras = [
             ("rio-house-gold", "BCH-RIO-GLD-100", "100g", "3.500"),
-            ("rio-house-black-gar", "BCH-RIO-BLK-JAR-100", "100g", "4.500"),
+            ("rio-house-black-gar", "BCH-RIO-BLK-JAR-100", "100g", "2.500"),
             ("rio-house-black-gar", "BCH-RIO-BLK-JAR-50", "50g", "1.500"),
         ]
         for slug, sku, weight, price in extras:

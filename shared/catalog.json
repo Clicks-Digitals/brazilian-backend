@@ -1393,7 +1393,7 @@
       "weight": "10 capsules",
       "sku": "BCH-CAF-CRE-10",
       "description": "Caffitaly Cremoso, box of 10 capsules.",
-      "order": 6
+      "order": 4
     },
     {
       "slug": "caffitaly-decaffeinato",
@@ -1407,7 +1407,7 @@
       "weight": "10 capsules",
       "sku": "BCH-CAF-DEC-10",
       "description": "Caffitaly Decaffeinato, box of 10 capsules.",
-      "order": 5
+      "order": 3
     },
     {
       "slug": "caffitaly-intenso",
@@ -1421,7 +1421,7 @@
       "weight": "10 capsules",
       "sku": "BCH-CAF-INT-10",
       "description": "Caffitaly Intenso capsules.",
-      "order": 8
+      "order": 5
     },
     {
       "slug": "caffitaly-corposo",
@@ -1435,7 +1435,7 @@
       "weight": "10 capsules",
       "sku": "BCH-CAF-COR-10",
       "description": "Caffitaly Corposo, box of 10 capsules.",
-      "order": 3
+      "order": 1
     },
     {
       "slug": "caffitaly-vigoroso",
@@ -1452,7 +1452,7 @@
       "featured": false,
       "is_new": false,
       "compare": null,
-      "order": 4
+      "order": 2
     },
     {
       "slug": "compatible-vivace",
@@ -1469,7 +1469,7 @@
       "featured": false,
       "is_new": false,
       "compare": null,
-      "order": 9
+      "order": 10
     },
     {
       "slug": "compatible-ethiopia",
@@ -1483,7 +1483,7 @@
       "weight": "10 capsules",
       "sku": "BCH-NSP-ETH-10",
       "description": "Nespresso-compatible Ethiopia capsules.",
-      "order": 2
+      "order": 8
     },
     {
       "slug": "compatible-deciso",
@@ -1497,7 +1497,7 @@
       "weight": "10 capsules",
       "sku": "BCH-NSP-DES-10",
       "description": "Nespresso-compatible Deciso capsules.",
-      "order": 10
+      "order": 11
     },
     {
       "slug": "compatible-soave",
@@ -1511,7 +1511,7 @@
       "weight": "10 capsules",
       "sku": "BCH-NSP-SOA-10",
       "description": "Nespresso-compatible Soave capsules.",
-      "order": 1
+      "order": 7
     },
     {
       "slug": "compatible-deca",
@@ -1525,7 +1525,7 @@
       "weight": "10 capsules",
       "sku": "BCH-NSP-DEC-10",
       "description": "Nespresso-compatible Deca capsules.",
-      "order": 7
+      "order": 9
     },
     {
       "slug": "caffitaly-nocciola",
@@ -1541,7 +1541,7 @@
       "weight": "10 capsules",
       "sku": "BCH-CAF-NOC-10",
       "description": "Caffitaly Nocciola hazelnut espresso, box of 10 capsules.",
-      "order": 11
+      "order": 6
     },
     {
       "slug": "caffitaly-s16",

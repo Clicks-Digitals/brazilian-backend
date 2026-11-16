@@ -34,6 +34,7 @@ class Command(BaseCommand):
         if setting and isinstance(setting.value, dict):
             value = dict(setting.value)
             value["email"] = "nermen.k@bch-coffee.com"
+            value["phone"] = "0798444453"
             setting.value = value
             setting.save(update_fields=["value"])
         self.stdout.write(

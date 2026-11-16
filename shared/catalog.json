@@ -290,20 +290,6 @@
       "order": 7
     },
     {
-      "slug": "turkish-coffee-sachet",
-      "name": "Turkish Coffee Sachets",
-      "name_ar": "قهوة تركية ساشيت",
-      "category": "turkish-coffee",
-      "source": "Turkish Coffee/قهوة تركية ساشيت.jpg",
-      "price": "2.50",
-      "tasting": "Classic Turkish",
-      "roast": "medium",
-      "weight": "sachet",
-      "sku": "BCH-TR-SCH",
-      "description": "Turkish coffee in a convenient sachet.",
-      "order": 28
-    },
-    {
       "slug": "ottoman-coffee",
       "name": "Ottoman Coffee",
       "name_ar": "قهوة تركية عثمانية",
@@ -410,7 +396,7 @@
       "name": "Turkish Coffee without Cardamom",
       "name_ar": "قهوة تركية بدون هيل",
       "source": "Turkish Coffee/قهوة تركية بدون هيل.png",
-      "price": "3.50",
+      "price": "3.75",
       "tasting": "Medium roast, no cardamom",
       "roast": "medium",
       "weight": "250g",

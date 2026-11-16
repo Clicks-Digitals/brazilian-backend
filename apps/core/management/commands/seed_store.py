@@ -276,7 +276,7 @@ class Command(BaseCommand):
             return
 
         source = PRODUCTS_DIR / item.get("source", "")
-        candidates = [source, dest]
+        candidates = [source, dest, existing_path]
         if product.slug == "espresso-nicaragua":
             candidates.extend(
                 [
@@ -285,7 +285,7 @@ class Command(BaseCommand):
                 ]
             )
         candidates.append(media_root / f"{slugify(Path(item.get('source') or 'image').stem)}.jpg")
-        src = next((path for path in candidates if path and path.exists() and path.is_file()), None)
+        src = next((path for path in candidates if path and Path(path).exists() and Path(path).is_file()), None)
         if not src:
             return
 

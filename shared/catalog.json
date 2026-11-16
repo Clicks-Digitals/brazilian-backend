@@ -506,7 +506,7 @@
       "weight": "250g",
       "sku": "BCH-FL-ORG-250",
       "description": "Original filter coffee. 100% Arabica.",
-      "order": 3
+      "order": 4
     },
     {
       "slug": "filter-coffee-colombian",
@@ -520,7 +520,7 @@
       "weight": "250g",
       "sku": "BCH-FL-COL-250",
       "description": "Colombian filter coffee.",
-      "order": 5
+      "order": 6
     },
     {
       "slug": "filter-coffee-kenyan",
@@ -548,7 +548,7 @@
       "weight": "250g",
       "sku": "BCH-FL-ETH-250",
       "description": "Ethiopian filter coffee.",
-      "order": 6
+      "order": 7
     },
     {
       "slug": "filter-coffee-peru",
@@ -562,21 +562,7 @@
       "weight": "250g",
       "sku": "BCH-FL-PER-250",
       "description": "Peruvian filter coffee.",
-      "order": 4
-    },
-    {
-      "slug": "filter-coffee-organic",
-      "name": "Organic Filter Coffee",
-      "name_ar": "قهوة فلتر عضوية",
-      "category": "filter-coffee",
-      "source": "Filter Coffee/قهوة فلتر عضوية.jpg",
-      "price": "5.75",
-      "tasting": "Organic",
-      "roast": "medium",
-      "weight": "250g",
-      "sku": "BCH-FL-ORGNC-250",
-      "description": "Organic filter coffee.",
-      "order": 7
+      "order": 5
     },
     {
       "slug": "filter-coffee-vanilla",
@@ -688,7 +674,7 @@
       "weight": "250g",
       "sku": "BCH-FL-DEC-250",
       "description": "Decaffeinated filter coffee.",
-      "order": 16
+      "order": 1
     },
     {
       "slug": "filter-coffee-bag",
@@ -702,7 +688,7 @@
       "weight": "250kg",
       "sku": "BCH-FL-BAG",
       "description": "Original filtered coffee in a bag.",
-      "order": 1
+      "order": 2
     },
     {
       "slug": "filter-coffee-bag-decaf",
@@ -719,7 +705,7 @@
       "sku": "BCH-FL-BAG-DEC",
       "description": "Decaffeinated original filter coffee in a bag.",
       "compare": null,
-      "order": 2
+      "order": 3
     },
     {
       "slug": "drip-coffee-original",

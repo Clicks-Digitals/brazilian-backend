@@ -513,11 +513,8 @@ class Command(BaseCommand):
                 "cover": "turkish-coffee-medium",
                 "related": ["turkish-coffee-medium", "turkish-coffee-light", "espresso-medium"],
                 "content": """
-<p>Amman drinks coffee in layers. There is the morning cezve, cardamom rising through the kitchen.
-There is the office machine, the visit to a parent’s house, the tin opened for guests.</p>
-<p>Brazilian Coffee House has been part of that rhythm since 1995, after decades of roasting at
-Kuwait International Mill. The blends are familiar on purpose: Turkish, filter, espresso, and the
-sachets people keep in a drawer for unexpected company.</p>
+<p>In Amman, coffee is more than just a drink. It’s a morning tradition, a warm welcome, and a moment that brings people together. From the rich aroma of Turkish coffee to the comforting taste of a freshly brewed cup, coffee has always been part of our everyday stories.</p>
+<p>Through generations, one thing remains unchanged: our passion for great coffee.</p>
 """,
             },
             {

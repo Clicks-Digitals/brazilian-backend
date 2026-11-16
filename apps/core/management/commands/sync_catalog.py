@@ -28,6 +28,14 @@ class Command(BaseCommand):
         self.stdout.write("Syncing catalog from catalog.json...")
         categories, products = seed.seed_catalog(catalog)
         amman_updated = Article.objects.filter(slug="coffee-culture-in-amman").update(content=AMMAN_ARTICLE_BODY)
+        from apps.cms.models import StoreSetting
+
+        setting = StoreSetting.objects.filter(key="store").first()
+        if setting and isinstance(setting.value, dict):
+            value = dict(setting.value)
+            value["email"] = "nermen.k@bch-coffee.com"
+            setting.value = value
+            setting.save(update_fields=["value"])
         self.stdout.write(
             self.style.SUCCESS(
                 f"Catalog synced: {len(categories)} categories, {len(products)} products"

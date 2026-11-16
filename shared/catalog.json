@@ -7,7 +7,7 @@
     "currency": "JOD",
     "currency_symbol": "JD",
     "phone": "06 222 3330",
-    "email": "info@bch-coffee.com",
+    "email": "nermen.k@bch-coffee.com",
     "website": "https://braziliancoffeehouse.com",
     "logo": "/Users/saifaltayeh/Desktop/developer/Brazilian Coffee/_source_assets/brand/logo-2.png",
     "colors": {
@@ -506,7 +506,7 @@
       "weight": "250g",
       "sku": "BCH-FL-ORG-250",
       "description": "Original filter coffee. 100% Arabica.",
-      "order": 2
+      "order": 4
     },
     {
       "slug": "filter-coffee-colombian",
@@ -674,7 +674,7 @@
       "weight": "250g",
       "sku": "BCH-FL-DEC-250",
       "description": "Decaffeinated filter coffee.",
-      "order": 1
+      "order": 3
     },
     {
       "slug": "filter-coffee-bag",
@@ -688,7 +688,7 @@
       "weight": "250kg",
       "sku": "BCH-FL-BAG",
       "description": "Original filtered coffee in a bag.",
-      "order": 3
+      "order": 1
     },
     {
       "slug": "filter-coffee-bag-decaf",
@@ -705,7 +705,7 @@
       "sku": "BCH-FL-BAG-DEC",
       "description": "Decaffeinated original filter coffee in a bag.",
       "compare": null,
-      "order": 4
+      "order": 2
     },
     {
       "slug": "drip-coffee-original",

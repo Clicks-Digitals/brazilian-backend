@@ -355,7 +355,7 @@ class Command(BaseCommand):
             "currency": "JOD",
             "currency_symbol": "JD",
             "phone": "06 222 3330",
-            "email": "info@bch-coffee.com",
+            "email": "nermen.k@bch-coffee.com",
             "website": brand.get("website", "https://braziliancoffeehouse.com"),
             "logo": "/media/brand/logo.png",
             "about": (
@@ -577,7 +577,7 @@ machine, filter for the weekend, and Rio House for the cupboard that has to work
                 "Privacy Policy",
                 "<p>Brazilian Coffee House collects only what we need to fulfil orders, answer "
                 "enquiries, and improve the shop. We do not sell personal data. Contact "
-                "info@bch-coffee.com with privacy requests.</p>",
+                "nermen.k@bch-coffee.com with privacy requests.</p>",
             ),
             "terms": (
                 "Terms of Sale",
@@ -593,7 +593,7 @@ machine, filter for the weekend, and Rio House for the cupboard that has to work
             "returns": (
                 "Returns",
                 "<p>Unopened tins and sealed goods may be returned within 7 days if unused. "
-                "Perishable opened coffee is not returnable. Write to info@bch-coffee.com to start a return.</p>",
+                "Perishable opened coffee is not returnable. Write to nermen.k@bch-coffee.com to start a return.</p>",
             ),
         }
         for slug, (title, content) in pages.items():

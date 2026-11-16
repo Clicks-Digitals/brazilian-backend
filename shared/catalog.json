@@ -147,7 +147,7 @@
       "weight": "250g",
       "sku": "BCH-TR-VAN-250",
       "description": "Turkish coffee with vanilla. 250g tin.",
-      "order": 25
+      "order": 21
     },
     {
       "slug": "turkish-coffee-hazelnut-vanilla",
@@ -161,7 +161,7 @@
       "weight": "250g",
       "sku": "BCH-TR-HZV-250",
       "description": "Turkish coffee with hazelnut and vanilla. 250g tin.",
-      "order": 28
+      "order": 24
     },
     {
       "slug": "turkish-coffee-caramel",
@@ -175,7 +175,7 @@
       "weight": "250g",
       "sku": "BCH-TR-CAR-250",
       "description": "Turkish coffee with caramel. 250g tin.",
-      "order": 27
+      "order": 23
     },
     {
       "slug": "turkish-coffee-macadamia",
@@ -189,7 +189,7 @@
       "weight": "250g",
       "sku": "BCH-TR-MAC-250",
       "description": "Turkish coffee with macadamia. 250g tin.",
-      "order": 23
+      "order": 19
     },
     {
       "slug": "turkish-coffee-chocolate",
@@ -203,7 +203,7 @@
       "weight": "250g",
       "sku": "BCH-TR-CHO-250",
       "description": "Turkish coffee with chocolate. 250g tin.",
-      "order": 30
+      "order": 26
     },
     {
       "slug": "turkish-coffee-hazelnut",
@@ -217,7 +217,7 @@
       "weight": "250g",
       "sku": "BCH-TR-HAZ-250",
       "description": "Turkish coffee with hazelnut. 250g tin.",
-      "order": 26
+      "order": 22
     },
     {
       "slug": "french-coffee",
@@ -231,7 +231,7 @@
       "weight": "250g",
       "sku": "BCH-FR-ORG-250",
       "description": "French-style coffee from Brazilian Coffee House. 250g tin.",
-      "order": 21
+      "order": 17
     },
     {
       "slug": "french-coffee-hazelnut",
@@ -245,7 +245,7 @@
       "weight": "250g",
       "sku": "BCH-FR-HAZ-250",
       "description": "French coffee with hazelnut. 250g tin.",
-      "order": 24
+      "order": 20
     },
     {
       "slug": "french-coffee-macadamia",
@@ -259,7 +259,7 @@
       "weight": "250g",
       "sku": "BCH-FR-MAC-250",
       "description": "French coffee with macadamia. 250g tin.",
-      "order": 3
+      "order": 6
     },
     {
       "slug": "turkish-coffee-mastic",
@@ -273,7 +273,7 @@
       "weight": "250g",
       "sku": "BCH-TR-MAS-250",
       "description": "Turkish coffee with mastic. 250g tin.",
-      "order": 29
+      "order": 25
     },
     {
       "slug": "turkish-coffee-decaf",
@@ -287,7 +287,7 @@
       "weight": "250g",
       "sku": "BCH-TR-DEC-250",
       "description": "Decaffeinated Turkish coffee. 250g tin.",
-      "order": 5
+      "order": 7
     },
     {
       "slug": "turkish-coffee-sachet",
@@ -301,7 +301,7 @@
       "weight": "sachet",
       "sku": "BCH-TR-SCH",
       "description": "Turkish coffee in a convenient sachet.",
-      "order": 31
+      "order": 28
     },
     {
       "slug": "ottoman-coffee",
@@ -315,7 +315,7 @@
       "weight": "250g",
       "sku": "BCH-TR-OTT-250",
       "description": "Ottoman-style Turkish coffee. 250g tin.",
-      "order": 22
+      "order": 18
     },
     {
       "slug": "turkish-coffee-jordanian-blend",
@@ -330,7 +330,7 @@
       "weight": "250g",
       "sku": "BCH-TR-JOR-250",
       "description": "Turkish coffee with the Jordanian blend. 250g tin.",
-      "order": 1
+      "order": 5
     },
     {
       "slug": "turkish-coffee-ethiopian",
@@ -338,13 +338,13 @@
       "name_ar": "قهوة تركية اثيوبي",
       "category": "turkish-coffee",
       "source": "Turkish Coffee/قهوة تركية اثيوبي.png",
-      "price": "3.50",
+      "price": "4.00",
       "tasting": "Ethiopian, cardamom",
       "roast": "medium",
       "weight": "250g",
       "sku": "BCH-TR-ETH-250",
       "description": "Ethiopian coffee, medium with cardamom. 250g.",
-      "order": 8
+      "order": 10
     },
     {
       "slug": "turkish-coffee-colombian",
@@ -358,7 +358,7 @@
       "weight": "250g",
       "sku": "BCH-TR-COL-250",
       "description": "Colombian coffee, medium with cardamom. 250g.",
-      "order": 7
+      "order": 9
     },
     {
       "slug": "turkish-coffee-kenyan",
@@ -372,7 +372,7 @@
       "weight": "250g",
       "sku": "BCH-TR-KEN-250",
       "description": "Kenyan coffee, medium with cardamom. 250g.",
-      "order": 10
+      "order": 11
     },
     {
       "slug": "turkish-coffee-peru",
@@ -403,7 +403,7 @@
       "featured": false,
       "is_new": false,
       "compare": null,
-      "order": 4
+      "order": 27
     },
     {
       "slug": "turkish-coffee-no-cardamom",
@@ -420,14 +420,14 @@
       "featured": false,
       "is_new": false,
       "compare": null,
-      "order": 6
+      "order": 8
     },
     {
       "slug": "turkish-coffee-jordanian-blend-light",
       "name": "Turkish Coffee Jordanian Blend Light",
       "name_ar": "قهوة تركية بالخلطة الأردنية فاتح",
       "source": "Turkish Coffee/قهوة تركية بالخلطة الاردنية فاتح.jpg",
-      "price": "4.00",
+      "price": "3.75",
       "tasting": "Jordanian blend, light roast",
       "roast": "light",
       "weight": "250g",
@@ -454,7 +454,7 @@
       "featured": false,
       "is_new": false,
       "compare": null,
-      "order": 17
+      "order": 1
     },
     {
       "slug": "turkish-coffee-light-bag",
@@ -471,7 +471,7 @@
       "featured": false,
       "is_new": false,
       "compare": null,
-      "order": 18
+      "order": 2
     },
     {
       "slug": "turkish-coffee-decaf-bag",
@@ -488,7 +488,7 @@
       "featured": false,
       "is_new": false,
       "compare": null,
-      "order": 19
+      "order": 3
     },
     {
       "slug": "turkish-coffee-dark-bag",
@@ -505,7 +505,7 @@
       "featured": false,
       "is_new": false,
       "compare": null,
-      "order": 20
+      "order": 4
     },
     {
       "slug": "filter-coffee-original",
@@ -520,7 +520,7 @@
       "weight": "250g",
       "sku": "BCH-FL-ORG-250",
       "description": "Original filter coffee. 100% Arabica.",
-      "order": 1
+      "order": 3
     },
     {
       "slug": "filter-coffee-colombian",
@@ -534,7 +534,7 @@
       "weight": "250g",
       "sku": "BCH-FL-COL-250",
       "description": "Colombian filter coffee.",
-      "order": 4
+      "order": 5
     },
     {
       "slug": "filter-coffee-kenyan",
@@ -548,7 +548,7 @@
       "weight": "250g",
       "sku": "BCH-FL-KEN-250",
       "description": "Kenyan filter coffee.",
-      "order": 8
+      "order": 9
     },
     {
       "slug": "filter-coffee-ethiopian",
@@ -562,7 +562,7 @@
       "weight": "250g",
       "sku": "BCH-FL-ETH-250",
       "description": "Ethiopian filter coffee.",
-      "order": 5
+      "order": 6
     },
     {
       "slug": "filter-coffee-peru",
@@ -576,7 +576,7 @@
       "weight": "250g",
       "sku": "BCH-FL-PER-250",
       "description": "Peruvian filter coffee.",
-      "order": 3
+      "order": 4
     },
     {
       "slug": "filter-coffee-organic",
@@ -590,7 +590,7 @@
       "weight": "250g",
       "sku": "BCH-FL-ORGNC-250",
       "description": "Organic filter coffee.",
-      "order": 6
+      "order": 7
     },
     {
       "slug": "filter-coffee-vanilla",
@@ -604,7 +604,7 @@
       "weight": "250g",
       "sku": "BCH-FL-VAN-250",
       "description": "Filter coffee with vanilla.",
-      "order": 9
+      "order": 10
     },
     {
       "slug": "filter-coffee-hazelnut",
@@ -618,7 +618,7 @@
       "weight": "250g",
       "sku": "BCH-FL-HAZ-250",
       "description": "Filter coffee with hazelnut.",
-      "order": 10
+      "order": 11
     },
     {
       "slug": "filter-coffee-vanilla-hazelnut",
@@ -632,7 +632,7 @@
       "weight": "250g",
       "sku": "BCH-FL-VHZ-250",
       "description": "Filter coffee with vanilla and hazelnut.",
-      "order": 12
+      "order": 13
     },
     {
       "slug": "filter-coffee-salted-caramel",
@@ -646,7 +646,7 @@
       "weight": "250g",
       "sku": "BCH-FL-SCR-250",
       "description": "Filter coffee with salted caramel.",
-      "order": 11
+      "order": 12
     },
     {
       "slug": "filter-coffee-macadamia",
@@ -660,7 +660,7 @@
       "weight": "250g",
       "sku": "BCH-FL-MAC-250",
       "description": "Filter coffee with macadamia.",
-      "order": 7
+      "order": 8
     },
     {
       "slug": "filter-coffee-chocolate",
@@ -674,7 +674,7 @@
       "weight": "250g",
       "sku": "BCH-FL-CHO-250",
       "description": "Filter coffee with chocolate.",
-      "order": 14
+      "order": 15
     },
     {
       "slug": "filter-coffee-mastic",
@@ -688,7 +688,7 @@
       "weight": "250g",
       "sku": "BCH-FL-MAS-250",
       "description": "Filter coffee with mastic.",
-      "order": 13
+      "order": 14
     },
     {
       "slug": "filter-coffee-decaf",
@@ -702,7 +702,7 @@
       "weight": "250g",
       "sku": "BCH-FL-DEC-250",
       "description": "Decaffeinated filter coffee.",
-      "order": 15
+      "order": 16
     },
     {
       "slug": "filter-coffee-bag",
@@ -716,6 +716,23 @@
       "weight": "250kg",
       "sku": "BCH-FL-BAG",
       "description": "Original filtered coffee in a bag.",
+      "order": 1
+    },
+    {
+      "slug": "filter-coffee-bag-decaf",
+      "name": "Original Filter Coffee Bag Decaf",
+      "name_ar": "قهوة فلتر الأصلية كيس بدون كافيين",
+      "category": "filter-coffee",
+      "source": "Filter Coffee/قهوة فلتر كيس بدون كافيين.jpg",
+      "price": "4.00",
+      "featured": false,
+      "is_new": true,
+      "tasting": "Decaf",
+      "roast": "medium",
+      "weight": "250kg",
+      "sku": "BCH-FL-BAG-DEC",
+      "description": "Decaffeinated original filter coffee in a bag.",
+      "compare": null,
       "order": 2
     },
     {
@@ -855,7 +872,7 @@
       "weight": "sachet",
       "sku": "BCH-AR-SCH",
       "description": "Instant Arabic coffee, single sachet.",
-      "order": 1
+      "order": 3
     },
     {
       "slug": "arabic-coffee-10-sachets",
@@ -870,7 +887,7 @@
       "weight": "10 sachets",
       "sku": "BCH-AR-10",
       "description": "Instant Arabic coffee, box of 10 sachets.",
-      "order": 2
+      "order": 4
     },
     {
       "slug": "saudi-coffee-sachet",
@@ -884,7 +901,7 @@
       "weight": "sachet",
       "sku": "BCH-SA-SCH",
       "description": "Instant Saudi coffee, single sachet.",
-      "order": 3
+      "order": 5
     },
     {
       "slug": "saudi-coffee-10-sachets",
@@ -898,7 +915,7 @@
       "weight": "10 sachets",
       "sku": "BCH-SA-10",
       "description": "Instant Saudi coffee, box of 10 sachets.",
-      "order": 4
+      "order": 6
     },
     {
       "slug": "saudi-coffee-bag",
@@ -915,7 +932,7 @@
       "featured": false,
       "is_new": false,
       "compare": null,
-      "order": 5
+      "order": 1
     },
     {
       "slug": "arabic-coffee-bag",
@@ -932,7 +949,7 @@
       "featured": false,
       "is_new": false,
       "compare": null,
-      "order": 6
+      "order": 2
     },
     {
       "slug": "rio-house-3-in-1",
@@ -947,7 +964,7 @@
       "weight": "24 sachets",
       "sku": "BCH-RIO-3IN1-24",
       "description": "Rio House 3 in 1 Regular. 24 sachets, 20g each.",
-      "order": 11
+      "order": 12
     },
     {
       "slug": "rio-house-3-in-1-bag",
@@ -961,7 +978,7 @@
       "weight": "30 sachets",
       "sku": "BCH-RIO-3IN1-30",
       "description": "Rio House 3 in 1 bag, 30 sachets.",
-      "order": 6
+      "order": 2
     },
     {
       "slug": "rio-house-2-in-1",
@@ -989,7 +1006,7 @@
       "weight": "30 sachets",
       "sku": "BCH-RIO-2IN1-30",
       "description": "Rio House 2 in 1 bag, 30 sachets.",
-      "order": 5
+      "order": 1
     },
     {
       "slug": "rio-house-black",
@@ -1017,7 +1034,7 @@
       "weight": "200g",
       "sku": "BCH-RIO-BLK-JAR",
       "description": "Rio House Black instant coffee jar.",
-      "order": 4
+      "order": 11
     },
     {
       "slug": "rio-house-gold",
@@ -1031,7 +1048,7 @@
       "weight": "200g",
       "sku": "BCH-RIO-GLD",
       "description": "Rio House Gold instant coffee jar.",
-      "order": 3
+      "order": 10
     },
     {
       "slug": "rio-house-mix",
@@ -1171,7 +1188,7 @@
       "weight": "450g",
       "sku": "BCH-RIO-CRM",
       "description": "Rio House coffee whitener, large bottle.",
-      "order": 2
+      "order": 9
     },
     {
       "slug": "rio-house-creamer-small",
@@ -1188,7 +1205,7 @@
       "featured": false,
       "is_new": false,
       "compare": null,
-      "order": 1
+      "order": 8
     },
     {
       "slug": "rio-house-hazelnut-cappuccino-1kg",
@@ -1205,7 +1222,7 @@
       "featured": false,
       "is_new": false,
       "compare": null,
-      "order": 7
+      "order": 3
     },
     {
       "slug": "rio-house-3-in-1-1kg",
@@ -1222,7 +1239,7 @@
       "featured": false,
       "is_new": false,
       "compare": null,
-      "order": 8
+      "order": 4
     },
     {
       "slug": "rio-house-caramel-cappuccino-1kg",
@@ -1239,7 +1256,7 @@
       "featured": false,
       "is_new": false,
       "compare": null,
-      "order": 9
+      "order": 5
     },
     {
       "slug": "rio-house-hot-chocolate-1kg",
@@ -1256,7 +1273,7 @@
       "featured": false,
       "is_new": false,
       "compare": null,
-      "order": 10
+      "order": 6
     },
     {
       "slug": "rio-house-black-500g",
@@ -1273,7 +1290,7 @@
       "featured": false,
       "is_new": false,
       "compare": null,
-      "order": 12
+      "order": 7
     },
     {
       "slug": "caffitaly-cremoso",

@@ -263,26 +263,43 @@ class Command(BaseCommand):
         return categories, products
 
     def ensure_product_image(self, product: Product, item: dict) -> None:
-        if product.images.exists():
-            return
-        source = PRODUCTS_DIR / item["source"]
-        if source.exists():
-            content = optimize_jpeg(source)
-            image = ProductImage(product=product, alt_text=product.name, is_primary=True, sort_order=0)
-            image.image.save(content.name, content, save=True)
-            return
         media_root = Path(settings.MEDIA_ROOT) / "products"
-        candidates = [
-            media_root / f"{item['slug']}.jpg",
-            media_root / f"{slugify(Path(item['source']).stem)}.jpg",
-        ]
-        for cand in candidates:
-            if not cand.exists():
-                continue
-            image = ProductImage(product=product, alt_text=product.name, is_primary=True, sort_order=0)
-            image.image.name = f"products/{cand.name}"
-            image.save()
+        media_root.mkdir(parents=True, exist_ok=True)
+        dest = media_root / f"{product.slug}.jpg"
+        existing = product.images.order_by("sort_order", "id").first()
+        existing_path = None
+        if existing and existing.image:
+            existing_path = Path(settings.MEDIA_ROOT) / str(existing.image)
+        missing = existing is None or not existing_path or not existing_path.exists()
+        force = product.slug in {"espresso-nicaragua", "filter-coffee-bag-decaf"}
+        if not missing and not force:
             return
+
+        source = PRODUCTS_DIR / item.get("source", "")
+        candidates = [source, dest]
+        if product.slug == "espresso-nicaragua":
+            candidates.extend(
+                [
+                    media_root / "espresso-medium.jpg",
+                    PRODUCTS_DIR / "Espresso" / "Espresso Medium.png",
+                ]
+            )
+        candidates.append(media_root / f"{slugify(Path(item.get('source') or 'image').stem)}.jpg")
+        src = next((path for path in candidates if path and path.exists() and path.is_file()), None)
+        if not src:
+            return
+
+        content = optimize_jpeg(src)
+        dest.write_bytes(content.read())
+        public_dir = ROOT.parent / "frontend" / "public" / "media" / "products"
+        if public_dir.exists():
+            public_dir.mkdir(parents=True, exist_ok=True)
+            shutil.copyfile(dest, public_dir / dest.name)
+
+        product.images.all().delete()
+        image = ProductImage(product=product, alt_text=product.name, is_primary=True, sort_order=0)
+        image.image.name = f"products/{dest.name}"
+        image.save()
 
     def ensure_extra_variants(self) -> None:
         extras = [

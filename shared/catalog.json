@@ -1110,6 +1110,23 @@
       "order": 17
     },
     {
+      "slug": "rio-house-wingo",
+      "name": "Wingo Hot Chocolate",
+      "name_ar": "هوت شوكلت وينغو",
+      "category": "rio-house",
+      "source": "Rio House/wingo.jpg",
+      "price": "2.00",
+      "featured": false,
+      "is_new": true,
+      "tasting": "Chocolate",
+      "roast": null,
+      "weight": "10 sachets",
+      "sku": "BCH-RIO-WINGO",
+      "description": "Rio House Wingo hot chocolate, box of 10 sachets.",
+      "compare": null,
+      "order": 25
+    },
+    {
       "slug": "rio-house-mocha",
       "name": "Rio House Mocha",
       "name_ar": "ريو هاوس موكا",
@@ -1441,6 +1458,22 @@
       "sku": "BCH-NSP-DEC-10",
       "description": "Nespresso-compatible Deca capsules.",
       "order": 7
+    },
+    {
+      "slug": "caffitaly-nocciola",
+      "name": "Caffitaly Nocciola",
+      "name_ar": "بنكهة البندق",
+      "category": "caffitaly-capsules",
+      "source": "Cffitaly Capsules/nocciola.jpg",
+      "price": "4.00",
+      "featured": false,
+      "is_new": true,
+      "tasting": "Hazelnut",
+      "roast": "medium",
+      "weight": "10 capsules",
+      "sku": "BCH-CAF-NOC-10",
+      "description": "Caffitaly Nocciola hazelnut espresso, box of 10 capsules.",
+      "order": 11
     },
     {
       "slug": "caffitaly-s16",

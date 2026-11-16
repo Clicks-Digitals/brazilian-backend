@@ -276,9 +276,11 @@ class Command(BaseCommand):
             "filter-coffee-bag-decaf",
             "rio-house-cacao",
             "rio-house-gold",
+            "rio-house-wingo",
             "french-coffee",
             "french-coffee-hazelnut",
             "french-coffee-macadamia",
+            "caffitaly-nocciola",
         }
         if not missing and not force:
             return

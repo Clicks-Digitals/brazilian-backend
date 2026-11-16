@@ -506,7 +506,7 @@
       "weight": "250g",
       "sku": "BCH-FL-ORG-250",
       "description": "Original filter coffee. 100% Arabica.",
-      "order": 4
+      "order": 2
     },
     {
       "slug": "filter-coffee-colombian",
@@ -688,7 +688,7 @@
       "weight": "250kg",
       "sku": "BCH-FL-BAG",
       "description": "Original filtered coffee in a bag.",
-      "order": 2
+      "order": 3
     },
     {
       "slug": "filter-coffee-bag-decaf",
@@ -705,7 +705,7 @@
       "sku": "BCH-FL-BAG-DEC",
       "description": "Decaffeinated original filter coffee in a bag.",
       "compare": null,
-      "order": 3
+      "order": 4
     },
     {
       "slug": "drip-coffee-original",
